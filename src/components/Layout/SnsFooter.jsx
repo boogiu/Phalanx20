@@ -102,7 +102,7 @@ const SnsFooter = () => {
           <ImgComponent imagePath={"utube.png"}/> 유튜브
         </SocialLink>
         <SocialLink href="https://phalanxpms.azurewebsites.net/graduatepage">
-          <ImgComponent imagePath={"system.png"}/> 동아리 시스템
+          <ImgComponent imagePath={"System.png"}/> 동아리 시스템
         </SocialLink>
         <SocialLink href="https://pf.kakao.com/_RxluiG">
           <ImgComponent imagePath={"kakao.png"}/> 플러스친구

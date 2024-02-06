@@ -40,16 +40,16 @@ const Special = () => {
                     
                      </Txt>
                      <Imagediv>
-                    <ImgComponent imagePath={"p.41.png"} 
-                    top={"-0%"} 
-                    left={"-30%"}
+                    <ImgComponent imagePath={"project.png"} 
+                    top={"-20%"} 
+                    left={"50%"}
                     rotate={"0deg"}
-                    width={"80%"}/>
-                     <ImgComponent imagePath={"p.411.png"} 
-                    top={"20%"} 
-                    left={"10%"}
+                    width={"100%"}/>
+                     <ImgComponent imagePath={"project2.png"} 
+                    top={"0%"} 
+                    left={"-40%"}
                     rotate={"0deg"}
-                    width={"60%"}/>
+                    width={"110%"}/>
                     
                 </Imagediv>
             </TextSubGruop2>
@@ -240,7 +240,7 @@ const TextSubGruop2 = styled.div`
     overflow-y: auto;
     text-align:left;
     padding: 5%;
-    overflow-x : hidden;
+    overflow : hidden;
 `;
 
 

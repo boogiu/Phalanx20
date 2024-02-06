@@ -25,7 +25,7 @@ const Footer = () => {
       <CopyRight>&copy; 2024 팔랑크스. All rights reserved.</CopyRight>
       <CopyTxt><br/>
       전국대학연합 기획/컨설팅 동아리, 클럽 팔랑크스<br/>
-      asdasdasd@gmail.com <br/><br/></CopyTxt>
+      phalanxclub.official@gmail.com <br/><br/></CopyTxt>
       <Txt>
       *본 페이지의 모든 contents와 Interface에 대한 권한은 <br/>
       클럽 팔랑크스에 있습니다. <br/>
