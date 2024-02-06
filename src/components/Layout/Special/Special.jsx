@@ -121,16 +121,31 @@ const Special = () => {
 
                      </Txt>
                      <Imagediv>
-                    <ImgComponent imagePath={"p.413.JPG"} 
+                    <ImgComponent imagePath={"Moim1.png"} 
                     top={"0%"} 
                     left={"50%"}
                     rotate={"0deg"}
-                    width={"100%"}/>
-                    <ImgComponent imagePath={"p.414.JPG"} 
+                    width={"80%"}/>
+                    <ImgComponent imagePath={"Moim2.png"} 
                     top={"70%"} 
                     left={"-30%"}
                     rotate={"0deg"}
-                    width={"100%"}/>
+                    width={"80%"}/>
+                    <ImgComponent imagePath={"Moim3.png"} 
+                    top={"10%"} 
+                    left={"-40%"}
+                    rotate={"0deg"}
+                    width={"80%"}/>
+                    <ImgComponent imagePath={"Moim4.png"} 
+                    top={"80%"} 
+                    left={"40%"}
+                    rotate={"0deg"}
+                    width={"80%"}/>
+                    <ImgComponent imagePath={"Moim5.png"} 
+                    top={"50%"} 
+                    left={"20%"}
+                    rotate={"0deg"}
+                    width={"50%"}/>
                 </Imagediv>
             </TextSubGruop2>
           </SectionBlock>

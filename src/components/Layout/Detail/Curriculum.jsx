@@ -44,16 +44,16 @@ const Curriculum = () => {
                     left={"-30%"}
                     rotate={"0deg"}
                     width={"80%"}/>
-                     <ImgComponent imagePath={"p.411.png"} 
+                     <ImgComponent imagePath={"p.413.JPG"} 
                     top={"-40%"} 
                     left={"10%"}
                     rotate={"0deg"}
-                    width={"60%"}/>
-                     <ImgComponent imagePath={"p.412.png"} 
-                    top={"-30%"} 
+                    width={"90%"}/>
+                     <ImgComponent imagePath={"p.414.JPG"} 
+                    top={"20%"} 
                     left={"60%"}
                     rotate={"0deg"}
-                    width={"70%"}/>
+                    width={"100%"}/>
                    
                 </Imagediv>
                 

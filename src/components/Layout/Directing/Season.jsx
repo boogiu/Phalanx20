@@ -124,11 +124,17 @@ const Season = () => {
                      </Txt>
 
                      <Imagediv>
-                    <ImgComponent imagePath={"CrewLevel.png"} 
-                    top={"0%"} 
+                    <ImgComponent imagePath={"CrewLevel1.png"} 
+                    top={"-10%"} 
                     left={"-25%"}
                     rotate={"0deg"}
+                    width={"120%"}/>
+                    <ImgComponent imagePath={"ADV1.png"} 
+                    top={"50%"} 
+                    left={"10%"}
+                    rotate={"0deg"}
                     width={"150%"}/>
+                  
                     
                 </Imagediv>
             </TextSubGruop2>
@@ -325,7 +331,7 @@ const TextSubGruop2 = styled.div`
     overflow-y: auto;
     text-align:left;
     padding: 5%;
-    overflow-x : hidden;
+    overflow : hidden;
     box-shadow: inset 0px 0px 15px 15px rgb(255,204,255,0.1);
     border-radius : 20px;
 `;

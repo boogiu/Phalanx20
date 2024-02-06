@@ -30,7 +30,7 @@ const Modal = ({ onClose }) => {
       <ModalContent onClick={(e) => e.stopPropagation()} >
         <CloseButton onClick={onClose}>Close</CloseButton>
         <ModalContents/>
-          <SlideImage src={`${process.env.PUBLIC_URL}/imgData/defaultimg1.png`} />
+         
       </ModalContent>
     </ModalOverlay>
   );
@@ -126,13 +126,7 @@ const ModalContent = styled.div`
   position : relative;
 `;
 
-const SlideImage = styled.img`
-    animation: ${slideDiagonal} 1.5s ease forwards;
-    top: 0;
-    left: 80;
-    z-index : 1001;
-    position : absolute;
-`
+
 
 const ImageContainer = styled.div`
 

@@ -105,7 +105,7 @@ const SectionBlock = styled.div`
   justify-content: center;
   align-items: center;
   color : white;
-  
+  margin: 0vh 0vw 8vh 0vw;
 
 `;
 

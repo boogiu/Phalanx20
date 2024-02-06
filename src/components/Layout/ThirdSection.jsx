@@ -58,12 +58,12 @@ const ThirdSection = () => {
                 치열한 구조화와 정량화된 수치로 
                 무장한 실무 기획!<br/>
                 <br/>
-                30주차 동안 7개의 <GreenSpan>실제 기업에게 발송하는 실무 <br/>
-                기획안에서</GreenSpan> 매 주차별 우리의 기획 포트폴리오를<br/>
+                30주차 동안 7개의 <GreenSpan>실제 기업에게<br/> 발송하는 실무 
+                기획안에서</GreenSpan> 매 주차별 <br/>우리의 기획 포트폴리오를
                  쌓아보자구!<br/>
                 <br/>
-                내가 가고 싶은 기업 / 서비스에 대한 나의 기획을<br/> 
-                 타진하고, 그 전 과정을 나의 포트폴리오로 누적한다.<br/>
+                내가 가고 싶은 기업 / 서비스에 대한 <br/>나의 기획을
+                 타진하고, 그 전 과정을 나의 <br/> 포트폴리오로 누적한다.<br/>
                  <br/>
               </DisTxt>
               
@@ -72,15 +72,15 @@ const ThirdSection = () => {
               <TitleTxt>
               우리가 직접 기획한 것을,  <br/>
               기업에게 제안하고 까여도 내가 까이고, <br/> 
-              <GreenSpan>성공해도 우리가 성공하는거야!</GreenSpan> <br/>
+              <RedSpan>성공해도 우리가 성공하는거야!</RedSpan> <br/>
               아자!
               </TitleTxt>
               <JustImg imagePath={"computer.png"}/>
               <DisTxt>
-              아이디어 노트, 메모, 망상, 낙서 ...그런거 말고, <br/>
+              아이디어 노트, 메모, 망상, 낙서 ...<br/> 그런거 말고,
               
 
-              숫자와 비용, 목표와 플랜,
+              숫자와 비용, 목표와 플랜,<br/> 
               현실성과 커리어가 녹아있는! <br/> <br/>
               
 
@@ -269,7 +269,7 @@ const TitleTxt = styled.p`
 const DisTxt = styled.p`
 
   font-family: '스윗';
-  font-size: 3.6vmin;
+  font-size: 5vmin;
   font-style: normal;
   font-weight: 400;
   line-height: 180%; /* 25.2px */

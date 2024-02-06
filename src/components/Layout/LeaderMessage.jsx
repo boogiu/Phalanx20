@@ -154,7 +154,7 @@ const LeaderMessage = () => {
             />
             안녕하세요, <br/>
             클럽 팔랑크스 9기 단장으로 선임된,<br/>
-            00대 00학과 4 000입니다.<br/>
+            숭실대학교 영어영문/언론홍보학과 <br/>4학년 권노은 입니다.<br/>
             <br/>
             
             5개 대학
@@ -410,7 +410,7 @@ const TextBox = styled.div`
   transition: height 0.5s ease;
   overflow-y: auto;
   text-align:left;
-  height: ${({ isOpen }) => (isOpen ? "100vh" : "55vh")};
+  height: ${({ isOpen }) => (isOpen ? "100vh" : "25vh")};
 `;
 
 

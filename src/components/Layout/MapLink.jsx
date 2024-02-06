@@ -10,7 +10,7 @@ const MapLink = () => {
     }, [])
 
     const clickHandler = (titile) => {
-        alert(titile)
+        alert("현재 준비 중입니다😁")
     }
 
   return (

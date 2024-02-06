@@ -56,23 +56,23 @@ const DetailAct = () => {
                     </Txt>
                 </TextSubGruop>
                 <Imagediv>
-                    <ImgComponent imagePath={"p.413.JPG"} 
-                    top={"15%"} 
+                    <ImgComponent imagePath={"Dt1.png"} 
+                    top={"-20%"} 
                     left={"-50%"}
                     rotate={"0deg"}
                     width={"100%"}/>
-                    <ImgComponent imagePath={"p.414.JPG"} 
-                    top={"30%"} 
+                    <ImgComponent imagePath={"Dt2.png"} 
+                    top={"20%"} 
                     left={"30%"}
                     rotate={"0deg"}
                     width={"100%"}/>
-                    <ImgComponent imagePath={"p.415.JPG"} 
-                    top={"0%"} 
+                    <ImgComponent imagePath={"Dt3.png"} 
+                    top={"-30%"} 
                     left={"50%"}
                     rotate={"0deg"}
                     width={"100%"}/>
                     <ImgComponent imagePath={"p.416.JPG"} 
-                    top={"60%"} 
+                    top={"40%"} 
                     left={"-30%"}
                     rotate={"0deg"}
                     width={"100%"}/>
