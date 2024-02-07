@@ -70,7 +70,7 @@ const Curriculum = () => {
                     등으로 이루어진 <RedSpan>총 6종의 <br/>
                     ‘필수형‘ 유닛을 진행합니다. <br/></RedSpan>
                     <br/>                    
-
+                    
                     4단계를 각 1주 씩, 총 4주에 1회, <br/>
                     실제 기업에게 제안하며, <br/>
                     활동 주차 30주 동안, 총 7개를 <br/>
@@ -162,11 +162,12 @@ const Main = styled.h2`
 `;
 
 const Sub = styled.h3`
-font-family : "스윗";
-font-size : 7vmin;
-font-weight : 600;
-color : black;
-margin: 5%;
+  font-family : "경북대";
+  font-size : 8vmin;
+  font-weight : 600;
+  color : #00FF40;
+  margin: 5%;
+  text-shadow : 1px 1px 2px black;
 `;
 const Txt = styled.p`
 font-family : "스윗";

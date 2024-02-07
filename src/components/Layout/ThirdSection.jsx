@@ -47,7 +47,7 @@ const ThirdSection = () => {
             
             <DiscriptSection>
               <TitleTxt>
-                이제 우리 대학생 수준의 <RedSpan>아이디어,상상에  <br/> 
+                이제 대학생 수준의 <RedSpan>아이디어,상상에<br/> 
                 머무르지 말고,</RedSpan> 진짜 기업에게 타진하는<br/>
                 실무 기획으로 바꿔보자. <br/>
               </TitleTxt>

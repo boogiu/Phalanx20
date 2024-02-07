@@ -8,9 +8,8 @@ const HeaderContainer = styled.div`
   left: 0;
   width: 100%;
   height: auto;
-  max-height : 15vh;
   background-color: rgb(0,0,0,0.8);
-  padding: 3%;
+  padding: 0 3% 0 3%;
   z-index: 1000;
   font-size: 3vmin;
   display: flex;
