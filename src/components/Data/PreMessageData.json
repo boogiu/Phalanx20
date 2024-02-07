@@ -187,11 +187,11 @@
         "page": 5,
         "collum": 0,
         "color": "white",
-        "size": "9vmin",
+        "size": "6vmin",
         "family": "워헤븐",
         "style": "normal",
         "txt": " 여태껏 너가 해온",
-        "height" : "200%"
+        "height" : "150%"
     },{
         "page": 5,
         "collum": 0,
@@ -200,7 +200,7 @@
         "family": "워헤븐",
         "style": "normal",
         "txt": " ‘기획’이 ",
-        "height" : "200%"
+        "height" : "150%"
     },{
         "page": 5,
         "collum": 0,
@@ -209,7 +209,7 @@
         "family": "워헤븐",
         "style": "normal",
         "txt": " 이런 것이라면, 미안하지만... ",
-        "height" : "200%"
+        "height" : "150%"
     },{
         "page": 5,
         "collum": 1,
@@ -218,7 +218,7 @@
         "family": "워헤븐",
         "style": "normal",
         "txt": " 이건 그냥 그대의...",
-        "height" : "200%"
+        "height" : "150%"
     }
     ,{
         "page": 5,
@@ -229,7 +229,7 @@
         "style": "italic",
         "txt": "‘상상’이고",
         "shadow" :" 1px 0.2px 0.2px rgb(255, 255, 255)",
-        "height" : "200%"
+        "height" : "180%"
     }
     ,{
         "page": 5,
@@ -240,7 +240,7 @@
         "style": "italic",
         "txt": "‘취향’입니다",
         "shadow" :" 1px 0.2px 0.2px rgb(255, 255, 255)",
-        "height" : "200%"
+        "height" : "180%"
     }
 
     ,{
