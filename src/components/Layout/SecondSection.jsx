@@ -107,13 +107,13 @@ const SeocndSection = () => {
         <SectionBlock>
             <Colblock>
             <ImgComponent 
-                    imagePath={"Heart1.png"} 
+                    imagePath={"Heart3.png"} 
                     rotate={"0deg"}
                     width={"50%"}
                     top={'100%'}
                     left={'0%'}/>
                     <ImgComponent 
-                    imagePath={"Heart1.png"} 
+                    imagePath={"Heart2.png"} 
                     rotate={"0deg"}
                     width={"50%"}
                     top={'62%'}
