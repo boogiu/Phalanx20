@@ -78,8 +78,21 @@ const Curriculum = () => {
                      역량, 노력에 따라</RedSpan></Bigger> 그 제안의 수와 <br/>
                      빈도를 스스로 변경/설정할 수 있습니다.<br/>
                     </Txt2>
+                    
                 </TextSubGruop1>
-
+                <Imagediv>
+                    <ImgComponent2 imagePath={"Explore.png"} 
+                    top={"-90%"} 
+                    left={"-50%"}
+                    rotate={"0deg"}
+                    width={"80%"}/>
+                     <ImgComponent2 imagePath={"heart2.png"} 
+                    top={"50%"} 
+                    left={"30%"}
+                    rotate={"30deg"}
+                    width={"90%"}/>
+                   
+                </Imagediv>
                 <TextSubGruop2>
                     <Sub>
                         선택형 유닛 28종

@@ -11,15 +11,15 @@ const FirstSection = () => {
               <TitleSection>
                 <ImgComponent imagePath={"wellcome.png"} 
                 top={"-10%"} 
-                left={"15%"}
+                left={"10%"}
                 rotate={"-20deg"}
                 width={"30%"}/>
                 <TextSection>
                   <SubTitle style={{textAlign : "end"}}>
                   기획/컨설팅 분야,<br/>국내 최고의 <br/>전국대학연합 동아리</SubTitle>
                   <Title style={{textAlign : "end"}}>
-                  여기는 
-                  <Titlespan> &nbsp; 팔랑크스
+                  여기는
+                  <Titlespan> 팔랑크스
                     </Titlespan> 
                   입니다.</Title>
                 </TextSection>
@@ -60,9 +60,9 @@ const FirstSection = () => {
           </SectionBlock>
             
           <SectionBlock>
-            <SubTitle style={{textAlign : "start"}}>취향 목록이나, 아이디어 메모 말고</SubTitle>
+            <SubTitle style={{textAlign : "start"}}>취향 목록이나, <br/>아이디어 메모 말고</SubTitle>
             <Title style={{textAlign : "end"}}>진짜 기획안!</Title>
-            <SubTitle style={{textAlign : "start"}}>상상 노트 말고, 실제 기업에서</SubTitle>
+            <SubTitle style={{textAlign : "start"}}>상상 노트 말고,  <br/>실제 기업에서</SubTitle>
             <Title style={{textAlign : "end"}}> 움직이는 기획안!</Title>
           </SectionBlock>
       </BackGroundSrc>
@@ -146,7 +146,7 @@ const Title = styled.h1`
 `;
 const Titlespan = styled.span`
   font-family: "워헤븐";
-  font-size: 10vmin;
+  font-size: 9vmin;
   color: white;
   text-shadow:0 0 2px #0fa, 0 0 4px #0fa,  0 0 3px #0fa;
   width : 80%;

@@ -8,8 +8,17 @@ const DetailAct = () => {
     <BackGroundSrc imagePath={"DetailBack.png"}>
         <SectionBlock>
             <HookerSection>
+              <Imagediv2>
+                    <ImgComponent2 imagePath={"Heart3.png"} 
+                    top={"-120%"} 
+                    left={"0%"}
+                    rotate={"-20deg"}
+                    width={"60%"}/>
+                    
+                </Imagediv2>
                 <Main>세부진행</Main>
             </HookerSection>
+            
             <TextGruop>
                     <Sub>
                     팔랑크스의 크루들은 
@@ -22,6 +31,14 @@ const DetailAct = () => {
             </TextGruop>
             
                 <TextBox>
+                <Imagediv2>
+                    <ImgComponent2 imagePath={"Medal.png"} 
+                    top={"-30%"} 
+                    left={"40%"}
+                    rotate={"0deg"}
+                    width={"80%"}/>
+                    
+                </Imagediv2>
                 
 
                 <TextSubGruop>
@@ -79,6 +96,14 @@ const DetailAct = () => {
                     
                 </Imagediv>
                 <TextSubGruop2>
+                <Imagediv2>
+                    <ImgComponent2 imagePath={"Flash2.png"} 
+                    top={"-120%"} 
+                    left={"50%"}
+                    rotate={"20deg"}
+                    width={"60%"}/>
+                    
+                </Imagediv2>
                     <Txt>
                     (참고!) <br/>
                     이전 기수는, 이러한 실제 기업들과의 타진이<br/> 
@@ -229,6 +254,16 @@ const Imagediv = styled.div`
   margin : 15% ;
   position : relative;
 `;
+
+const Imagediv2 = styled.div`
+  width : 100%;  
+  height : 5vh; 
+  flex-flow : row wrap;
+  justify-content: center;
+  align-items: center;
+  margin : 15% ;
+  position : relative;
+`;
 const ImageContainer = styled.div`
 
 width: ${({ width }) => width};
@@ -283,3 +318,24 @@ const YellowSpan = styled.span`
 const GreenSpan = styled.span`
     color : #BCF5A9;
 `
+
+
+const ImgComponent2 = ({ imagePath, top, left,rotate,width }) => {
+  return (
+      <ImageContainer 
+        top = {top}
+        left = {left}
+        rotate={rotate}
+        width={width}
+        
+      >
+          <img src={`${process.env.PUBLIC_URL }/imgData/${imagePath}`} 
+          alt="페이지 이미지" 
+          style={{ 
+            maxWidth: '100%', maxHeight: '100%' ,
+            borderRadius :"5% 5% 5% 5% ", 
+          }}/>
+      </ImageContainer>
+      
+  );
+};

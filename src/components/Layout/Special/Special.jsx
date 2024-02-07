@@ -26,6 +26,14 @@ const Special = () => {
           </SectionBlock>
 
           <SectionBlock>
+          <Imagediv2>
+                    <ImgComponent2 imagePath={"target.png"} 
+                    top={"-20%"} 
+                    left={"60%"}
+                    rotate={"0deg"}
+                    width={"80%"}/>
+                    
+                </Imagediv2>
             <TextSubGruop2>
                      <Main >
                       실무 <br/>연계 프로젝트
@@ -57,8 +65,16 @@ const Special = () => {
 
           <SectionBlock>
             <TextSubGruop2>
+              
                      <Main style={{textAlign : "center"}}>
                       포럼
+                      <Imagediv2>
+                    <ImgComponent2 imagePath={"file.png"} 
+                    top={"-200%"} 
+                    left={"60%"}
+                    rotate={"30deg"}
+                    width={"30%"}/>              
+                </Imagediv2>
                      </Main>
                      <Txt>
                      팔랑크스의 포럼에서는, <br/>
@@ -108,22 +124,29 @@ const Special = () => {
           </SectionBlock>
 
           <SectionBlock>
-            <TextSubGruop2>
+            <TextSubGruop2><Imagediv2>
+                    <ImgComponent2 imagePath={"idea.png"} 
+                    top={"-200%"} 
+                    left={"-40%"}
+                    rotate={"-90deg"}
+                    width={"80%"}/>              
+                </Imagediv2>
                      <Main style={{textAlign : "right"}}>
                       특별행사
                      </Main>
+                     
                      <Txt>
                      팔랑크스에서는 <br/>
                      시즌 중 다양한 후원/연계사와의 교류를 통해 <br/>
-                     실무진들의 특강, 공모전 참가, 관련 정보 공유, <br/>
-                     채용 캐스팅 제안 등의 행사가 개최됩니다.<br/>
+                     <Bigger><RedSpan>실무진들의 특강, 공모전 참가, <br/> 관련 정보 공유,
+                     채용 캐스팅 제안 등의  <br/>행사가</RedSpan> </Bigger>개최됩니다.<br/>
                      <br/>
                     해당 특별행사는, 클럽 팔랑크스와의 제휴로<br/>
                     연계사들의 다양한 지원/후원 하에 이루어지는 <br/>
                     것이며, 실제 기업들과의 채용 연계도 <br/>
                     이루어지오니, <br/>
-                    기획/컨설팅을 위시한 여러 직무로의 <br/>
-                    취업에서의 기회 역시 잡아가세요.<br/>
+                    <Bigger><GreenSpan>기획/컨설팅을 위시한 여러 직무로의 <br/>
+                    취업에서의 기회 역시 잡아가세요!<br/></GreenSpan></Bigger>
                     <br/>
                     <YellowSpan>특강, 행사 뒤에는 항상 뒷풀이와 <br/>
                     술자리가 있으니, 재밌게 노는 건 덤!<br/>
@@ -261,6 +284,16 @@ const TextSubGruop2 = styled.div`
 const Imagediv = styled.div`
   width : 100%;  
   height : 40vh; 
+  flex-flow : row wrap;
+  justify-content: center;
+  align-items: center;
+  margin : 15% ;
+  position : relative;
+`;
+
+const Imagediv2 = styled.div`
+  width : 100%;  
+  height : 4vh; 
   flex-flow : row wrap;
   justify-content: center;
   align-items: center;

@@ -16,6 +16,13 @@ const MapLink = () => {
   return (
     <BackGroundSrc imagePath={"MapBack.png"}>
         <MapLinkContainer>
+        <Imagediv2>
+              <ImgComponent 
+              imagePath={"Explore.png"}
+              top={"-690%"}
+              left={"0%"}
+              width={"20%"}/>
+            </Imagediv2>
             <Title>팔랑크스 훈련지도</Title>
             <Txt>보고 싶은 훈련 지도를 클릭!</Txt>
             
@@ -109,3 +116,43 @@ const Txt = styled.p`
     font-family:'스윗';
     margin: 6vh 0vw 3vh 0vw;
 `
+
+
+
+const ImageContainer = styled.div`
+
+width: ${({ width }) => width};
+height: auto;
+object-fit: cover;
+background-color: transparent;
+transform : rotate(${({ rotate }) => rotate});
+top:${({ top }) => top};
+left: ${({ left }) => left};
+position: absolute; /* 겹치는 요소에 position 추가 */
+
+`;
+
+const Imagediv2 = styled.div`
+  width : 100%;  
+  height : 1vh; 
+  position : relative;
+`;
+const ImgComponent = ({ imagePath, top, left,rotate,width }) => {
+  return (
+      <ImageContainer 
+        top = {top}
+        left = {left}
+        rotate={rotate}
+        width={width}
+        
+      >
+          <img src={`${process.env.PUBLIC_URL }/imgData/${imagePath}`} 
+          alt="페이지 이미지" 
+          style={{ 
+            maxWidth: '100%', maxHeight: '100%' ,
+            borderRadius :"5% 5% 5% 5% "
+          }}/>
+      </ImageContainer>
+      
+  );
+};

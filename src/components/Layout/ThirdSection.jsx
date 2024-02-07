@@ -32,9 +32,14 @@ const ThirdSection = () => {
                     <CommonP >어디로 갔는지 알 수 없는거 말고,<br/> </CommonP>
                     <StrongP>이제 주저리주저리 말로만<br/></StrongP> 
                     <CommonP> 휘황찬란하게 떠드는 거 말고,<br/><br/>
-                    실제 경력이 되는 실무 기획... <br/>
-                    해야겠지?</CommonP>
-                    
+                    <RedSpan>실제 경력이 되는 실무 기획... <br/>
+                    해야겠지?</RedSpan></CommonP>
+                    <ImgComponent 
+                      imagePath={"Heart2.png"} 
+                      rotate={"13deg"}
+                      width={"80%"}
+                      top={'150%'}
+                      left={'40%'}/>
                 </Discription>
             </ScriptSection>
             <SubTitle>전국대학연합 기획/컨설팅 분야<br/>

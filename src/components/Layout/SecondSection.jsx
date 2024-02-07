@@ -18,7 +18,7 @@ const SeocndSection = () => {
                     top={'-10%'}
                     left={'70%'}/>
                 <Discription>
-                  IT / 마케팅 / 서비스 3개 분야를 중심으로
+                  IT / 브랜딩 / 서비스 3개 분야를 중심으로
                   <br />
                  모든 크루가&nbsp;
                   <span style={{ color: 'rgba(255, 238, 0, 0.788)' }}>
@@ -43,9 +43,7 @@ const SeocndSection = () => {
                         나와 내가 소속된 파트의 <br />
                         <span style={{ color: 'rgba(255, 238, 0, 0.788)'  }}>
                         기획서를 발송하여, </span> <br />
-                        실무 프로젝트를 타진하는 과정
-                        
-                        을 <br />핵심으로 진행하는<br />
+                        실무 프로젝트를 타진하는 과정을 <br />핵심으로 진행하는<br />
                         국내 최고의 기획 분야 <br />동아리(클럽) 입니다. ☺
                 </Discription>
             </ScriptSection>
@@ -99,7 +97,7 @@ const SeocndSection = () => {
                     width={"50%"}
                     top={'41.5%'}
                     left={'-10%'}/>
-            <Stronger style={{ margin : "30% 0 0 20%"}}> 이 세상모든 건 <br/> 
+            <Stronger style={{ margin : "30% 0 0 20%"}}> 이 세상 모든 건 <br/> 
             <span style={{fontSize : "12vmin"}}>기획이다!</span></Stronger>
             
             </HookingDiv>          
@@ -108,10 +106,23 @@ const SeocndSection = () => {
         
         <SectionBlock>
             <Colblock>
-                <p><GreenSpan>기획/컨설팅 분야로 진출하기 위해<br/></GreenSpan>
-                다양하게 준비된 커리큘럼과 내부<br/>
-                운영 과정을, 각자의 역량 성장과 <br/>
-                정량적 스펙을 위해<Stronger>120% 활용하며  <br/></Stronger> 
+            <ImgComponent 
+                    imagePath={"Heart1.png"} 
+                    rotate={"0deg"}
+                    width={"50%"}
+                    top={'100%'}
+                    left={'0%'}/>
+                    <ImgComponent 
+                    imagePath={"Heart1.png"} 
+                    rotate={"0deg"}
+                    width={"50%"}
+                    top={'62%'}
+                    left={'60%'}/>
+                <p><GreenSpan>기획/컨설팅 분야로 <br/>
+                진출하기 위해</GreenSpan> 다양하게 준비된<br/>
+                 커리큘럼과 내부 운영 과정을, <br/>
+                각자의 역량 성장과 <br/>정량적 스펙을 위해<br/>
+                <Stronger>120% 활용하며  <br/></Stronger> 
                 함께 성장하는 분이어야 합니다!</p>
                 <ImgComponent 
                     imagePath={"Key.png"} 

@@ -44,7 +44,7 @@ const Session = () => {
                     <ImgComponent 
                     imagePath={"MegaPhone.png"} 
                     top={"-10%"} 
-                    left={"50%"}
+                    left={"70%"}
                     rotate={"-20deg"}
                     width={"20%"}/>
                 </TitleSection>

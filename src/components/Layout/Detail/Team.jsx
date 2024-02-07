@@ -9,9 +9,9 @@ const Team = () => {
         <SectionBlock>
             <OnloadGroup>
               <TitleSection>
-                <ImgComponent imagePath={"Flag1.png"} 
-                top={"-40%"} 
-                left={"30%"}
+                <ImgComponent imagePath={"heart1.png"} 
+                top={"20%"} 
+                left={"70%"}
                 rotate={"0deg"}
                 width={"30%"}/>
                 <TextSection>
@@ -64,8 +64,8 @@ const Team = () => {
                         <Discription >
                             온라인 웹/앱을 기반으로 한 IT 플랫폼,  <br/>
                             서비스,메신저 등의 산업분야 속 <br/>
-                            기능, 니즈, 내용, 솔류션 등을 <br/>
-                            기획하는 활동을 메인으로 다룹니다<br/>
+                            기능, 니즈, 내용, 솔루션 등을 <br/>
+                            기획하는 활동을 메인으로 다룹니다.<br/>
                         </Discription>
                         <Discription2 >
                             #앱스토어, #모바일 서비스<br/>

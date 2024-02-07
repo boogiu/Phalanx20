@@ -25,7 +25,15 @@ const FAQ = () => {
           </SectionBlock>
 
           <SectionBlock>
+            <Imagediv2>
+              <ImgComponent2 imagePath={"chaticon.png"} 
+                  top={"20%"} 
+                  left={"50%"}
+                  rotate={"0deg"}
+                  width={"40%"}/>
+            </Imagediv2>
             <TextSubGruop2>
+              
                      <Main >
                       <BigNum>Q1</BigNum><br/>
                       내부 학년과 성별 비율이 어떻게 되나요?
@@ -76,6 +84,13 @@ const FAQ = () => {
                         </Txt>
                      </BoxinBox>
             </TextSubGruop2>
+            <Imagediv2>
+              <ImgComponent2 imagePath={"chaticon2.png"} 
+                  top={"20%"} 
+                  left={"50%"}
+                  rotate={"0deg"}
+                  width={"40%"}/>
+            </Imagediv2>
             <TextSubGruop2>
                      <Main >
                       <BigNum>Q3</BigNum><br/>
@@ -143,6 +158,13 @@ const FAQ = () => {
                         </Txt>
                      </BoxinBox>
             </TextSubGruop2>
+            <Imagediv2>
+              <ImgComponent2 imagePath={"Heart1.png"} 
+                  top={"20%"} 
+                  left={"50%"}
+                  rotate={"0deg"}
+                  width={"40%"}/>
+            </Imagediv2>
             <TextSubGruop2>
                      <Main >
                       <BigNum>Q5</BigNum><br/>
@@ -315,6 +337,11 @@ position: absolute; /* 겹치는 요소에 position 추가 */
 
 `;
 
+const Imagediv2 = styled.div`
+  width : 100%;  
+  height : 1vh; 
+  position : relative;
+`;
 const ImgComponent = ({ imagePath, top, left,rotate,width }) => {
   return (
       <ImageContainer 

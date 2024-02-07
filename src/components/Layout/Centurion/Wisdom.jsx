@@ -10,8 +10,8 @@ const Wisdom = () => {
             <OnloadGroup>
               <TitleSection>
                 <ImgComponent imagePath={"Flag1.png"} 
-                top={"-40%"} 
-                left={"30%"}
+                top={"20%"} 
+                left={"10%"}
                 rotate={"0deg"}
                 width={"30%"}/>
                 <TextSection>
@@ -19,8 +19,8 @@ const Wisdom = () => {
                   <Title style={{textAlign : "end"}}>
                     중앙활동</Title>
                   <SubTitle style={{textAlign : "end"}}>
-                  클럽 전체 크루들이 공통으로 <br/>진행하는 
-                  <GreenSpan>‘중앙 과정’ </GreenSpan>입니다.</SubTitle>
+                  클럽 전체 크루들이 <br/>공통으로 진행하는<br/> 
+                  <GreenSpan>‘중앙 과정’</GreenSpan>입니다.</SubTitle>
                 </TextSection>
               </TitleSection>
             </OnloadGroup>  
@@ -47,7 +47,7 @@ const Wisdom = () => {
                             <Strong>에세이에서는</Strong> 보다 더 <Redspan>심화적인 <br/>
                             기획 이슈를 소재로,</Redspan> 우리의 기획력을 <br/>
                             각자 블로그와 티스토리 등 개인 채널에 <br/>
-                            아카이빙 한 후, 크루들과 공유합니다. 
+                            아카이빙 한 후, 크루들과 공유합니다.
 
                         </Discription>
                         <Imagediv>
@@ -73,8 +73,8 @@ const Wisdom = () => {
                     </TextSection>
                     <ImgComponent 
                     imagePath={"Pen.png"} 
-                    top={"-6%"} 
-                    left={"-13%"}
+                    top={"-3%"} 
+                    left={"-10%"}
                     rotate={"-60deg"}
                     width={"40%"}/>
                 </TitleSection>
@@ -145,7 +145,7 @@ const TextSection = styled.div`
 
 const SubTitle = styled.h2`
   font-family : "워헤븐";
-  font-size : 7vmin;
+  font-size : 6vmin;
   color :#CEECF5;
   width : 80%;
   line-height : 150%;

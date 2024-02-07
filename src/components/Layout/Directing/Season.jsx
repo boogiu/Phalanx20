@@ -30,6 +30,13 @@ const Season = () => {
                      <Main >
                       시즌과 <br/>주차
                      </Main>
+                     <Imagediv2>
+                    <ImgComponent2 imagePath={"Calender.png"} 
+                    top={"-1000%"} 
+                    left={"40%"}
+                    rotate={"0deg"}
+                    width={"60%"}/>  
+                </Imagediv2>
                      <Txt>
                      <Bigger><GreenSpan>클럽 팔랑크스는,<br/></GreenSpan></Bigger>
                      1년을 기준하여  <RedSpan>4개의시즌<br/></RedSpan>
@@ -82,6 +89,13 @@ const Season = () => {
 
           <SectionBlock>
             <TextSubGruop2>
+            <Imagediv2>
+                    <ImgComponent2 imagePath={"Crown.png"} 
+                    top={"-1000%"} 
+                    left={"-30%"}
+                    rotate={"0deg"}
+                    width={"60%"}/>  
+                </Imagediv2>
                      <Main style={{textAlign : "center"}}>
                      일반/심화 크루 
                      </Main>
@@ -143,6 +157,13 @@ const Season = () => {
           </SectionBlock>
 
           <SectionBlock>
+          <Imagediv2>
+                    <ImgComponent2 imagePath={"Chess1.png"} 
+                    top={"-500%"} 
+                    left={"-30%"}
+                    rotate={"0deg"}
+                    width={"60%"}/>  
+                </Imagediv2>
             <TextSubGruop2>
                      <Main style={{textAlign : "right"}}>
                       졸업과<br/> 포트폴리오
@@ -355,6 +376,16 @@ const BoxinBox = styled.div`
 const Imagediv = styled.div`
   width : 100%;  
   height : 40vh; 
+  flex-flow : row wrap;
+  justify-content: center;
+  align-items: center;
+  margin : 15% ;
+  position : relative;
+`;
+
+const Imagediv2 = styled.div`
+  width : 100%;  
+  height : 1vh; 
   flex-flow : row wrap;
   justify-content: center;
   align-items: center;
