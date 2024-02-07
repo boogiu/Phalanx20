@@ -108,10 +108,17 @@ const SeocndSection = () => {
         
         <SectionBlock>
             <Colblock>
-                <Discription>기획/컨설팅 분야로 진출하기 위해</Discription>
-                <Discription>다양하게 준비된 커리큘럼과 내부 운영 과정을,</Discription>
-                <Discription>각자의 역량 성장과 정량적 스펙을 위해</Discription>
-                <Discription>120% 활용하며 함께 성장하는 분이어야 합니다! ☺</Discription>
+                <p><GreenSpan>기획/컨설팅 분야로 진출하기 위해<br/></GreenSpan>
+                다양하게 준비된 커리큘럼과 내부<br/>
+                운영 과정을, 각자의 역량 성장과 <br/>
+                정량적 스펙을 위해<Stronger>120% 활용하며  <br/></Stronger> 
+                함께 성장하는 분이어야 합니다!</p>
+                <ImgComponent 
+                    imagePath={"Key.png"} 
+                    rotate={"60deg"}
+                    width={"50%"}
+                    top={'49%'}
+                    left={'50%'}/>
             </Colblock>
         </SectionBlock>
         <SectionBlock style={{ margin : "0% 0 0 00%"}}>
@@ -172,9 +179,9 @@ const BackGroundGroup = styled.div`
   height: auto;
   background-image: linear-gradient(
     rgba(0, 0, 0, 0.9), 
-    rgba(0, 0, 0, 0.7), 
-    rgba(0, 0, 0, 0.8),
-    rgba(0, 0, 0, 0.55)
+    rgba(0, 0, 0, 0.8), 
+    rgba(0, 0, 0, 0.76),
+    rgba(0, 0, 0, 0.95)
   ),
     url(${({ BackGroundImage }) => BackGroundImage});
   background-size: cover;
@@ -280,26 +287,20 @@ const Stronger = styled.h1`
 `;
 
 const Colblock = styled.div`
-display: flex;
-flex-flow : column wrap;
-justify-content: center;
-align-items: flex-start;
-width : 90%;
+  display: flex;
+  flex-flow : column wrap;
+  justify-content: center;
+  align-items: flex-start;
+  width : 90%;
+  margin : 5%;
+  padding : 5%;
+  font-family : "경북대";
+  font-size : 5.5vmin;
+  text-weight : 500;
+  line-height : 200%;
+  text-align : start;
+  position : relatve;
 `
-const TextBlock = styled.div`
-    position: relative;
-    width: 70%;
-    height: auto;
-    padding: 5%;
-    border-radius: 10px;
-    font-weight: 300;
-    font-style: normal;
-    line-height: 1.5;
-    color: #333; /* 텍스트 색상 조정 */
-    background: rgba(255, 255, 255, 0.85);
-    box-shadow:  0 4px 8px 0 rgba(0,0,0,0.25);
-    backdrop-filter: blur(9.999999046325684px);
-`;
 
 const FloatBlock = styled.div`
     position: relative;
@@ -364,3 +365,4 @@ const BigRedSpan = styled.span`
   line-height : 200%;
   font-weight: 600;
 `
+
