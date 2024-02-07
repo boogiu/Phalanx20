@@ -23,17 +23,17 @@ const Curriculum = () => {
                     팔랑크스의 크루들은,<br/>
                     실제 기획/컨설팅 기업 혹은<br/>
                     서비스 기업들의 기획 직무의 5~7년차<br/>
-                    실무진들의 자문을 받아 구축된,<br/>
-                     실무 기획에서 진행하는 <br/>
+                    <GreenSpan><Bigger>실무진들의 자문을 받아 구축된,<br/></Bigger></GreenSpan>
+                    실무 기획에서 진행하는 <br/>
                     여러 단계와 tool들에 대한 <br/>
                     기초 사항들을 학습, 경험하는  <br/>
                     커리큘럼을 진행합니다. <br/><br/>
 
                     팔랑크스 커리큘럼에 따라, <br/>
                     모든 크루들은 자신의 팀 분야 내에서의 <br/>
-                    주제를 스스로 설정하여, 개인 혹은 조별로<br/>
+                    <RedSpan>주제를 스스로 설정하여,</RedSpan> 개인 혹은 조별로<br/>
                     자신의 기획안을 활동 주차 30주 동안 <br/>
-                    실제기업들에게 제안하여 그 평가를 받고<br/> 
+                    <RedSpan>실제 기업들에게 제안하여 그 평가를 받고<br/> </RedSpan>
                     프로젝트를 타진하게 됩니다. 
 
                     </Txt>
@@ -62,20 +62,20 @@ const Curriculum = () => {
                         필수형 유닛 6종
                     </Sub>
                     <Txt2>
-                    니즈 파악 / 단계 구조화 / <br/>
-                    세부 심화 / 제안 발송 <br/>
+                    <YellowSpan>니즈 파악 / 단계 구조화 / <br/>
+                    세부 심화 / 제안 발송 <br/></YellowSpan>
                     4단계의 기획 커리큘럼과<br/>
                     크루간의 상호 피드백과 보완점,<br/> 
                     실제 산업에서의 기획 레퍼런스 분석<br/>
-                    등으로 이루어진 총 6종의 <br/>
-                    ‘필수형‘ 유닛을 진행합니다. <br/>
+                    등으로 이루어진 <RedSpan>총 6종의 <br/>
+                    ‘필수형‘ 유닛을 진행합니다. <br/></RedSpan>
                     <br/>                    
 
                     4단계를 각 1주 씩, 총 4주에 1회, <br/>
                     실제 기업에게 제안하며, <br/>
                     활동 주차 30주 동안, 총 7개를 <br/>
-                    제안하는 방식을 토대로, 개인 일정과<br/>
-                     역량, 노력에 따라 그 제안의 수와 <br/>
+                    제안하는 방식을 토대로, <Bigger><RedSpan>개인 일정과<br/>
+                     역량, 노력에 따라</RedSpan></Bigger> 그 제안의 수와 <br/>
                      빈도를 스스로 변경/설정할 수 있습니다.<br/>
                     </Txt2>
                 </TextSubGruop1>
@@ -87,16 +87,16 @@ const Curriculum = () => {
                     <Txt2>
                     실제 실무 기획 단계에서<br/>
                     1~3년차 기획러들이 제일 많이<br/>
-                    사용하는 tool과 방법을 경험해보며,<br/>
+                    사용하는 <GreenSpan>tool과 방법을 경험해보며,<br/></GreenSpan> 
                     모든 크루들이 각자 본인의 역량 성장의 <br/>
                     발판으로 활용합니다.<br/>
                     <br/>
                     기획하는 ‘방법‘ 을 포함하여, <br/>
                     ‘기술’ 과 실제 세부 도구들에 <br/>
-                    관한 내용으로서, 매우 직접적이고 <br/>
+                    관한 내용으로서, <RedSpan>매우 직접적이고 <br/>
                     구체적으로 프로그램들을 다뤄보기<br/>
-                    때문에, 이론적인 것을 지향하는 분에게는<br/>
-                     적합하지 않습니다. <br/>
+                    때문에,<Bigger> 이론적인 것을 지향하는 <br/>분에게는
+                     적합하지 않습니다.</Bigger></RedSpan> <br/>
 
                     </Txt2>
                 </TextSubGruop2>
@@ -303,3 +303,17 @@ const ImgComponent2 = ({ imagePath, top, left,rotate,width }) => {
   
 
 
+  const RedSpan = styled.span`
+  color : #B40404;
+`
+
+const YellowSpan = styled.span`
+  color : #886A08;
+`
+const GreenSpan = styled.span`
+  color : #04B404;
+`
+const Bigger = styled.span`
+font-size : 6vmin;
+line-height : 150%;
+`

@@ -1,25 +1,25 @@
 [
     {
         "index": 0,
-        "Name": "앙수수",
+        "Name": "군달",
         "imagePath" :"back2.png",
         "content" : "동해물과",
         "date" : "12월 30일"
     },{
         "index": 1,
-        "Name": "앙수수",
+        "Name": "군달",
         "imagePath" :"back2.png",
         "content" : "백",
         "date" : "12월 30일"
     },{
         "index": 2,
-        "Name": "앙수수",
+        "Name": "군달",
         "imagePath" :"back2.png",
         "content" : "두사닝",
         "date" : "12월 30일"
     },{
         "index": 3,
-        "Name": "앙수수",
+        "Name": "군달",
         "imagePath" :"back2.png",
         "content" : "가즈앚자금닌미",
         "date" : "12월 30일"
@@ -31,7 +31,7 @@
         "date" : "12월 30일"
     },{
         "index": 4,
-        "Name": "앙수수",
+        "Name": "군달",
         "imagePath" :"back2.png",
         "content" : "ㄴㄴ",
         "date" : "12월 30일"
@@ -45,14 +45,14 @@
     },
     {
         "index": 4,
-        "Name": "앙수수",
+        "Name": "군달",
         "imagePath" :"back2.png",
         "content" : "그곳에 공간이 있기에.",
         "date" : "12월 30일"
     },
     {
         "index": 4,
-        "Name": "앙수수",
+        "Name": "군달",
         "imagePath" :"back2.png",
         "content" : "만들었따. 깝치지 말도록.",
         "date" : "12월 30일"
@@ -65,7 +65,7 @@
     },
     {
         "index": 0,
-        "Name": "앙수수",
+        "Name": "군달",
         "imagePath" :"back2.png",
         "content" : "한 대 쳐도 됨?",
         "date" : "12월 30일"
@@ -78,10 +78,193 @@
         "date" : "12월 30일"
     },{
         "index": 0,
-        "Name": "앙수수",
+        "Name": "군달",
         "imagePath" :"back2.png",
         "content" : "답 없네",
         "date" : "12월 30일"
+    },
+    {
+        "index": 0,
+        "Name": "야무징",
+        "imagePath" :"back3.png",
+        "content" : "톡 바",
+        "date" : "12월 30일"
+    },
+    {
+        "index": 0,
+        "Name": "야무징",
+        "imagePath" :"back3.png",
+        "content" : "나 이거 공유좀",
+        "date" : "12월 30일"
+    },{
+        "index": 0,
+        "Name": "군달",
+        "imagePath" :"back2.png",
+        "content" : "WF 공유해놈 링크 ㄱㄱ",
+        "date" : "12월 30일"
+    },{
+        "index": 0,
+        "Name": "야무징",
+        "imagePath" :"back3.png",
+        "content" : "톡 바",
+        "date" : "12월 30일"
+    },{
+        "index": 0,
+        "Name": "규규린",
+        "imagePath" :"pro1.png",
+        "content" : " 오옹 안녕하세요",
+        "date" : "01월 2일"
+    },{
+        "index": 0,
+        "Name": "규규린",
+        "imagePath" :"pro1.png",
+        "content" : " 오오오ㅗ오ㅋㅋㅋㅋ",
+        "date" : "01월 2일"
+    },{
+        "index": 0,
+        "Name": "규규린",
+        "imagePath" :"pro1.png",
+        "content" : " 재미지구만",
+        "date" : "01월 2일"
+    },{
+        "index": 0,
+        "Name": "규규린",
+        "imagePath" :"pro1.png",
+        "content" : " @#태그",
+        "date" : "01월 2일"
+    },{
+        "index": 0,
+        "Name": "규규린",
+        "imagePath" :"pro1.png",
+        "content" : " *팔랑팔랑크스",
+        "date" : "01월 2일"
+    },{
+        "index": 0,
+        "Name": "규규린",
+        "imagePath" :"pro1.png",
+        "content" : " @파호 안돼여",
+        "date" : "01월 2일"
+    },{
+        "index": 0,
+        "Name": "규규린",
+        "imagePath" :"pro1.png",
+        "content" : " 기능 안되여",
+        "date" : "01월 2일"
+    },{
+        "index": 0,
+        "Name": "규규린",
+        "imagePath" :"pro1.png",
+        "content" : " 기능 안된다고",
+        "date" : "01월 2일"
+    },{
+        "index": 0,
+        "Name": "규규린",
+        "imagePath" :"pro1.png",
+        "content" : " 날 이렇게 버리다니",
+        "date" : "01월 2일"
+    },{
+        "index": 0,
+        "Name": "규규린",
+        "imagePath" :"pro1.png",
+        "content" : " 날 버리지마 제가 잘할게여 ...😥😥",
+        "date" : "01월 2일"
+    },{
+        "index": 0,
+        "Name": "규규린",
+        "imagePath" :"pro1.png",
+        "content" : " 이럼 돼?",
+        "date" : "01월 2일"
+    },{
+        "index": 0,
+        "Name": "군달",
+        "imagePath" :"back2.png",
+        "content" : "삭제 기능을 안 만든걸 이해할 수가 없다. ㅅㅂ 쟤좀",
+        "date" : "01월 02일"
+    },{
+        "index": 0,
+        "Name": "규규린",
+        "imagePath" :"pro1.png",
+        "content" : " 이번에 개발쪽은 팀 없음?",
+        "date" : "01월 2일"
+    },{
+        "index": 0,
+        "Name": "군달",
+        "imagePath" :"back2.png",
+        "content" : "안할 듯? 통합해서 IT기획으로 짜여진 것 같던데 커리큘럼",
+        "date" : "01월 02일"
+    },{
+        "index": 0,
+        "Name": "규규린",
+        "imagePath" :"pro1.png",
+        "content" : " 그럼 나 버리는거네?",
+        "date" : "01월 2일"
+    },{
+        "index": 0,
+        "Name": "군달",
+        "imagePath" :"back2.png",
+        "content" : "ㅇㅈㅇㅈ",
+        "date" : "01월 02일"
+    },{
+        "index": 0,
+        "Name": "규규린",
+        "imagePath" :"pro1.png",
+        "content" : " ㅅㅂ😭",
+        "date" : "01월 2일"
+    },{
+        "index": 0,
+        "Name": "군달",
+        "imagePath" :"back2.png",
+        "content" : "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+        "date" : "01월 02일"
+    },{
+        "index": 0,
+        "Name": "규규린",
+        "imagePath" :"pro1.png",
+        "content" : " 개발자가 마케팅 기획하고 싶다 그럼 욕먹냐?",
+        "date" : "01월 2일"
+    },{
+        "index": 0,
+        "Name": "규규린",
+        "imagePath" :"pro1.png",
+        "content" : " 그럼 나 이번에 무슨 팀 가?",
+        "date" : "01월 2일"
+    },{
+        "index": 0,
+        "Name": "팝호",
+        "imagePath" :"pro2.png",
+        "content" : " 닫습니다.",
+        "date" : "01월 2일"
+    },{
+        "index": 0,
+        "Name": "팝호",
+        "imagePath" :"pro2.png",
+        "content" : " 니네들 놀라거 만든거 아님",
+        "date" : "01월 2일"
+    },{
+        "index": 0,
+        "Name": "군달",
+        "imagePath" :"back2.png",
+        "content" : " 죄송함미당...ㅠ",
+        "date" : "01월 2일"
+    },{
+        "index": 0,
+        "Name": "규규린",
+        "imagePath" :"pro1.png",
+        "content" : " ㅈㅅ지울 수 있아여",
+        "date" : "01월 2일"
+    },{
+        "index": 0,
+        "Name": "야무징",
+        "imagePath" :"back3.png",
+        "content" : " 형 이거, 방명록 기능이 안돼여",
+        "date" : "01월 13일"
+    },{
+        "index": 0,
+        "Name": "팝호",
+        "imagePath" :"pro2.png",
+        "content" : " 톡으로",
+        "date" : "01월 13일"
     }
+
 
 ]

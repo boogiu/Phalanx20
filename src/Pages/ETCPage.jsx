@@ -3,6 +3,7 @@ import styled, { keyframes, css } from 'styled-components';
 import Header from '../components/common/Header';
 import FAQ from '../components/Layout/ETC/F&Q'
 import Footer from '../components/common/Footer';
+import SnsFooter from '../components/Layout/SnsFooter';
 const ETCPage = () => {
 
   return (
@@ -10,6 +11,7 @@ const ETCPage = () => {
       <Header/>
       <div>
         <FAQ/>
+        <SnsFooter/>
       </div>
       <Footer/>
     </StyledContainer>

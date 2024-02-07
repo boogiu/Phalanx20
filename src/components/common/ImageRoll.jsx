@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import styled, { keyframes } from 'styled-components';
 import Modal from './Modal';
 import InfiniteBanner from './InfiniteBanner';
+import { FcInternal } from "react-icons/fc";
 
 const ImageRoll = () => {
     const bannerImages1 = [
@@ -47,11 +48,11 @@ const ImageRoll = () => {
     return (
         <BackGroundSrc imagePath={"imgRollBack.png"}>
             <RollContainer>
-                <p>클릭!</p>
+                <ClickDiv ><ClickIcon/><ClickIcon/><ClickIcon/></ClickDiv>
                 <BtnDiv>
-                    <Btn id='1' onClick={() => openModal('1')}>수치!</Btn>
-                    <Btn id='2' onClick={() => openModal('2')}>구조!</Btn>
-                    <Btn id='3' onClick={() => openModal('3')}>표현!</Btn>
+                    <Btn id='1' onClick={() => openModal('1')}><Titlespan>수치!</Titlespan></Btn>
+                    <Btn id='2' onClick={() => openModal('2')}><Titlespan>구조!</Titlespan></Btn>
+                    <Btn id='3' onClick={() => openModal('3')}><Titlespan>표현!</Titlespan></Btn>
                 </BtnDiv>
                 {isModalOpen && <Modal onClose={closeModal} selectedId={selectedId} />}
                 <InfiniteBanner animationSpeed={2} items={bannerImages1}/>
@@ -155,6 +156,18 @@ const Btn = styled.button`
 }
 `
 
+const ClickDiv =styled.div `
+
+` 
+const ClickIcon = styled(FcInternal)`
+font-size : 9vmin;
+margin : 0 30px 0 30px;
+animation: float 1.5s infinite ease-out;
+    @keyframes float {
+      0%{transform:translate(0,0);}
+      50%{transform:translate(0,20px);}
+}
+`
 
 const BackGroundGroup = styled.div`
   height: auto;
@@ -186,3 +199,13 @@ const BackGroundSrc = ({ imagePath, children }) => {
 
 
 export default ImageRoll;
+
+const Titlespan = styled.span`
+  font-family: "워헤븐";
+  font-size: 10vmin;
+  color: white;
+  text-shadow:0 0 2px #0fa, 0 0 4px #0fa,  0 0 3px #0fa;
+  width : 80%;
+  line-height : 200%;
+  
+`;

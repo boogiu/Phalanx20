@@ -176,10 +176,11 @@ const ContentBox = styled.div`
 `;
 
 const ProfilePicture = styled.img`
-  width: 5vmin;
-  height: 5vmin;
+  width: 9vmin;
+  height: 9vmin;
   border-radius: 50%;
   margin-right: 10px;
+  box-shadow : 0.5px 0.5px 1px 1px  rgba(255, 255, 255, 0.2);
 `;
 
 const MessageContent = styled.div`

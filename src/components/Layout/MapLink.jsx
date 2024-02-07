@@ -14,7 +14,7 @@ const MapLink = () => {
     }
 
   return (
-    <BackGroundSrc>
+    <BackGroundSrc imagePath={"MapBack.png"}>
         <MapLinkContainer>
             <Title>팔랑크스 훈련지도</Title>
             <Txt>보고 싶은 훈련 지도를 클릭!</Txt>
@@ -50,8 +50,11 @@ export default MapLink;
 const BackGroundGroup = styled.div`
   height: auto;
   background-image: linear-gradient(
-    rgba(0, 0, 0, 0.9), 
-    rgba(0, 0, 0, 0.7)
+    rgba(0, 0, 0, 0.95), 
+    rgba(0, 0, 0, 0.8), 
+    rgba(0, 0, 0, 0.8), 
+    rgba(0, 0, 0, 0.8), 
+    rgba(0, 0, 0, 0.95)
   ),
     url(${({ BackGroundImage }) => BackGroundImage});
   background-size: cover;

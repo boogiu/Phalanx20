@@ -71,11 +71,10 @@ const CloseButton = styled.button`
 
 const PopUpBox = styled.div`
   cursor: pointer;
-  background-color:rgb(255,255,255,0.1);
-  box-shadow : 0px 2px 0px 2px rgb(255,255,255,0.3);
-  border-radius : 20%;
-  width: 150%;
-  height: 40vh;
+  background: #4C0B5F;
+  border: none;
+  width : 100%;
+  height : 50%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -83,20 +82,23 @@ const PopUpBox = styled.div`
   font-size : 14vmin;
   font-family:'워헤븐';
   text-align:start;
-  animation: heartbeat 5s infinite ;
 
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+  7px 7px 20px 0px rgba(0,0,0,.1),
+  4px 4px 5px 0px rgba(0,0,0,.1);
+
+  transition: all 0.3s ease;
+
+  animation: heartbeat 2s infinite ;
+
+  border-radius: 15px;
   @keyframes heartbeat {
-    0% {
-      transform: scale(1);
+    
+    50% {
+      transform: scale(0.9);
+      box-shadow:inset 0px 0px 0px 0px rgba(255,255,255,.5);
     }
     
-    60% {
-      transform: scale(0.9);
-    }
-    80% {
-      transform: scale(1.1);
-    }
-
   }
   
 `;

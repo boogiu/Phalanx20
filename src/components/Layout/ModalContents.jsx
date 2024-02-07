@@ -7,6 +7,7 @@ const ModalContents = () => {
 
 
     return (
+
         <ContentsContainer>
             <HookingBox>
                 <TextContainer>
@@ -84,6 +85,8 @@ const ModalContents = () => {
                 </TextContainer>
             </HookingBox>
         </ContentsContainer>
+
+        
     );
 };
 
