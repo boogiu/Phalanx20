@@ -21,8 +21,15 @@ const HeaderContainer = styled.div`
 
 const Logo = styled.img`
   height: 20vmin; /* 로고의 높이를 조절해주세요 */
-  border-radius : 40%;
+  
+  border-radius: 50%; /* 보더를 둥글게 만듭니다 */
+  box-shadow: 0px 6px 0px 10px inset, 0 0 10px 5px inset black, 
+  3px 6px 6px 7px inset green; /* 박스 그림자 (그라데이션 50% 검정/50% 초록) */
+  margin: 0% 0% 1% 0%;
 `;
+
+
+
 
 const MenuList = styled.ul`
   list-style: none;
