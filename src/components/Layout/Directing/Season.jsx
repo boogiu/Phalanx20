@@ -173,23 +173,19 @@ const Season = () => {
                     공식 자료로서 기능합니다. </RedSpan> 
                      </Txt>
                      <Imagediv>
-                    <ImgComponent imagePath={"gra1.png"} 
+                   
+                    <ImgComponent imagePath={"gra2.png"} 
                     top={"0%"} 
                     left={"-30%"}
                     rotate={"0deg"}
-                    width={"100%"}/>
-                    <ImgComponent imagePath={"gra2.png"} 
-                    top={"40%"} 
-                    left={"-20%"}
-                    rotate={"0deg"}
-                    width={"100%"}/>
-                    <ImgComponent imagePath={"gra3.png"} 
-                    top={"80%"} 
-                    left={"-40%"}
-                    rotate={"0deg"}
+                    width={"120%"}/>
+                    <ImgComponent imagePath={"gra3.jpg"} 
+                    top={"25%"} 
+                    left={"10%"}
+                    rotate={"-90deg"}
                     width={"100%"}/>
                     <ImgComponent imagePath={"gra4.png"} 
-                    top={"20%"} 
+                    top={"10%"} 
                     left={"50%"}
                     rotate={"0deg"}
                     width={"80%"}/>

@@ -86,10 +86,20 @@ const Special = () => {
 
                      <Imagediv>
                     <ImgComponent imagePath={"Forum.png"} 
-                    top={"-10%"} 
-                    left={"-10%"}
+                    top={"-0%"} 
+                    left={"-20%"}
                     rotate={"0deg"}
-                    width={"120%"}/>
+                    width={"130%"}/>
+                    <ImgComponent imagePath={"Forum1.jpg"} 
+                    top={"75%"} 
+                    left={"-30%"}
+                    rotate={"0deg"}
+                    width={"100%"}/>
+                    <ImgComponent imagePath={"Forum2.jpg"} 
+                    top={"40%"} 
+                    left={"30%"}
+                    rotate={"0deg"}
+                    width={"100%"}/>
                     
                 </Imagediv>
             </TextSubGruop2>

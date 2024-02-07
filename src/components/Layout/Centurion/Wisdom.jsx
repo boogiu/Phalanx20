@@ -50,6 +50,25 @@ const Wisdom = () => {
                             아카이빙 한 후, 크루들과 공유합니다. 
 
                         </Discription>
+                        <Imagediv>
+                   
+                              <ImgComponent imagePath={"Wisodm1.jpg"} 
+                              top={"-10%"} 
+                              left={"-10%"}
+                              rotate={"0deg"}
+                              width={"80%"}/>
+                              <ImgComponent imagePath={"Wisdom2.jpg"} 
+                              top={"40%"} 
+                              left={"20%"}
+                              rotate={"0deg"}
+                              width={"70%"}/>
+                              <ImgComponent imagePath={"Wisdom3.jpg"} 
+                              top={"70%"} 
+                              left={"-10%"}
+                              rotate={"0deg"}
+                              width={"60%"}/>
+
+                          </Imagediv>
                       </DiscriptionBox>
                     </TextSection>
                     <ImgComponent 
@@ -262,3 +281,16 @@ const JustImg = ({ imagePath }) => {
       
   );
 };
+
+const Imagediv = styled.div`
+  width : 100%;  
+  height : 40vh; 
+  flex-flow : row wrap;
+  justify-content: center;
+  align-items: center;
+  margin : 15% ;
+  position : relative;
+`;
+
+
+
