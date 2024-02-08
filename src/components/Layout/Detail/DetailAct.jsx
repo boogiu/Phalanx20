@@ -9,7 +9,7 @@ const DetailAct = () => {
         <SectionBlock>
             <HookerSection>
               <Imagediv2>
-                    <ImgComponent2 imagePath={"Heart3.png"} 
+                    <ImgComponent2 imagePath={"heart3.png"} 
                     top={"-120%"} 
                     left={"0%"}
                     rotate={"-20deg"}

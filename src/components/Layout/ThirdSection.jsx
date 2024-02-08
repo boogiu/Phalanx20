@@ -35,7 +35,7 @@ const ThirdSection = () => {
                     <RedSpan>실제 경력이 되는 실무 기획... <br/>
                     해야겠지?</RedSpan></CommonP>
                     <ImgComponent 
-                      imagePath={"Heart3.png"} 
+                      imagePath={"heart3.png"} 
                       rotate={"13deg"}
                       width={"80%"}
                       top={'150%'}

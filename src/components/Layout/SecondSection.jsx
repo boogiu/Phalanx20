@@ -107,13 +107,13 @@ const SeocndSection = () => {
         <SectionBlock>
             <Colblock>
             <ImgComponent 
-                    imagePath={"Heart3.png"} 
+                    imagePath={"heart3.png"} 
                     rotate={"0deg"}
                     width={"50%"}
                     top={'100%'}
                     left={'0%'}/>
                     <ImgComponent 
-                    imagePath={"Heart2.png"} 
+                    imagePath={"heart2.png"} 
                     rotate={"0deg"}
                     width={"50%"}
                     top={'62%'}
@@ -283,7 +283,7 @@ const ImgComponent = ({ imagePath, top, left,rotate,width }) => {
         rotate={rotate}
         width={width}
       >
-          <img src={`${process.env.PUBLIC_URL }/imgData/${imagePath}`} alt="페이지 이미지" style={{ maxWidth: '100%', maxHeight: '100%' }}/>
+          <img src={`${process.env.PUBLIC_URL }/imgData/${imagePath}`} alt="페이지 이미지" style={{ maxWidth: '50%', maxHeight: '50%' }}/>
       </ImageContainer>
       
   );

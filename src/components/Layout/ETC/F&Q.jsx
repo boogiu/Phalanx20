@@ -26,7 +26,7 @@ const FAQ = () => {
 
           <SectionBlock>
             <Imagediv2>
-              <ImgComponent2 imagePath={"chaticon.png"} 
+              <ImgComponent2 imagePath={"Chaticon2.png"} 
                   top={"20%"} 
                   left={"50%"}
                   rotate={"0deg"}
@@ -85,7 +85,7 @@ const FAQ = () => {
                      </BoxinBox>
             </TextSubGruop2>
             <Imagediv2>
-              <ImgComponent2 imagePath={"chaticon2.png"} 
+              <ImgComponent2 imagePath={"Chaticon1.png"} 
                   top={"20%"} 
                   left={"50%"}
                   rotate={"0deg"}
@@ -159,7 +159,7 @@ const FAQ = () => {
                      </BoxinBox>
             </TextSubGruop2>
             <Imagediv2>
-              <ImgComponent2 imagePath={"Heart1.png"} 
+              <ImgComponent2 imagePath={"heart3.png"} 
                   top={"20%"} 
                   left={"50%"}
                   rotate={"0deg"}
@@ -342,27 +342,6 @@ const Imagediv2 = styled.div`
   height : 1vh; 
   position : relative;
 `;
-const ImgComponent = ({ imagePath, top, left,rotate,width }) => {
-  return (
-      <ImageContainer 
-        top = {top}
-        left = {left}
-        rotate={rotate}
-        width={width}
-        
-      >
-          <img src={`${process.env.PUBLIC_URL }/imgData/${imagePath}`} 
-          alt="페이지 이미지" 
-          style={{ 
-            maxWidth: '100%', maxHeight: '100%' ,
-            borderRadius :"5% 5% 5% 5% ",
-            boxShadow : " 0px 3px 3px 1px gray" 
-          }}/>
-      </ImageContainer>
-      
-  );
-};
-
 
 const ImgComponent2 = ({ imagePath, top, left,rotate,width }) => {
   return (
@@ -376,7 +355,7 @@ const ImgComponent2 = ({ imagePath, top, left,rotate,width }) => {
           <img src={`${process.env.PUBLIC_URL }/imgData/${imagePath}`} 
           alt="페이지 이미지" 
           style={{ 
-            maxWidth: '100%', maxHeight: '100%' ,
+            maxWidth: '30%', maxHeight: '30%' ,
             borderRadius :"5% 5% 5% 5% "
           }}/>
       </ImageContainer>
