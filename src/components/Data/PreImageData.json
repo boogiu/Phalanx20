@@ -1,0 +1,109 @@
+[
+    {
+        "page": 0,
+        "left": "50%",
+        "top": "60%",
+        "brightness": "brightness(45%)",
+        "imagePath" : "back1.png",
+        "rotate" : "rotate(0deg)"
+    },
+    {
+        "page": 1,
+        "left": "-10%",
+        "top": "60%",
+        "brightness": "brightness(45%)",
+        "imagePath" :"back2.png",
+        "rotate" : "rotate(0deg)"
+    }
+    ,
+    {
+        "page": 2,
+        "left": "-10%",
+        "top": "60%",
+        "brightness": "brightness(45%)",
+        "imagePath" :"back3.png",
+        "rotate" : "rotate(0deg)"
+    }
+    ,
+    {
+        "page": 3,
+        "left": "-40%",
+        "top": "65%",
+        "brightness": "brightness(45%)",
+        "imagePath" :"back4.png",
+        "rotate" : "rotate(10deg)"
+    }
+    ,
+    {
+        "page": 4,
+        "left": "20%",
+        "top": "65%",
+        "brightness": "brightness(45%)",
+        "imagePath" :"back5.png",
+        "rotate" : "rotate(0deg)"
+    }
+    ,
+    {
+        "page": 5,
+        "left": "-60%",
+        "top": "70%",
+        "brightness": "brightness(45%)",
+        "imagePath" :"back7.png",
+        "rotate" : "rotate(20deg)"
+    }
+    ,
+    {
+        "page": 7,
+        "left": "50%",
+        "top": "70%",
+        "brightness": "brightness(45%)",
+        "imagePath" :"back6.png",
+        "rotate" : "rotate(0deg)"
+    },
+    {
+        "page": 9,
+        "left": "30%",
+        "top": "20%",
+        "brightness": "brightness(65%)",
+        "imagePath" :"back9.png",
+        "rotate" : "rotate(20deg)"
+    },
+    {
+        "page": 10,
+        "left": "60%",
+        "top": "70%",
+        "brightness": "brightness(45%)",
+        "imagePath" :"back14.png",
+        "rotate" : "rotate(-20deg)"
+    },
+    {
+        "page": 11,
+        "left": "-20%",
+        "top": "65%",
+        "brightness": "brightness(45%)",
+        "imagePath" :"back10.png",
+        "rotate" : "rotate(0deg)"
+    },
+    {
+        "page": 16,
+        "left": "-20%",
+        "top": "65%",
+        "brightness": "brightness(45%)",
+        "imagePath" :"back12.png",
+        "rotate" : "rotate(0deg)"
+    },{
+        "page": 17,
+        "left": "30%",
+        "top": "65%",
+        "brightness": "brightness(45%)",
+        "imagePath" :"back14.png",
+        "rotate" : "rotate(0deg)"
+    },{
+        "page": 18,
+        "left": "-20%",
+        "top": "65%",
+        "brightness": "brightness(65%)",
+        "imagePath" :"back13.png",
+        "rotate" : "rotate(0deg)"
+    }
+]

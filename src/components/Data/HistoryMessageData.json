@@ -1,0 +1,37 @@
+[
+    {
+        "page": 0,
+        "collum": 0,
+        "color": "white",
+        "size": "6vmin",
+        "family": "워헤븐",
+        "style": "normal",
+        "txt": "팔랑크스 역사서",
+        "shadow" :"",
+        "height" : "200%"
+    },
+    {
+        "page": 1,
+        "collum": 1,
+        "color": "white",
+        "size": "6vmin",
+        "family": "워헤븐",
+        "style": "normal",
+        "txt": "기획/컨설팅 동아리",
+        "shadow" :"",
+        "height" : "200%"
+    },
+    {
+        "page": 2,
+        "collum": 2,
+        "color": "rgb(6, 190, 104)",
+        "size": "6vmin",
+        "family": "워헤븐",
+        "style": "italic",
+        "txt": "Phalanx",
+        "shadow" :"0 0 7px #fff, 0 0 10px #fff, 0 0 21px #0fa, 0 0 42px #0fa,0 0 85px #0fa, 0 0 92px #0fa",
+        "height" : "200%"
+    
+    }
+
+]

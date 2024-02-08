@@ -1,0 +1,978 @@
+[
+    {
+        "page": 0,
+        "collum": 0,
+        "color": "white",
+        "size": "9vmin",
+        "family": "워헤븐",
+        "style": "normal",
+        "txt": "전국대학연합,",
+        "shadow" :"",
+        "height" : "200%"
+    },
+    {
+        "page": 0,
+        "collum": 1,
+        "color": "white",
+        "size": "8.25vmin",
+        "family": "워헤븐",
+        "style": "normal",
+        "txt": "기획/컨설팅 동아리",
+        "shadow" :"",
+        "height" : "200%"
+    },
+    {
+        "page": 0,
+        "collum": 2,
+        "color": "rgb(6, 190, 104)",
+        "size": "17vmin",
+        "family": "워헤븐",
+        "style": "italic",
+        "txt": "Phalanx",
+        "shadow" :"0 0 7px #fff, 0 0 10px #fff, 0 0 21px #0fa, 0 0 42px #0fa,0 0 85px #0fa, 0 0 92px #0fa",
+        "height" : "200%"
+    
+    },
+    {
+        "page": 0,
+        "collum": 3,
+        "color": "rgba(255, 238, 0, 0.788)",
+        "size": "8vmin",
+        "family": "빙자람",
+        "style": "normal",
+        "txt": "널 위해, 준비했어♡",
+        "shadow" :"",
+        "height" : "200%"
+    },
+
+    {
+        "page": 1,
+        "collum": 0,
+        "color": "red",
+        "size": "9vmin",
+        "family": "워헤븐",
+        "style": "italic",
+        "txt": "기획...?",
+        "shadow" :" 0.2px 0.2px 0.2px rgb(255, 255, 255)",
+        "height" : "200%"
+    },
+    {
+        "page": 1,
+        "collum": 1,
+        "color": "white",
+        "size": "9vmin",
+        "family": "워헤븐",
+        "style": "normal",
+        "txt": "그게... 뭐야?",
+        "height" : "200%"
+    },{
+        "page": 2,
+        "collum": 0,
+        "color": "white",
+        "size": "7vmin",
+        "family": "워헤븐",
+        "style": "normal",
+        "txt": "에이 바보들...",
+        "shadow" :" 0.2px 0.2px 0.2px rgb(255, 255, 255)",
+        "height" : "200%"
+    }
+    ,{
+        "page": 2,
+        "collum": 1,
+        "color": "white",
+        "size": "7vmin",
+        "family": "워헤븐",
+        "style": "normal",
+        "txt": "왜 이걸 이렇게 하냐?",
+        "height" : "200%"
+    }
+    ,{
+        "page": 2,
+        "collum": 2,
+        "color": "white",
+        "size": "7vmin",
+        "family": "워헤븐",
+        "style": "normal",
+        "txt": "이렇게 하면",
+        "height" : "200%"
+    }
+    ,{
+        "page": 2,
+        "collum": 3,
+        "color": "red",
+        "size": "8vmin",
+        "family": "워헤븐",
+        "style": "italic",
+        "txt": "더 괜찮을 것 같은데?",
+        "height" : "200%"
+    },
+    
+    {
+        "page": 3,
+        "collum": 0,
+        "color": "white",
+        "size": "6vmin",
+        "family": "워헤븐",
+        "style": "normal",
+        "txt": "어? 이거를 이렇게 바꾸면",
+        "height" : "200%"
+    },{
+        "page": 3,
+        "collum": 1,
+        "color": "red",
+        "size": "9vmin",
+        "family": "워헤븐",
+        "style": "normal",
+        "txt": "더 좋을 거 같은데?",
+        "height" : "200%"
+    },{
+        "page": 3,
+        "collum": 2,
+        "color": "rgb(240, 163, 163)",
+        "size": "9vmin",
+        "family": "빙자람",
+        "style": "normal",
+        "txt": "여기에는 빨간색보다,",
+        "height" : "250%"
+    },{
+        "page": 3,
+        "collum": 2,
+        "color": "#97d3fc",
+        "size": "9vmin",
+        "family": "빙자람",
+        "style": "normal",
+        "txt": "파란색이 더 이쁘지!",
+        "height" : "30%"
+    }
+
+    ,{
+        "page": 4,
+        "collum": 0,
+        "color": "white",
+        "size": "7vmin",
+        "family": "워헤븐",
+        "style": "normal",
+        "txt": "여기에는 ",
+        "height" : "200%"
+    },{
+        "page": 4,
+        "collum": 0,
+        "color": "red",
+        "size": "8vmin",
+        "family": "워헤븐",
+        "style": "normal",
+        "txt": "더 강하게 해줘야지!",
+        "height" : "200%"
+    },{
+        "page": 4,
+        "collum": 1,
+        "color": "#97d3fc",
+        "size": "9vmin",
+        "family": "빙자람",
+        "style": "normal",
+        "txt": "여기는 넘 차가운데?..",
+        "height" : "200%"
+    },{
+        "page": 4,
+        "collum": 2,
+        "color": "rgb(240, 163, 163)",
+        "size": "9vmin",
+        "family": "빙자람",
+        "style": "normal",
+        "txt": "따듯한 감성으로 가야지!",
+        "height" : "30%"
+    }
+    
+    ,{
+        "page": 5,
+        "collum": 0,
+        "color": "white",
+        "size": "9vmin",
+        "family": "워헤븐",
+        "style": "normal",
+        "txt": " 여태껏 너가 해온",
+        "height" : "200%"
+    },{
+        "page": 5,
+        "collum": 0,
+        "color": "rgb(4, 243, 131)",
+        "size": "15vmin",
+        "family": "워헤븐",
+        "style": "normal",
+        "txt": " ‘기획’이 ",
+        "height" : "200%"
+    },{
+        "page": 5,
+        "collum": 0,
+        "color": "white",
+        "size": "6vmin",
+        "family": "워헤븐",
+        "style": "normal",
+        "txt": " 이런 것이라면, 미안하지만... ",
+        "height" : "200%"
+    },{
+        "page": 5,
+        "collum": 1,
+        "color": "white",
+        "size": "6vmin",
+        "family": "워헤븐",
+        "style": "normal",
+        "txt": " 이건 그냥 그대의...",
+        "height" : "200%"
+    }
+    ,{
+        "page": 5,
+        "collum": 2,
+        "color": "red",
+        "size": "12vmin",
+        "family": "워헤븐",
+        "style": "italic",
+        "txt": "‘상상’이고",
+        "shadow" :" 1px 0.2px 0.2px rgb(255, 255, 255)",
+        "height" : "200%"
+    }
+    ,{
+        "page": 5,
+        "collum": 3,
+        "color": "red",
+        "size": "12vmin",
+        "family": "워헤븐",
+        "style": "italic",
+        "txt": "‘취향’입니다",
+        "shadow" :" 1px 0.2px 0.2px rgb(255, 255, 255)",
+        "height" : "200%"
+    }
+
+    ,{
+        "page": 6,
+        "collum": 0,
+        "color": "white",
+        "size": "9vmin",
+        "family": "워헤븐",
+        "style": "normal",
+        "txt": "이런거 할거면, ",
+        "height" : "200%"
+    }  ,{
+        "page": 6,
+        "collum": 0,
+        "color": "white",
+        "size": "6.5vmin",
+        "family": "워헤븐",
+        "style": "normal",
+        "txt": "우리 동아리 오면 안돼요ㅠ",
+        "height" : "200%"
+    }   
+    ,{
+        "page": 6,
+        "collum": 1,
+        "color": "rgba(255, 238, 0, 0.888)",
+        "size": "9vmin",
+        "family": "워헤븐",
+        "style": "normal",
+        "txt": "예술 동아리로",
+        "height" : "200%"
+    },{
+        "page": 6,
+        "collum": 1,
+        "color": "white",
+        "size": "9vmin",
+        "family": "워헤븐",
+        "style": "normal",
+        "txt": "가시면 됩니다. ",
+        "height" : "200%"
+    }
+    ,{
+        "page": 6,
+        "collum": 2,
+        "color": "rgba(255, 238, 0, 0.788)",
+        "size": "9vmin",
+        "family": "빙자람",
+        "style": "normal",
+        "txt": "개인 취향ㄴㄴ..",
+        "height" : "200%"
+    }
+
+    ,{
+        "page": 7,
+        "collum": 0,
+        "color": "white",
+        "size": "7vmin",
+        "family": "워헤븐",
+        "style": "normal",
+        "txt": "제가 팔랑크스 ",
+        "height" : "200%"
+    },{
+        "page": 7,
+        "collum": 0,
+        "color": "white",
+        "size": "6vmin",
+        "family": "워헤븐",
+        "style": "normal",
+        "txt": "동아리를 하며 배운 것은",
+        "height" : "200%"
+    }
+    ,{
+        "page": 7,
+        "collum": 1,
+        "color": "#ff719b",
+        "size": "7vmin",
+        "family": "워헤븐",
+        "style": "normal",
+        "txt": "기획이라는 것은, 사실",
+        "height" : "200%"
+    }
+    ,{
+        "page": 7,
+        "collum": 2,
+        "color": "red",
+        "size": "13vmin",
+        "family": "테나다",
+        "style": "italic",
+        "txt": "‘방법과 단계’",
+        "height" : "200%"
+    },{
+        "page": 7,
+        "collum": 3,
+        "color": "white",
+        "size": "7vmin",
+        "family": "워헤븐",
+        "style": "normal",
+        "txt": "가 있다는 것입니다",
+        "height" : "200%"
+    }
+
+    ,{
+        "page": 8,
+        "collum": 0,
+        "color": "white",
+        "size": "7vmin",
+        "family": "워헤븐",
+        "style": "normal",
+        "txt": "많은 회사들이",
+        "height" : "200%"
+    },{
+        "page": 8,
+        "collum": 0,
+        "color": "rgb(4, 243, 131)",
+        "size": "7vmin",
+        "family": "워헤븐",
+        "style": "normal",
+        "txt": "이를 가르치고자",
+        "height" : "200%"
+    },{
+        "page": 8,
+        "collum": 1,
+        "color": "white",
+        "size": "8vmin",
+        "family": "워헤븐",
+        "style": "normal",
+        "txt": "많은 비용을 들여가며",
+        "height" : "200%"
+    },{
+        "page": 8,
+        "collum": 2,
+        "color": "red",
+        "size": "9vmin",
+        "family": "워헤븐",
+        "style": "normal",
+        "txt": "신입사원 1~2년을",
+        "height" : "200%"
+    },{
+        "page": 8,
+        "collum": 2,
+        "color": "white",
+        "size": "8vmin",
+        "family": "워헤븐",
+        "style": "normal",
+        "txt": "교육하기 때문에,",
+        "height" : "200%"
+    }
+
+    ,{
+        "page": 9,
+        "collum": 0,
+        "color": "white",
+        "size": "6vmin",
+        "family": "워헤븐",
+        "style": "normal",
+        "txt": "이것이 ",
+        "height" : "200%"
+    },{
+        "page": 9,
+        "collum": 0,
+        "color": "#ff719b",
+        "size": "8vmin",
+        "family": "워헤븐",
+        "style": "normal",
+        "txt": "있는 자와 없는 자는",
+        "height" : "200%"
+    },{
+        "page": 9,
+        "collum": 1,
+        "color": "white",
+        "size": "6vmin",
+        "family": "워헤븐",
+        "style": "normal",
+        "txt": "우리의 채용/커리어 시장에서",
+        "height" : "200%"
+    },{
+        "page": 9,
+        "collum": 2,
+        "color": "white",
+        "size": "6vmin",
+        "family": "워헤븐",
+        "style": "normal",
+        "txt": "절대적 ‘갑’ 이 될 수 있는 ",
+        "height" : "200%"
+    },{
+        "page": 9,
+        "collum": 3,
+        "color": "white",
+        "size": "12vmin",
+        "family": "워헤븐",
+        "style": "italic",
+        "txt": "가장 파워풀한 ",
+        "shadow" : "0 0 7px #0fa, 0 0 10px #0fa, 0 0 21px #0fa, 0 0 42px #0fa",
+        "height" : "300%"
+    },{
+        "page": 9,
+        "collum": 3,
+        "color": "rgb(4, 243, 131)",
+        "size": "5.5vmin",
+        "family": "워헤븐",
+        "style": "normal",
+        "txt": "스펙과 강점이 되는 지점입니다.",
+        "height" : "200%"
+    }
+
+    ,{
+        "page": 10,
+        "collum": 0,
+        "color": "white",
+        "size": "9vmin",
+        "family": "워헤븐",
+        "style": "normal",
+        "txt": "그래서 만약 당신이 ",
+        "height" : "200%"
+    },{
+        "page": 10,
+        "collum": 1,
+        "color": "red",
+        "size": "9vmin",
+        "family": "워헤븐",
+        "style": "italic",
+        "txt": "‘기획’ 의 천재라면,",
+        "height" : "200%"
+    }
+
+    ,{
+        "page": 11,
+        "collum": 0,
+        "color": "white",
+        "size": "7vmin",
+        "family": "워헤븐",
+        "style": "normal",
+        "txt": "그래서 기획의 방법 따윈 ",
+        "height" : "200%"
+    },{
+        "page": 11,
+        "collum": 1,
+        "color": "red",
+        "size": "9vmin",
+        "family": "워헤븐",
+        "style": "italic",
+        "txt": "개나 줘버리라고 ",
+        "height" : "200%"
+    },{
+        "page": 11,
+        "collum": 1,
+        "color": "white",
+        "size": "7vmin",
+        "family": "워헤븐",
+        "style": "normal",
+        "txt": "한다면…",
+        "height" : "200%"
+    },
+
+    {
+        "page": 12,
+        "collum": 0,
+        "color": "white",
+        "size": "5vmin",
+        "family": "워헤븐",
+        "style": "normal",
+        "txt": "저희 동아리 오셔서 할 거 없어요... ",
+        "height" : "200%"
+    },{
+        "page": 12,
+        "collum": 0,
+        "color": "rgba(255, 238, 0, 0.918)",
+        "size": "8vmin",
+        "family": "빙자람",
+        "style": "normal",
+        "txt": "진짜루... ",
+        "height" : "200%"
+    },
+    
+    {
+        "page": 13,
+        "collum": 0,
+        "color": "white",
+        "size": "5vmin",
+        "family": "워헤븐",
+        "style": "normal",
+        "txt": "저희 보다 재미있게 놀고,",
+        "height" : "200%"
+    },{
+        "page": 13,
+        "collum": 1,
+        "color": "white",
+        "size": "5vmin",
+        "family": "워헤븐",
+        "style": "normal",
+        "txt": "술 마시고 하는 동아리 많으니,",
+        "height" : "200%"
+    },{
+        "page": 13,
+        "collum": 2,
+        "color": "white",
+        "size": "5vmin",
+        "family": "워헤븐",
+        "style": "normal",
+        "txt": "그런 곳을 추천드려요...",
+        "height" : "200%"
+    }
+
+    ,{
+        "page": 14,
+        "collum": 0,
+        "color": "white",
+        "size": "6vmin",
+        "family": "워헤븐",
+        "style": "normal",
+        "txt": "저희는 ",
+        "height" : "200%"
+    },{
+        "page": 14,
+        "collum": 0,
+        "color": "white",
+        "size": "6vmin",
+        "family": "워헤븐",
+        "style": "normal",
+        "txt": "진짜 기획자로 커서,",
+        "height" : "200%"
+    }
+    ,{
+        "page": 14,
+        "collum": 1,
+        "color": "white",
+        "size": "6vmin",
+        "family": "워헤븐",
+        "style": "normal",
+        "txt": "기획 직무에 취업을 하고",
+        "height" : "200%"
+    }
+    ,{
+        "page": 14,
+        "collum": 2,
+        "color": "white",
+        "size": "6vmin",
+        "family": "워헤븐",
+        "style": "normal",
+        "txt": "컨설팅 기업에 몸담고자 하는",
+        "height" : "200%"
+    },{
+        "page": 14,
+        "collum": 3,
+        "color": "rgb(4, 243, 131)",
+        "size": "9vmin",
+        "family": "워헤븐",
+        "style": "normal",
+        "txt": "대학생과 청춘의",
+        "height" : "300%"
+    },{
+        "page": 14,
+        "collum": 3,
+        "color": "white",
+        "size": "6vmin",
+        "family": "워헤븐",
+        "style": "normal",
+        "txt": "클럽입니다.",
+        "height" : "200%"
+    },{
+        "page": 14,
+        "collum": 3,
+        "color": "rgba(255, 238, 0, 0.918)",
+        "size": "9vmin",
+        "family": "빙자람",
+        "style": "normal",
+        "txt": "(노는 곳 아니에요..)",
+        "height" : "200%"
+    }
+
+    ,{
+        "page": 15,
+        "collum": 0,
+        "color": "white",
+        "size": "6vmin",
+        "family": "워헤븐",
+        "style": "normal",
+        "txt": "웬만하면 들어오지 마세요",
+        "height" : "200%"
+    },{
+        "page": 15,
+        "collum": 1,
+        "color": "rgba(255, 238, 0, 0.918)",
+        "size": "8vmin",
+        "family": "빙자람",
+        "style": "normal",
+        "txt": "(이러다 다 죽어!!!)",
+        "height" : "200%"
+    }
+
+    ,{
+        "page": 16,
+        "collum": 1,
+        "color": "white",
+        "size": "9vmin",
+        "family": "워헤븐",
+        "style": "normal",
+        "txt": "돌아가세요!! ",
+        "height" : "200%"
+    },{
+        "page": 16,
+        "collum": 1,
+        "color": "rgba(255, 238, 0, 0.918)",
+        "size": "8vmin",
+        "family": "빙자람",
+        "style": "normal",
+        "txt": "‘뒤로’ 클릭!",
+        "height" : "200%"
+    }
+
+    ,{
+        "page": 17,
+        "collum": 0,
+        "color": "white",
+        "size": "9vmin",
+        "family": "워헤븐",
+        "style": "normal",
+        "txt": "나가주세요.",
+        "height" : "200%"
+    }
+    ,{
+        "page": 17,
+        "collum": 1,
+        "color": "rgba(255, 238, 0, 0.918)",
+        "size": "8vmin",
+        "family": "빙자람",
+        "style": "normal",
+        "txt": "혼자 있고 싶어요",
+        "height" : "200%"
+    }
+
+    ,{
+        "page": 18,
+        "collum": 0,
+        "color": "rgba(255, 238, 0, 0.918)",
+        "size": "6vmin",
+        "family": "빙자람",
+        "style": "normal",
+        "txt": "..여기까지 오다니..대단하다..",
+        "height" : "200%"
+    },{
+        "page": 18,
+        "collum": 1,
+        "color": "white",
+        "size": "7vmin",
+        "family": "워헤븐",
+        "style": "normal",
+        "txt": "그냥 호기심에 오신 분은",
+        "height" : "200%"
+    },{
+        "page": 18,
+        "collum": 1,
+        "color": "white",
+        "size": "7vmin",
+        "family": "워헤븐",
+        "style": "normal",
+        "txt": "다 도망갔겠죠..?",
+        "height" : "200%"
+    }
+    ,{
+        "page": 19,
+        "collum": 0,
+        "color": "white",
+        "size": "9vmin",
+        "family": "워헤븐",
+        "style": "normal",
+        "txt": "그렇다면...😊",
+        "height" : "200%"
+    }
+    
+    ,{
+        "page": 20,
+        "collum": 0,
+        "color": "white",
+        "size": "23vmin",
+        "family": "워헤븐",
+        "style": "italic",
+        "txt": "기획의 ",
+        "shadow" : "0 0 7px #0fa, 0 0 10px #0fa, 0 0 21px #0fa, 0 0 42px #0fa",
+        "height" : "300%"
+    },{
+        "page": 21,
+        "collum": 0,
+        "color": "white",
+        "size": "4vmin",
+        "family": "워헤븐",
+        "style": "normal",
+        "txt": "니즈를 파악하는 단계",
+        "shadow":"1px 0.5px 0.5px rgb(136, 156, 139)",
+        "height" : "200%"
+    },{
+        "page": 21,
+        "collum": 1,
+        "color": "white",
+        "size": "5vmin",
+        "family": "워헤븐",
+        "style": "normal",
+        "txt": "구조를 설계하는 단계",
+        "shadow":"1px 0.5px 0.5px rgb(136, 156, 139)",
+        "height" : "200%"
+    },{
+        "page": 21,
+        "collum": 2,
+        "color": "white",
+        "size": "6vmin",
+        "family": "워헤븐",
+        "style": "normal",
+        "txt": "내용을 심화하는 단계",
+        "shadow":"1px 0.5px 0.5px rgb(136, 156, 139)",
+        "height" : "200%"
+    },{
+        "page": 21,
+        "collum": 3,
+        "color": "white",
+        "size": "9.5vmin",
+        "family": "워헤븐",
+        "style": "normal",
+        "txt": "대상에게 직접",
+        "shadow":"0 0 1px #0fa, 0 0 3px #0fa, 0 0 10px #0fa",
+        "height" : "200%"
+    },{
+        "page": 21,
+        "collum": 3,
+        "color": "white",
+        "size": "12vmin",
+        "family": "워헤븐",
+        "style": "normal",
+        "txt": " 제안하는 단계",
+        "shadow" : "0 0 1px #0fa, 0 0 3px #0fa, 0 0 10px #0fa",
+        "height" : "200%"
+    }
+
+    ,{
+        "page": 22,
+        "collum": 0,
+        "color": "white",
+        "size": "7vmin",
+        "family": "워헤븐",
+        "style": "normal",
+        "txt": "각 단계를",
+        "height" : "200%"
+    },{
+        "page": 22,
+        "collum": 0,
+        "color": "white",
+        "size": "7vmin",
+        "family": "워헤븐",
+        "style": "normal",
+        "txt": "1주에 1개씩 밟아,",
+        "height" : "200%"
+    },{
+        "page": 22,
+        "collum": 1,
+        "color": "white",
+        "size": "8vmin",
+        "family": "워헤븐",
+        "style": "normal",
+        "txt": "동아리 졸업까지 ",
+        "height" : "200%"
+    },{
+        "page": 22,
+        "collum": 1,
+        "color": "rgb(4, 243, 131)",
+        "size": "9vmin",
+        "family": "워헤븐",
+        "style": "normal",
+        "txt": "총 7개의 기획안을",
+        "height" : "200%"
+    },{
+        "page": 22,
+        "collum": 2,
+        "color": "white",
+        "size": "8vmin",
+        "family": "워헤븐",
+        "style": "normal",
+        "txt": "기업에게 던지는 과정",
+        "height" : "200%"
+    }
+
+    ,{
+        "page": 23,
+        "collum": 0,
+        "color": "white",
+        "size": "7vmin",
+        "family": "워헤븐",
+        "style": "normal",
+        "txt": "내가 기획해서,",
+        "height" : "200%"
+    },{
+        "page": 23,
+        "collum": 1,
+        "color": "white",
+        "size": "7vmin",
+        "family": "워헤븐",
+        "style": "normal",
+        "txt": "내가 가고 싶은 기업에게 ",
+        "height" : "200%"
+    },{
+        "page": 23,
+        "collum": 2,
+        "color": "rgb(4, 243, 131)",
+        "size": "9vmin",
+        "family": "워헤븐",
+        "style": "normal",
+        "txt": "직접 제안 할거에요",
+        "height" : "200%"
+    }
+
+    ,{
+        "page": 24,
+        "collum": 0,
+        "color": "white",
+        "size": "6vmin",
+        "family": "워헤븐",
+        "style": "normal",
+        "txt": "이것을 이길 수 있는",
+        "height" : "200%"
+    },{
+        "page": 24,
+        "collum": 1,
+        "color": "white",
+        "size": "6vmin",
+        "family": "워헤븐",
+        "style": "normal",
+        "txt": "경력과 스펙은 없는데, ",
+        "height" : "200%"
+    },{
+        "page": 24,
+        "collum": 2,
+        "color": "white",
+        "size": "6vmin",
+        "family": "워헤븐",
+        "style": "normal",
+        "txt": "혼자 하긴 힘들다보니,",
+        "height" : "200%"
+    },{
+        "page": 24,
+        "collum": 3,
+        "color": "white",
+        "size": "6vmin",
+        "family": "워헤븐",
+        "style": "normal",
+        "txt": "우리 클럽에서 합니다. ☺",
+        "height" : "200%"
+    }
+
+    ,{
+        "page": 25,
+        "collum": 0,
+        "color": "white",
+        "size": "11vmin",
+        "family": "빙자람",
+        "style": "normal",
+        "txt": "따라.. 올 수 있지?"
+    }
+
+    ,{
+        "page": 26,
+        "collum": 0,
+        "color": "white",
+        "size": "12vmin",
+        "family": "빙자람",
+        "style": "normal",
+        "txt": "“이봐 자네...”",
+        "height" : "230%"
+    },{
+        "page": 26,
+        "collum": 1,
+        "color": "rgb(4, 243, 131)",
+        "size": "10vmin",
+        "family": "빙자람",
+        "style": "normal",
+        "txt": "이번 기획은",
+        "height" : "130%"
+    }
+    ,{
+        "page": 26,
+        "collum": 1,
+        "color": "rgb(4, 243, 131)",
+        "size": "8vmin",
+        "family": "빙자람",
+        "style": "normal",
+        "txt": "자네가 맡아보지 않겠나?",
+        "height" : "130%"
+    }
+    
+    ,{
+        "page": 27,
+        "collum": 0,
+        "color": "white",
+        "size": "9vmin",
+        "family": "워헤븐",
+        "style": "normal",
+        "txt": "기획/컨설팅 분야",
+        "height" : "230%"
+    },{
+        "page": 27,
+        "collum": 1,
+        "color": "rgb(4, 243, 131)",
+        "size": "9vmin",
+        "family": "워헤븐",
+        "style": "normal",
+        "txt": "최고의 동아리",
+        "height" : "230%"
+    }
+
+    ,{
+        "page": 28,
+        "collum": 0,
+        "color": "white",
+        "size": "7vmin",
+        "family": "워헤븐",
+        "style": "normal",
+        "txt": "전국대학연합,",
+        "height" : "230%"
+    },{
+        "page": 28,
+        "collum": 1,
+        "color": "white",
+        "size": "9vmin",
+        "family": "워헤븐",
+        "style": "normal",
+        "txt": "클럽 팔랑크스",
+        "shadow" : "0 0 7px #0fa, 0 0 10px #0fa, 0 0 42px #0fa", 
+        "height" : "230%"
+    },{
+        "page": 28,
+        "collum": 1,
+        "color": "white",
+        "size": "6vmin",
+        "family": "워헤븐",
+        "style": "normal",
+        "txt": "에 오신 것을 환영합니다.",
+        "height" : "230%"
+    }
+]
