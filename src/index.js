@@ -5,10 +5,11 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 
-import ReactGA from 'react-ga';
+import ReactGA from "react-ga4";
 
-const TRACKING_ID = process.env.REACT_APP_GOOGLE_ANALYTICS_TRACKING_ID;
-ReactGA.initialize(TRACKING_ID);
+if (process.env.REACT_APP_GA_KEY) {
+  ReactGA.initialize(process.env.REACT_APP_GA_KEY);
+}
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
