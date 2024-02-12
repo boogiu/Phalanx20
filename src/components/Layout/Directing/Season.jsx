@@ -230,7 +230,7 @@ const Season = () => {
                     시스템 검수를 거쳐 발급됩니다. <br/>
                     (고유번호와 운영진 검수 단계 컨펌)<br/>
                     <br/><br/>
-                    <NumSpan>3. 기획/컨설팅 분야<br/> 에세이</NumSpan> 
+                    <NumSpan>3. 기획/컨설팅 분야<br/> 에세이 컬렉션</NumSpan> 
                     <YellowSpan>(자율)<br/></YellowSpan>
                     기획/컨설팅 산업 분야에 대해 매주<br/>
                     본인이 작성한 에세이가 담긴 자신의 <br/>

@@ -283,7 +283,7 @@ const ImgComponent = ({ imagePath, top, left,rotate,width }) => {
         rotate={rotate}
         width={width}
       >
-          <img src={`${process.env.PUBLIC_URL }/imgData/${imagePath}`} alt="페이지 이미지" style={{ maxWidth: '50%', maxHeight: '50%' }}/>
+          <img src={`${process.env.PUBLIC_URL }/imgData/${imagePath}`} alt="페이지 이미지" style={{ maxWidth: '80%', maxHeight: '80%' }}/>
       </ImageContainer>
       
   );
