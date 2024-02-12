@@ -11,6 +11,7 @@
 # production
 /build
 /Phalanx.pem
+/.env
 # misc
 .DS_Store
 .env.local
