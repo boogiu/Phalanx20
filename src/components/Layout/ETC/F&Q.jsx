@@ -26,7 +26,7 @@ const FAQ = () => {
 
           <SectionBlock>
             <Imagediv2>
-              <ImgComponent2 imagePath={"Chaticon2.png"} 
+              <ImgComponent2 imagePath={"ChatIcon2.png"} 
                   top={"20%"} 
                   left={"50%"}
                   rotate={"0deg"}
@@ -85,7 +85,7 @@ const FAQ = () => {
                      </BoxinBox>
             </TextSubGruop2>
             <Imagediv2>
-              <ImgComponent2 imagePath={"Chaticon1.png"} 
+              <ImgComponent2 imagePath={"ChatIcon.png"} 
                   top={"20%"} 
                   left={"50%"}
                   rotate={"0deg"}
@@ -355,7 +355,7 @@ const ImgComponent2 = ({ imagePath, top, left,rotate,width }) => {
           <img src={`${process.env.PUBLIC_URL }/imgData/${imagePath}`} 
           alt="페이지 이미지" 
           style={{ 
-            maxWidth: '30%', maxHeight: '30%' ,
+            maxWidth: '80%', maxHeight: '80%' ,
             borderRadius :"5% 5% 5% 5% "
           }}/>
       </ImageContainer>
