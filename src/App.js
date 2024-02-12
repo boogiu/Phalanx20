@@ -1,7 +1,7 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import './App.css';
-import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
-import ReactGA4 from 'react-ga4';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import RouteChangeTracker from './RouteChangeTracker';
 import IntroPage from './Pages/IntroPage';
 import DefaultPage from './Pages/DefaultPage';
 import CenturionPage from './Pages/CenturionPage';
@@ -14,8 +14,8 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
+        <RouteChangeTracker />
         <Routes>
-          <Route path="*" element={<RouteChangeTracker />} />
           <Route path="/" element={<IntroPage />} />
           <Route path="/DefaultPage" element={<DefaultPage />} />
           <Route path="/CenturionPage" element={<CenturionPage />} />
@@ -27,19 +27,6 @@ function App() {
       </BrowserRouter>
     </div>
   );
-}
-
-function RouteChangeTracker() {
-  const location = useLocation();
-
-  useEffect(() => {
-    if (!window.location.href.includes("localhost")) {
-      ReactGA4.initialize(process.env.REACT_APP_GOOGLE_ANALYTICS_MEASUREMENT_ID);
-      ReactGA4.send({ hitType: 'pageview', page: location.pathname });
-    }
-  }, [location]);
-
-  return null;
 }
 
 export default App;
