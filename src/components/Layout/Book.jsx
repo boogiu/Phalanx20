@@ -3,7 +3,7 @@ import styled, { keyframes, css } from 'styled-components';
 import { FcNext, FcPrevious } from 'react-icons/fc';
 import textData from '../Data/HistoryMessageData.json'; 
 import imageData from '../Data/PreImageData.json';// JSON 파일을 import 합니다.
-import { useNavigate } from 'react-router-dom';
+
 import backimg from '../img/histort.jpg'
 
 

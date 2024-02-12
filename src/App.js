@@ -7,11 +7,15 @@ import DirectingPage from './Pages/DirectingPage'
 import SpecialPage from './Pages/SpecialPage'
 import ETCPage from './Pages/ETCPage'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import RouteChangeTracker from './RouteChangeTracker';
 
 function App() {
+ 
+
   return (
     <div className="App">
       <BrowserRouter>
+      <RouteChangeTracker/>
         <Routes>
           <Route path="*" element={<IntroPage />}></Route>
           <Route path="/DefaultPage" element={<DefaultPage />}></Route>
