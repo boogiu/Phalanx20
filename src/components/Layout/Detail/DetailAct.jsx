@@ -135,7 +135,7 @@ export default DetailAct;
 const BackGroundGroup = styled.div`
   height: auto;
   background-image: linear-gradient(
-    rgba(0, 0, 0, 0.9), 
+    rgba(0, 0, 0, 0.8), 
     rgba(0, 0, 0, 0.8), 
     rgba(0, 0, 0, 0.7),
     rgba(0, 0, 0, 0.85)

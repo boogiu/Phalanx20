@@ -2,77 +2,85 @@ import React, { useState } from 'react';
 import styled from 'styled-components';
 import { fadeInFromLeft } from "../../common/Animation"
 
-const Season = () => {
+const Point = () => {
 
   return (
     <BackGroundSrc imagePath={"DiBack.png"}>
 
           <SectionBlock>
             <TextSubGruop2>
-                     <Main >
-                      시즌과 <br/>주차
-                     </Main>
-                     <Imagediv2>
-                    <ImgComponent2 imagePath={"Calender.png"} 
+            <Imagediv2>
+                    <ImgComponent2 imagePath={"Crown.png"} 
                     top={"-1000%"} 
-                    left={"40%"}
+                    left={"-30%"}
                     rotate={"0deg"}
                     width={"60%"}/>  
                 </Imagediv2>
+                     <Main style={{textAlign : "center"}}>
+                     일반/심화 크루 
+                     </Main>
                      <Txt>
                      <Bigger><GreenSpan>클럽 팔랑크스는,<br/></GreenSpan></Bigger>
-                     1년을 기준하여  <RedSpan>4개의시즌<br/></RedSpan>
-                     (겨울/봄/여름/가을), 그리고 각 주차 별로 <br/>
-                     진행하는 운영 기간 단위를 가집니다.  <br/>
-                     <YellowSpan>(타 클럽형 동아리와 동일)</YellowSpan>
-                     <br/> <br/>
-                    팔랑크스는 전국대학연합 동아리인만큼, <br/>
-                    진행 기간을 <RedSpan>대학생들의 학기/방학 일정을 <br/>
-                     그 기준으로</RedSpan> 잡게 됩니다.  <br/>
+                     산하 <Bigger><RedSpan>세부 팀</RedSpan>과 
+                     <YellowSpan> 파트로</YellowSpan></Bigger> 진행되며,<br/><br/>
+                     <RedSpan>팀장은</RedSpan> 팀 크루 전원의 활동 내용을<br/>
+                    브리핑하고 주차 활동에 대한 검수를 <br/>
+                    진행하여, 크루들의 주차별 포트폴리오<br/>
+                     누적 과정을 도와줍니다. <br/>
                      <br/>
-                     이에 따라<GreenSpan> 겨울과 여름을 각 2개월,  <br/>
-                     8주</GreenSpan>로 구성된 시즌으로,  <YellowSpan>봄과 가을을  <br/>
-                     각 4개월, 16주</YellowSpan>로 구성된 시즌으로  <br/>
-                     진행하며, 매주 정해진 일정에 따라  <br/>
-                     모든 크루들이 자신의 포트폴리오를  <br/>
-                     쌓는 방식으로 진행됩니다.  <br/>
-                     <RedSpan>(졸업유예 혹은 졸업생 분들 역시,  <br/>
-                    이 일정이 공통으로 적용되오니  <br/>
-                    참고 바랍니다!) <br/></RedSpan>
+
+                    모든 클럽 크루들은 <Bigger><GreenSpan>‘일반’ 크루이며,<br/>
+                        </GreenSpan></Bigger>
+                    일반 크루의 주차 과정 동안 <br/>
+                    타의 모범이 되고, 전체 팀 전략과 기획을<br/>
+                    수반하기에 역량이 증빙되었다고 여겨지는<br/>
+                     크루들이 <YellowSpan>심화 크루로 스텝업하여,<br/>
+                    각 팀의 ‘기획실’ 을 구성</YellowSpan>합니다. <br/>
                     <br/>
 
-
-                    모든 크루분들은 총 30주를 활동 주차로  <br/>
-                    인정 받아, 해당 기간 동안의 포트폴리오와  <br/>
-                    기획/컨설팅 분야의 <Bigger><GreenSpan>다양한 활동 등이  <br/>
-                    누적된 졸업 결과물</GreenSpan></Bigger> 을 가지고   <br/>
-                    팔랑크스의 졸업 크루의 경력을 가지게 <br/>됩니다. <br/> 
+                    각 <YellowSpan>팀 기획실의 심화 크루들은</YellowSpan> <br/>
+                    특정 파트를 리딩하거나, 자신의<br/>
+                    팀 크루들의 결과물을 리딩하고 <br/>
+                    케어하여 더 나은 방향으로 이끌며, <br/>
+                    팀 크루들과 함께 여러 기획안들이 <br/>
+                    <Bigger><GreenSpan>실제 기업들과의 연계/실무 <br/>프로젝트로 
+                    진척될 수 있도록</GreenSpan></Bigger> <br/>역할합니다. <br/>
                     <br/>
 
-                    팔랑크스의 매주 활동은, 중앙, 세부,  <br/>
-                    특별 활동으로 구성된 다양한 내용으로  <br/>
-                    구성되며, 이는 역시 <RedSpan>상시적으로 운영되는 <br/>
-                    캘린더를 통해</RedSpan> 확인하셔야 합니다. 
+                    그리고, <Bigger><RedSpan>올림피아 기획 대전에서,
+                        </RedSpan></Bigger> <br/>
+                    파트장을 중심으로 파트에서 진행해온 <br/>
+                    기획들을 연계/후원사들의 심사 하에서 <br/>
+                    진행되는 경쟁 PT에서 크루들과 함께 <br/>
+                    발표합니다. 
+
+
                      </Txt>
+
                      <Imagediv>
-                    <ImgComponent imagePath={"season1.png"} 
-                    top={"-0%"} 
-                    left={"-40%"}
+                    <ImgComponent imagePath={"CrewLevel1.png"} 
+                    top={"-10%"} 
+                    left={"-25%"}
                     rotate={"0deg"}
                     width={"120%"}/>
-                     <ImgComponent imagePath={"season2.png"} 
-                    top={"30%"} 
-                    left={"20%"}
+                    <ImgComponent imagePath={"ADV1.png"} 
+                    top={"50%"} 
+                    left={"10%"}
                     rotate={"0deg"}
-                    width={"120%"}/>   
+                    width={"150%"}/>
+                  
+                    
                 </Imagediv>
             </TextSubGruop2>
+
+            
           </SectionBlock>
+
       </BackGroundSrc>
   );
 };
 
-export default Season;
+export default Point;
 
 const BackGroundGroup = styled.div`
   height: auto;

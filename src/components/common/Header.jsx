@@ -1,7 +1,10 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import { BsGrid3X3GapFill } from "react-icons/bs";
+
+import { useAppContext } from '../../AppContext';
+
 const HeaderContainer = styled.div`
   position: fixed;
   top: 0;
@@ -91,7 +94,7 @@ const SideMenu = styled.div`
   flex-flow: column nowrap;
   position: absolute;
   top: 100%;
-  right: ${props => props.isOpen ? '0' : '-200%'};
+  right: ${props => props.isopen ? '0' : '-200%'};
   width: 90%;
   height: 100vh;
   background-color: rgb(0,0,0,0.8);
@@ -135,15 +138,22 @@ const Title = styled(Link)`
   
 `;
 
-const Header = () => {
+
+
+const Header =( )=> {
+
+  const { setScrollToRef } = useAppContext();
+
+  const handleClick = (refName) => {
+    setScrollToRef(refName);
+  };
+
   const [isSideMenuOpen, setIsSideMenuOpen] = useState(false);
   const [ToggleIndex, setToggleMenu] = useState(null);
   const toggleMenu = (index) => {
     setToggleMenu(ToggleIndex === index ? null : index); // Toggle the menu item
   };
-  
-
-
+ 
   return (
     <HeaderContainer>
       <>
@@ -157,7 +167,6 @@ const Header = () => {
         </SmallLink>
         <SmallLink href="https://abaft-faucet-515.notion.site/1b823d9452624d7285b496675a8aff9d"
         >훈련지도</SmallLink>
-        
         </SmallDiv>
       </TitleDiv>
       
@@ -165,20 +174,34 @@ const Header = () => {
         <IconStyle/>
       </HamburgerMenu>
 
-      <SideMenu isOpen={isSideMenuOpen}>
+      <SideMenu isopen={isSideMenuOpen}>
         <MenuList>
-          {headerNav.map((nav, index) => (
+          {headerNav.map((nav, index) => ( 
             <MenuItem key={index}>
-              <StyledLink1 onClick={() => toggleMenu(index)} to={ToggleIndex === index ? nav.url : '#'}>
-                {nav.title} 
-              </StyledLink1>
+              <StyledLink1
+                  onClick={() => {
+                    toggleMenu(index); // 토글 여닫기
+                    if (ToggleIndex === index) {
+                      handleClick('default'); // default로 설정
+                    }
+                  }} 
+                  to={ToggleIndex === index ? nav.url : '#'}
+                >
+                  {nav.title} 
+                </StyledLink1>
                 <>
                   <StyledLink2 className={ToggleIndex === index? 'open' : ''} 
-                  to ={nav.url1}>{nav.Subtitle1}</StyledLink2>
+                  to ={nav.url1}
+                  onClick={() => handleClick('section1')}
+                  >{nav.Subtitle1}</StyledLink2>
                   <StyledLink2 className={ToggleIndex === index? 'open' : ''} 
-                 to ={nav.url2}>{nav.Subtitle2}</StyledLink2>
+                  to ={nav.url2}
+                  onClick={() => handleClick('section2')}
+                  >{nav.Subtitle2}</StyledLink2>
                   <StyledLink2 className={ToggleIndex === index? 'open' : ''} 
-                  to ={nav.url3}>{nav.Subtitle3}</StyledLink2>
+                  to ={nav.url3}
+                  onClick={() => handleClick('section3')}
+                  >{nav.Subtitle3}</StyledLink2>
     
                 </>
             </MenuItem>
@@ -237,7 +260,7 @@ const headerNav = [
   url: "/DirectingPage",
   Subtitle1: "시즌과 주차",
   url1: "/DirectingPage",
-  Subtitle2: "활동 포인트",
+  Subtitle2: "일반 크루/심화 크루",
   url2: "/DirectingPage",
   Subtitle3: "졸업과 포트폴리오",
   url3: "/DirectingPage",

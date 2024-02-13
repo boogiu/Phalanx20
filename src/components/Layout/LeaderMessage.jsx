@@ -3,11 +3,11 @@ import styled from 'styled-components';
 import { CgChevronUp, CgChevronDown  } from "react-icons/cg";
 
 const LeaderMessage = () => {
-  const [isOpen, setIsOpen] = useState(false); // 텍스트 박스의 여닫음 상태를 관리하는 상태 변수
+  const [isopen, setIsOpen] = useState(false); // 텍스트 박스의 여닫음 상태를 관리하는 상태 변수
 
   // 텍스트 박스를 여닫는 함수
   const toggleTextBox = () => {
-    setIsOpen(!isOpen);
+    setIsOpen(!isopen);
   };
 
   return (
@@ -32,9 +32,9 @@ const LeaderMessage = () => {
       </SectionBlock>
 
       {/* 여닫을 수 있는 텍스트 박스 */}
-      <TextBox isOpen={isOpen}>
+      <TextBox isopen={isopen}>
         <ToggleButton onClick={toggleTextBox}>
-        {isOpen ? (<><CgChevronUp /> 주절주절 그만 보기</>) : 
+        {isopen ? (<><CgChevronUp /> 주절주절 그만 보기</>) : 
         (<> 주절주절 더보기 <CgChevronDown /> </>)}
         </ToggleButton>
         <Content>
@@ -410,7 +410,7 @@ const TextBox = styled.div`
   transition: height 0.5s ease;
   overflow-y: auto;
   text-align:left;
-  height: ${({ isOpen }) => (isOpen ? "100vh" : "25vh")};
+  height: ${({ isopen }) => (isopen ? "100vh" : "25vh")};
 `;
 
 

@@ -13,21 +13,33 @@ import Header from '../components/common/Header';
 import SnsFooter from '../components/Layout/SnsFooter';
 import Footer from '../components/common/Footer';
 import LeaderMessage from '../components/Layout/LeaderMessage';
-
+import { useAppContext } from '../AppContext';
 
 const DefaultSection = () => {
+  const { scrollToRef } = useAppContext();
+  const sectionDefault = useRef(null);
+  const section1Ref = useRef(null);
+  const section2Ref = useRef(null);
+  const section3Ref = useRef(null);
+
+  useEffect(() => {
+    if (scrollToRef === 'section1' && section1Ref.current) {
+      section1Ref.current.scrollIntoView({ behavior: 'smooth' });
+    } else if (scrollToRef === 'section2' && section2Ref.current) {
+      section2Ref.current.scrollIntoView({ behavior: 'smooth' });
+    } else if (scrollToRef === 'section3' && section3Ref.current) {
+      section3Ref.current.scrollIntoView({ behavior: 'smooth' });
+    } else if (scrollToRef === 'default' && sectionDefault.current) {
+      sectionDefault.current.scrollIntoView({ behavior: 'smooth' });
+    }
+  }, [scrollToRef, section1Ref, section2Ref, section3Ref,sectionDefault]); // ref들도 의존성 배열에 추가해주어야 합니다.
+  
+
     const titleRef = useRef(null);
     const subTitleRef = useRef(null);
     const descriptionRef = useRef(null);
-    const [isInViewport, setIsInViewport] = useState(false);
-
-    const scrollToElement = (id) => {
-      const element = document.getElementById(id);
-      if (element) {
-        element.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      }
-    };
-
+    const [isInViewport, setIsInViewport] = useState(false);   
+   
     useEffect(() => {
         const observerCallback = (entries) => {
             entries.forEach((entry) => {
@@ -68,24 +80,24 @@ const DefaultSection = () => {
   
   return (
     <StyledContainer>
-      <Header scrollToElement={scrollToElement} />
-
+       <Header />
+        
       <div style={{margin : "13vh 0 0 0"}}>
+        <div ref={sectionDefault}/>
         <FirstSection/>
-
+        
         <LeftSlideGroup ref={titleRef} isInViewport={isInViewport}>
           <SeocndSection/>
         </LeftSlideGroup>
-        <ChatSection id='Def1'/>
-
+        <ChatSection/>
+        <div ref={section2Ref}/>
         <ImageRoll/>
-
-        <ThirdSection id='Def2'/>
-
+        <div ref={section1Ref}/>
+        <ThirdSection/>
         <SlideShow/>
-
         <MapLink/>
-        <LeaderMessage/>
+        <div ref={section3Ref}/>
+        <LeaderMessage  />
         <SnsFooter/>
         
         <Footer/>

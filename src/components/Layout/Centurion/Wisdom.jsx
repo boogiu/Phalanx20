@@ -2,29 +2,11 @@ import React, { useState } from 'react';
 import styled from 'styled-components';
 import { fadeInFromLeft } from "../../common/Animation"
 
+
 const Wisdom = () => {
 
   return (
-    <BackGroundSrc imagePath={"Cent1.png"}>
-        <SectionBlock>
-            <OnloadGroup>
-              <TitleSection>
-                <ImgComponent imagePath={"Flag1.png"} 
-                top={"20%"} 
-                left={"10%"}
-                rotate={"0deg"}
-                width={"30%"}/>
-                <TextSection>
-                  
-                  <Title style={{textAlign : "end"}}>
-                    중앙활동</Title>
-                  <SubTitle style={{textAlign : "end"}}>
-                  클럽 전체 크루들이 <br/>공통으로 진행하는<br/> 
-                  <GreenSpan>‘중앙 과정’</GreenSpan>입니다.</SubTitle>
-                </TextSection>
-              </TitleSection>
-            </OnloadGroup>  
-          </SectionBlock>
+    <BackGroundSrc imagePath={"CentW.png"}>
 
           <SectionBlock id="Second-section">
             <OnloadGroup>
@@ -90,9 +72,8 @@ export default Wisdom;
 const BackGroundGroup = styled.div`
   height: auto;
   background-image: linear-gradient(
-    rgba(0, 0, 0, 0.4), 
-    rgba(0, 0, 0, 0.7), 
-    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.95), 
+    rgba(0, 0, 0, 0.8),
     rgba(0, 0, 0, 0.85)
   ),
     url(${({ BackGroundImage }) => BackGroundImage});

@@ -5,27 +5,7 @@ import { fadeInFromLeft } from "../../common/Animation"
 const Team = () => {
 
   return (
-    <BackGroundSrc imagePath={"TeamBack.png"}>
-        <SectionBlock>
-            <OnloadGroup>
-              <TitleSection>
-                <ImgComponent imagePath={"heart1.png"} 
-                top={"20%"} 
-                left={"70%"}
-                rotate={"0deg"}
-                width={"30%"}/>
-                <TextSection>
-                  
-                  <Title style={{textAlign : "start"}}>
-                    세부활동</Title>
-                  <SubTitle style={{textAlign : "start"}}>
-                  자신이 속한 <br/>세부 팀과 파트에서 <br/>
-                  진행하는 <GreenSpan>‘세부 과정‘</GreenSpan> 입니다.
-                  </SubTitle>
-                </TextSection>
-              </TitleSection>
-            </OnloadGroup>  
-          </SectionBlock>
+    <BackGroundSrc imagePath={"TeamBack2.png"}>
           <SectionBlock>
             <HookerSection>
                 <ImgComponent 
@@ -165,8 +145,8 @@ export default Team;
 const BackGroundGroup = styled.div`
   height: auto;
   background-image: linear-gradient(
-    rgba(0, 0, 0, 0.8), 
-    rgba(0, 0, 0, 0.7), 
+    rgba(0, 0, 0, 0.95), 
+    rgba(0, 0, 0, 0.5), 
     rgba(0, 0, 0, 0.6),
     rgba(0, 0, 0, 0.9)
   ),
