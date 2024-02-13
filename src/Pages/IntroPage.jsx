@@ -5,7 +5,7 @@ import { FcNext, FcPrevious } from 'react-icons/fc';
 import textData from '../components/Data/PreMessageData.json'; 
 import imageData from '../components/Data/PreImageData.json';// JSON 파일을 import 합니다.
 import { useNavigate } from 'react-router-dom';
-
+import ReactGA4 from 'react-ga4';
 
 
 
@@ -27,6 +27,11 @@ const IntroPage = () => {
     const nextClick = () => {
         if (textIndex === 28) {
             console.log('다음 페이지');
+            ReactGA4.event({
+                category: 'Intro Navigation',
+                action: 'Intro Skipped',
+                label: 'Intro Page Skipped'
+            });
             navigate('/DefaultPage');
         } else {
             setTextIndex(textIndex + 1);

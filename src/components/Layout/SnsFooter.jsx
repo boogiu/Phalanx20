@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import ReactGA4 from 'react-ga4';
 
 const FooterContainer = styled.footer`
   color: #fff;
@@ -74,6 +75,16 @@ const IconImg = ({ imagePath }) => {
 
 
 const SnsFooter = () => {
+  const handleClick = (event, elementId) => {
+    // 클릭된 요소의 정보를 추적합니다.
+    // 이벤트를 추적합니다.
+    ReactGA4.event({
+      category: 'User Interaction',
+      action: 'Social Click',
+      label: `Clicked Element ID: ${elementId}`,
+    });
+  };
+
   return (
   <BackGroundSrc imagePath={"modalback.png"}>
     <FooterContainer>
@@ -85,28 +96,37 @@ const SnsFooter = () => {
           <SocialLinks>
 
             {/* Render social links with names and icons */}
-            <SocialLink href="https://cafe.naver.com/phalanx">
+            <SocialLink href="https://cafe.naver.com/phalanx" 
+            onClick={(event) => handleClick(event,'네이버 카페')}
+            >
               <ImgComponent imagePath={"cafe.png"}/> 카페(네이버)
             </SocialLink>
-            <SocialLink href="https://phalanx-club.tistory.com/">
+            <SocialLink href="https://phalanx-club.tistory.com/"
+            onClick={(event) => handleClick(event, '티스토리')}>
               <ImgComponent imagePath={"tstory.png"}/> 티스토리
             </SocialLink>
-            <SocialLink href="https://blog.naver.com/phalanx_official">
+            <SocialLink href="https://blog.naver.com/phalanx_official"
+            onClick={(event) => handleClick(event, '네이버 블로그')}>
               <ImgComponent imagePath={"blog.png"}/> 블로그(네이버)
             </SocialLink>
-            <SocialLink href="https://docs.google.com/forms/d/e/1FAIpQLSf_GwY-CKdyQFUZNIB0rITSQnJQqG2bIybe805hXHUrJPmcsg/viewform">
+            <SocialLink href="https://docs.google.com/forms/d/e/1FAIpQLSf_GwY-CKdyQFUZNIB0rITSQnJQqG2bIybe805hXHUrJPmcsg/viewform"
+            onClick={(event) => handleClick(event, '지원서')}>
               <ImgComponent imagePath={"Form.png"}/> 지원하기
             </SocialLink>
-            <SocialLink href="https://www.instagram.com/phalanx.club/">
+            <SocialLink href="https://www.instagram.com/phalanx.club/"
+            onClick={(event) => handleClick(event, '인스타그램')}>
               <ImgComponent imagePath={"insta.png"}/> 인스타그램
             </SocialLink>
-            <SocialLink href="https://www.youtube.com/@phalanxclub">
+            <SocialLink href="https://www.youtube.com/@phalanxclub"
+            onClick={(event) => handleClick(event, '유튜브')}>
               <ImgComponent imagePath={"utube.png"}/> 유튜브
             </SocialLink>
-            <SocialLink href="https://phalanxpms.azurewebsites.net/graduatepage">
+            <SocialLink href="https://phalanxpms.azurewebsites.net/graduatepage"
+            onClick={(event) => handleClick(event, '졸업 페이지')}>
               <ImgComponent imagePath={"System.png"}/> 동아리 시스템
             </SocialLink>
-            <SocialLink href="https://pf.kakao.com/_RxluiG">
+            <SocialLink href="https://pf.kakao.com/_RxluiG"
+            onClick={(event) => handleClick(event, '카카오 플친')}>
               <ImgComponent imagePath={"kakao.png"}/> 플러스친구
             </SocialLink>
             
