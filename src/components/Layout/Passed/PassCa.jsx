@@ -316,25 +316,18 @@ transform : rotate(${({ rotate }) => rotate});
 top:${({ top }) => top};
 left: ${({ left }) => left};
 position: absolute; /* 겹치는 요소에 position 추가 */
-
 `;
 
-
-
-const ImgComponent2 = ({ imagePath, top, left,rotate, width }) => {
+const ImgComponent2 = ({ imagePath, top, left,rotate,width }) => {
   return (
       <ImageContainer 
         top = {top}
         left = {left}
         rotate={rotate}
-        width={width}   
+        width={width}
       >
-          <img src={`${process.env.PUBLIC_URL}/imgData/${imagePath}`} 
-          alt="페이지 이미지" 
-          style={{ 
-            maxWidth: '100%', maxHeight: '100%' ,
-            borderRadius :"5% 5% 5% 5% "
-          }}/>
+          <img src={`${process.env.PUBLIC_URL }/imgData/${imagePath}`} alt="페이지 이미지" 
+          style={{ maxWidth: '100%', maxHeight: '100%' }}/>
       </ImageContainer>
       
   );

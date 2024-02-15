@@ -35,7 +35,6 @@ function App() {
             <Route path="/SpecialPage" element={<SpecialPage />} />
             <Route path="/ETCPage" element={<ETCPage />} />
             <Route path="/DocuPass" element={<DocuPassPage />} />
-
             <Route path="/DocuPass/cal" element={<PassCalender />}/>
             <Route path="/DocuPass/PreGuide" element={<PreGuide />} />
             <Route path="/DocuPass/ClubDetail" element={<ClubDetail />} />
