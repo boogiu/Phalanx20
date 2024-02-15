@@ -47,8 +47,7 @@ const PassedGuide = () => {
                 자랑스러운 동문으로 <br/>
                 함께 하길 바랍니다. ☺
                 </p>
-                <JustImg imagePath={"Wellcome2.png"}
-                width ={"90%"}
+                <JustImg imagePath={"wellcome2.png"}
                 />
             </TextSubGruop2>
             <ImgComponent 
