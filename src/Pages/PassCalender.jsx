@@ -20,11 +20,10 @@ const PassCalender = () => {
         alert('아직 모든 사항에 동의하지 않았습니다.');
       }
       else if (isChecked) {
-        navigate("/DocuPass/PreGuide");
+        navigate("/PreGuide");
       }
     };
     const handleLinkClick2 = () => {
-
         navigate("/DocuPass");
     };
 

@@ -46,12 +46,12 @@ const ClubDeTail = () => {
     if (!goCheck) {
       alert('아직 모든 사항에 동의하지 않았습니다.');
     } else {
-      navigate('/DocuPass/AboutInterview');
+      navigate('/AboutInterview');
     }
   };
 
   const handleLinkClick2 = () => {
-    navigate('/DocuPass/PreGuide');
+    navigate('/PreGuide');
   };
 
   return (

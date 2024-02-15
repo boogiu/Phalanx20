@@ -22,12 +22,12 @@ const PreGuide = () => {
       alert('아직 모든 사항에 동의하지 않았습니다.');
     }
     else if (isChecked) {
-      navigate("/DocuPass/ClubDetail");
+      navigate("/ClubDetail");
     }
   };
   const handleLinkClick2 = () => {
 
-      navigate("/DocuPass/cal");
+      navigate("/cal");
   };
 
   return (

@@ -278,7 +278,7 @@ const PassedGuide = () => {
               <p>팔랑크스의 지원 다음 단계(면접 준비)로 <br/>가는 분은
                아래 버튼을 눌러주세요</p>
               <GradientButton>
-                <LinkBtn to={'/DocuPass/cal'}>면접 전형 넘어가기<CgChevronDoubleRight/></LinkBtn>
+                <LinkBtn to={'/cal'}>면접 전형 넘어가기<CgChevronDoubleRight/></LinkBtn>
             </GradientButton>
             </BtnDiv>
           </SectionBlock>

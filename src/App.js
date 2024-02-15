@@ -34,12 +34,11 @@ function App() {
             <Route path="/DirectingPage" element={<DirectingPage />} />
             <Route path="/SpecialPage" element={<SpecialPage />} />
             <Route path="/ETCPage" element={<ETCPage />} />
-            <Route path="/DocuPass" element={<DocuPassPage />}>
-               <Route path="/DocuPass/cal" element={<PassCalender />}/>
-              <Route path="/DocuPass/PreGuide" element={<PreGuide />} />
-              <Route path="/DocuPass/ClubDetail" element={<ClubDetail />} />
-              <Route path="/DocuPass/AboutInterview" element={<AboutInterview />} />
-            </Route>
+            <Route path="/DocuPass" element={<DocuPassPage />}/>
+            <Route path="/cal" element={<PassCalender />}/>
+            <Route path="/PreGuide" element={<PreGuide />} />
+            <Route path="/ClubDetail" element={<ClubDetail />} />
+            <Route path="/AboutInterview" element={<AboutInterview />} />
            
           </Routes>
         </AppProvider>
