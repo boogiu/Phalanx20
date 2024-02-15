@@ -11,16 +11,19 @@ const PassCa = () => {
                 left={"70%"}
                 rotate={"20deg"}
                 width={"30%"}/>
+
                 <TextSection>
                   <SubTitle style={{textAlign : "start"}}>
                   첫 안내 사항은, <br/>팔랑크스의 지원 과정 <br/>일정입니다.
                   </SubTitle>
                 </TextSection> 
+
                 <ImgComponent2 imagePath={"Sina.png"} 
                 top={"90%"} 
                 left={"75%"}
                 rotate={"10deg"}
                 width={"30%"}/>
+
           </SectionBlock>
 
           <SectionBlock>
@@ -28,6 +31,7 @@ const PassCa = () => {
               <Main >
               <BigNum>01.</BigNum><br/>
               합격 인원에게는 <br/>고유 코드가 부여됩니다
+
               <ImgComponent2 imagePath={"RunningGirl.png"} 
                 top={"-5%"} 
                 left={"60%"}
@@ -317,16 +321,15 @@ position: absolute; /* 겹치는 요소에 position 추가 */
 
 
 
-const ImgComponent2 = ({ imagePath, top, left,rotate,width }) => {
+const ImgComponent2 = ({ imagePath, top, left,rotate, width }) => {
   return (
       <ImageContainer 
         top = {top}
         left = {left}
         rotate={rotate}
-        width={width}
-        
+        width={width}   
       >
-          <img src={`${process.env.PUBLIC_URL }/imgData/${imagePath}`} 
+          <img src={`${process.env.PUBLIC_URL}/imgData/${imagePath}`} 
           alt="페이지 이미지" 
           style={{ 
             maxWidth: '100%', maxHeight: '100%' ,

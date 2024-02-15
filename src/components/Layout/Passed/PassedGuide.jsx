@@ -12,7 +12,7 @@ const PassedGuide = () => {
                 <ImgComponent 
                     imagePath={"heart5.png"} 
                     top={"00%"} 
-                    left={"40%"}
+                    left={"50%"}
                     rotate={"-20deg"}
                     width={"60%"}/>
                 <TextSection>
@@ -53,7 +53,7 @@ const PassedGuide = () => {
             <ImgComponent 
                     imagePath={"Sina.png"} 
                     top={"-10%"} 
-                    left={"70%"}
+                    left={"78%"}
                     rotate={"-20deg"}
                     width={"40%"}/>
           </SectionBlock>
@@ -93,7 +93,7 @@ const PassedGuide = () => {
                 비전으로 우리끼리 <PinkSpan>의욕만 넘치다가,</PinkSpan><br/> 
                 친목이나 술자리, 썸, 연애로  <br/>
                 <PinkSpan>흐지부지 되는 동아리 활동</PinkSpan>에서 <br/>
-                <Dinglediv><BiggestSpan><PinkSpan>환멸을 느끼고!<br/></PinkSpan></BiggestSpan></Dinglediv>
+                <Dinglediv><BiggestSpan><PinkSpan>환멸을 느끼고!🤢🤮<br/></PinkSpan></BiggestSpan></Dinglediv>
                 <br/>
 
                 우리끼리 칭찬하고 대충 놀다가 <br/>
@@ -177,9 +177,9 @@ const PassedGuide = () => {
                   진행합니다. <br/>
                   <br/>
                   <TalkingSpan><PinkSpan><BiggerSpan>
-                    그래서, 좀 뭐랄까요...ㅠ<br/></BiggerSpan></PinkSpan></TalkingSpan>
+                    그래서, 좀 뭐랄까요...😥<br/></BiggerSpan></PinkSpan></TalkingSpan>
                   때로는 빡세기도 하고, <br/>
-                  얘네 동아리 맞어? 왤케 철저해..<br/>
+                  얘네 동아리 맞어? 왤케 철저해..🙄<br/>
                   같은 느낌이 들 수도 있을 거구요.<br/>
                   <br/>
                   <RedSpan>
@@ -188,7 +188,7 @@ const PassedGuide = () => {
                   <br/>
                   어떨 때는, <br/>
                   <GreenSpan><TalkingSpan>
-                  내가 쫌 잘하는 놈이었네? <br/></TalkingSpan></GreenSpan>
+                  내가 쫌 잘하는 놈이었네? 😏<br/></TalkingSpan></GreenSpan>
                   라는 자신감도 들면서, <br/>
                   <br/>
                   내가 어느정도의 실무 역량을 가졌는지, <br/>
@@ -230,7 +230,7 @@ const PassedGuide = () => {
                   <TextSubGruop5>
                   <p>
                   그리고 <br/><br/>
-                  <BiggerSpan>수많은 실패와 
+                  <BiggerSpan>수많은 실패와<br/> 
                   성공의 결과, 과정을 <br/></BiggerSpan>
                   모두 팔랑크스 티스토리에
                   포스팅하여, <br/>
@@ -255,7 +255,7 @@ const PassedGuide = () => {
                   다시 한번 환영합니다
                   </p>
                   <ImgComponent 
-                      imagePath={"Wellcome.png"} 
+                      imagePath={"wellcome.png"} 
                       top={"80%"} 
                       left={"60%"}
                       rotate={"0deg"}
@@ -356,8 +356,8 @@ const GradientButton = styled.button`
 `;
 const LinkBtn = styled(Link)`
   text-decoration: none;
-  color:black;
   overflow : hidden;
+  color: white;
   height : 0;
   transition: all 0.8s ease;
   text-align : center;
@@ -415,8 +415,10 @@ font-family : "경북대";
 line-height : 160%;
 `
 const GraySpan = styled.span`
-
-color : #228B22;
+font-family : "빙자람";
+color : #6E6E6E;
+font-weight : 600;
+font-style : italic;
 `
 
 
@@ -462,7 +464,7 @@ const TextSubGruop2 = styled.div`
     padding: 5%;
     overflow : hidden;
     color : black;
-    font-family : "스윗";
+    font-family : "테나다";
     font-size: 5vmin;
     box-shadow: 0px 4px 0px 0px #32CD32;
     line-height : 150%;
