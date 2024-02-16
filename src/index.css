@@ -48,3 +48,10 @@ code {
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: '한나';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.0/BMHANNAAir.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}

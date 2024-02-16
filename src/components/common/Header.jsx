@@ -202,11 +202,13 @@ const Header =( )=> {
                   to ={nav.url3}
                   onClick={() => handleClick('section3')}
                   >{nav.Subtitle3}</StyledLink2>
-    
                 </>
+
+                
             </MenuItem>
           ))}
         </MenuList>
+        <StyledLink1 to = "/DocuPass"> 면접 안내</StyledLink1>
       </SideMenu>
     </HeaderContainer>
   );
