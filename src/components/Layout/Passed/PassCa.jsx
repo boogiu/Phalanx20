@@ -89,7 +89,7 @@ const PassCa = () => {
               </BoxinBox>
               <ImgComponent2 imagePath={"BallGirl.png"} 
                 top={"-13%"} 
-                left={"40%"}
+                left={"45%"}
                 rotate={"0deg"}
                 width={"80%"}/>
            </TextSubGruop2>
@@ -232,7 +232,8 @@ const PassCa = () => {
               <Main >
               <BigNum>04.</BigNum><br/>
               
-                지원 과정 일정에 대한 다음 <br/>주의사항을 확인해주세요 
+                지원 과정에대한 일정은 <br/>
+                다음 주의사항을 확인하세요 
               </Main>
 
               <BoxinBox>

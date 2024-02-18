@@ -55,8 +55,9 @@ const PassCalender = () => {
                           </BtnDiv>
                           <BtnDiv>
                                   <p>
-                                  팔랑크스의 지원 <BlueSpan>다음 단계</BlueSpan>(면접 과정 안내)로 <br />
-                                  가는 분은 아래 버튼을 눌러주세요.<br /> 
+                                  팔랑크스의 지원 <BlueSpan>다음 단계</BlueSpan><br />
+                                  (면접 과정 안내)로 가는 분은 <br />
+                                  아래 버튼을 눌러주세요.<br /> 
                                   (모든 서류 합격자 필수 과정)
                                   </p>
                                   <GradientButton onClick={handleLinkClick}>
@@ -200,7 +201,7 @@ const GradientButton = styled.button`
   width : 90%;
 `;
 const BtnDiv = styled.div`
-width : 80%;
+width : 85%;
 padding : 5%;
 font-family : "스윗";
 font-size: 4.5vmin ; 

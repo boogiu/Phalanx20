@@ -30,7 +30,7 @@ const PassPageData = ({ id }) => {
     content = (
       <>
        <SectionBlock>
-        <ImgComponent2 imagePath={"heart3.png"} 
+            <ImgComponent2 imagePath={"heart3.png"} 
               top={"-10%"} 
               left={"10%"}
               rotate={"0deg"}
@@ -48,8 +48,8 @@ const PassPageData = ({ id }) => {
                   맞는 분이 배정</GreenSpan>됩니다. 
                 </div>
                 <ImgComponent2 imagePath={"Hello.png"} 
-                top={"-10%"} 
-                left={"60%"}
+                top={"-5%"} 
+                left={"56%"}
                 rotate={"210deg"}
                 width={"50%"}/>
             </PhBox>
@@ -129,10 +129,10 @@ const PassPageData = ({ id }) => {
                 </div>
             </PhBox>
             <ImgComponent2 imagePath={"Alarm.png"} 
-                top={"-15%"} 
-                left={"55%"}
+                top={"10%"} 
+                left={"60%"}
                 rotate={"0deg"}
-                width={"40%"}/>
+                width={"30%"}/>
         </SectionBlock>
       </>
     );
@@ -399,7 +399,7 @@ const PassPageData = ({ id }) => {
       <>
         <SectionBlock>
             <ImgComponent2 imagePath={"Puzzle.png"} 
-            top={"20%"} 
+            top={"75%"} 
             left={"60%"}
             rotate={"0deg"}
             width={"30%"}/>
@@ -807,11 +807,12 @@ const PhBox = styled.div`
     overflow-y: auto;
     text-align:left;
     padding: 3%;
-    overflow-x : hidden;
+    overflow : hidden;
     border-radius : 20px;
     margin: 2% 0% 0% 0%;
     backdrop-filter: blur(9.999999046325684px);
     box-shadow: inset 0px 0px 15px 15px rgb(204,204,204,0.2);
+    position : relative;
 `;
 
 const BoxinBox = styled.div`
