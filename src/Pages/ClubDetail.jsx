@@ -173,7 +173,8 @@ const ClubDeTail = () => {
                 <SlideContents id={'603'}/>
                 <SlideContents id={'604'}/>
                 <SlideContents id={'605'}>
-                  <Checkbox label="확인되었어요!&nbsp;&nbsp;" 
+                <Checkbox label="확인되었어요!&nbsp;&nbsp;" 
+                      checked={isCheckedList[5]} 
                       onChange={() => handleCheckboxChange(5)} />
                 </SlideContents>
               </Slider> 
@@ -254,7 +255,7 @@ const ClubDeTail = () => {
             <CheckBoxDiv>
                         <CheckBoxLabel>
                         위와 같은 팔랑크스에 대한 동아리 구성 요소  <br/>
-                        심화 안내를 모두 확인, 동의하였으며, <br/>
+                        <RedSpan>심화 안내를 모두 확인, 동의하였으며, <br/></RedSpan>
                         해당 사항에 이상이 없습니다<br/><br/>
                             <FinalCheckbox 
                               checked={isLastChecked} 
@@ -279,7 +280,8 @@ const ClubDeTail = () => {
               </GradientButton>
             </BtnDiv>
             <BtnDiv>
-              <p>팔랑크스 지원 다음 단계(기타 면접 준비 가이드)로<br/>
+              <p>팔랑크스 지원 다음 단계로<br/>
+              (기타 면접 준비 가이드)<br/>
               가는 분은 아래 버튼을 눌러주세요. <br/>
               (모든 서류 합격자 필수 과정)</p>
               <GradientButton onClick={handleLinkClick}>
@@ -315,7 +317,7 @@ const StyledContainer = styled.div`
 `;
 
 const GradientButton = styled.button`
-  background: linear-gradient(45deg, #ff7300, #feac5e);
+  
   border: none;
   color: white;
   padding: 10px 20px;
@@ -326,6 +328,7 @@ const GradientButton = styled.button`
   transition: background 0.3s ease;
   margin : 5% 0% 15% 0%;
   box-shadow: 0px 4px 0px 0px #ff7300;
+  background: linear-gradient(45deg, #ff7300, #feac5e);
   width : 90%;
 `;
 const BtnDiv = styled.div`
@@ -385,7 +388,7 @@ const SlideContainer = styled.div`
   flex-flow: column nowrap;
   justify-content: flex-start;
   align-items: center;
-  height: ${({ isOpen }) => (isOpen ? '100vh' : '110px')};
+  height: ${({ isOpen }) => (isOpen ? '70vh' : '110px')};
   overflow: ${({ isOpen }) => (isOpen ? 'auto' : 'hidden')};
   transition: height 0.5s ease;
   margin: 5%;
@@ -490,9 +493,9 @@ const CheckBoxLabel = styled.label`
 const BackGroundGroup = styled.div`
   height: auto;
   background-image: linear-gradient(
-    rgba(0, 0, 0, 0), 
-    rgba(0, 0, 0, 0.8), 
-    rgba(0, 0, 0, 0.87),
+    rgba(0, 0, 0, 0.6), 
+    rgba(0, 0, 0, 0.4), 
+    rgba(0, 0, 0, 0.6),
     rgba(0, 0, 0, 0.95)
   ),
     url(${({ BackGroundImage }) => BackGroundImage});
@@ -667,3 +670,7 @@ const ImgComponent2 = ({ imagePath, top, left,rotate,width }) => {
       
   );
 };
+const RedSpan = styled.span`
+color : #FA5858;
+font-weight : 600;
+`

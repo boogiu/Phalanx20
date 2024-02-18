@@ -19,7 +19,7 @@ const PassPageData = ({ id }) => {
                 <SubTitle style={{textAlign : "start"}}>
                 두 번째 안내 사항은, <br/>
                 팔랑크스의 면접 과정 <br/>
-                및 후보 질문군 안내입니다.
+                및 후보 질문군 안내입니다.😁
                 </SubTitle>
             </TextSection> 
         </SectionBlock>
@@ -75,7 +75,7 @@ const PassPageData = ({ id }) => {
                 <YellowSpan><BiggerSpan>면접 진행 방식은!</BiggerSpan></YellowSpan> <br/>
                   모든 서류 지원자에게 <BlueSpan>공통으로 적용되는 <br/>
                   ‘공통의 포맷’ </BlueSpan>을 중심으로 진행하되, <br/>
-                  각 <OrangeSpan>면접관들이 준비한 개별 문항들에서 <br/>
+                  각 <OrangeSpan>면접관들이 준비한 ✨개별 문항✨들에서 <br/>
                   차이</OrangeSpan>가 있을 수 있습니다. 
                 </div>
                 
@@ -100,7 +100,7 @@ const PassPageData = ({ id }) => {
                 width={"30%"}/>
                 <div>
                 <YellowSpan><BiggerSpan>면접 미팅은!</BiggerSpan></YellowSpan> <br/>
-                  해당 일시 <OrangeSpan>하루 전 리마인딩</OrangeSpan> 되며, <br/>
+                  해당 일시 <OrangeSpan>하루 전 리마인딩</OrangeSpan> ⏰되며, <br/>
                   해당 시간 <OrangeSpan>10분 전에 면접 줌 링크가 <br/>
                   발송</OrangeSpan>되오니, 이에 따라 준비해주시기 <br/>
                   바랍니다. 
@@ -173,7 +173,7 @@ const PassPageData = ({ id }) => {
                   및 동아리 간략 소개</BlueSpan></BiggerSpan> (5m 내외)<br/>
                   <br/>
                   시작과 함께 전국대학연합 기획/컨설팅 <br/>
-                  분야의 <GreenSpan>최고 동아리, 팔랑크스에 대한 <br/>
+                  분야의 <GreenSpan>✨최고 동아리, 팔랑크스✨에 대한 <br/>
                   간략한 개요</GreenSpan>를 재확인합니다. <br/>
                   <br/>
                   <BiggerSpan><BlueSpan>2) 지원자의 간단 소개 <br/>
@@ -205,7 +205,7 @@ const PassPageData = ({ id }) => {
                   사전 준비한 답변을 듣습니다. <br/>
                   <br/>
                   <BoxinBox>
-                    <SemiBiggerSpan><GreenSpan>공통 질문 1)</GreenSpan></SemiBiggerSpan> <br/>
+                    <SemiBiggerSpan><GreenSpan>💚공통 질문 1)</GreenSpan></SemiBiggerSpan> <br/>
                     <div>
                     “기획이라는 직무/분야가 <br/>
                     <YellowSpan>왜 본인에게 매력적으로</YellowSpan> 다가오나요?”</div>
@@ -213,13 +213,13 @@ const PassPageData = ({ id }) => {
                     
                   <br/>
                   <BoxinBox>
-                  <SemiBiggerSpan><GreenSpan>공통 질문 2)</GreenSpan></SemiBiggerSpan><br/>
+                  <SemiBiggerSpan><GreenSpan>💚공통 질문 2)</GreenSpan></SemiBiggerSpan><br/>
                   <div><YellowSpan>기획과 가장 반대되는 단어</YellowSpan>가 <br/> 
                   있다면, 어떤 단어일까요? <br/>그리고 왜 그렇게
                   생각하시나요?”</div></BoxinBox>
                   <br/>
                   <BoxinBox>
-                  <SemiBiggerSpan><GreenSpan>공통 질문 3)</GreenSpan></SemiBiggerSpan> <br/>
+                  <SemiBiggerSpan><GreenSpan>💚공통 질문 3)</GreenSpan></SemiBiggerSpan> <br/>
                   <div>
                   내가 다니던 기업이 망했고, 사장님이 <br/>
                   갑자기 이 <YellowSpan>회사의 소유를 나에게<br/> 
@@ -230,12 +230,12 @@ const PassPageData = ({ id }) => {
                   3분 이내로 설명</YellowSpan>해주세요.<br/></div></BoxinBox>
                   <br/> 
                   <BoxinBox>
-                  <SemiBiggerSpan><GreenSpan>공통 질문 4)</GreenSpan></SemiBiggerSpan><br/>
+                  <SemiBiggerSpan><GreenSpan>💚공통 질문 4)</GreenSpan></SemiBiggerSpan><br/>
                   <div>
                   당신에게 <YellowSpan>쪽지가 하나 도착했습니다.</YellowSpan> <br/>
                   쪽지에는 이렇게 쓰여있습니다. <br/>
                   <br/>
-                  <SemiBiggerSpan><RedSpan>"주먹을 기획하세요" </RedSpan><br/></SemiBiggerSpan>
+                  <SemiBiggerSpan><RedSpan>"주먹을 기획하세요👊" </RedSpan><br/></SemiBiggerSpan>
                   <br/>
                   이 허무맹랑한 요구에 대한 생각을, <br/>
                   자유롭게 답해주세요.</div><br/></BoxinBox>
@@ -247,7 +247,7 @@ const PassPageData = ({ id }) => {
                   <OrangeSpan>면접 내용을 마무리</OrangeSpan>하고, 이후 일정과 <br/>
                   참고 사항에 대해 안내합니다.<br/>
                   <br/>
-                  <SemiBiggerSpan><RedSpan>(주의!)</RedSpan> </SemiBiggerSpan><br/>
+                  <SemiBiggerSpan><RedSpan>(주의!🚨)</RedSpan> </SemiBiggerSpan><br/>
                   위 공통 <RedSpan>질문 4개 중 지원자가 <br/>
                   1개를 택하는 것이 아니라,</RedSpan> 해당 <br/>
                   면접 미팅에서 <BlueSpan>면접관이 1개를 골라</BlueSpan> <br/>
@@ -313,7 +313,7 @@ const PassPageData = ({ id }) => {
                 width={"30%"}/>
                 <div>
                 <YellowSpan><BiggerSpan>면접 미팅은!</BiggerSpan></YellowSpan> <br/>
-                <BlueSpan>지원자로서 본인을 드러낼 수 있는 <br/>
+                <BlueSpan>지원자로서 본인을 🌟드러낼 수 있는🌟 <br/>
                 가장 중요한 자리</BlueSpan>이며, 운영진은 준비된<br/>
                 팔랑크스의 커리큘럼, 중앙/세부/특별 <br/>
                 과정을 함께 하며, <BlueSpan>실제 기업들과의 다양한 <br/>
@@ -350,7 +350,7 @@ const PassPageData = ({ id }) => {
                 원활하지 않거나, 본인 스스로도 집중이 <br/>
                 어려운 상황 등 확실히 <RedSpan>사전에 준비가 <br/>
                 되어 있지 않은 경우, 면접관의 판단에 <br/>
-                따라 퇴장</RedSpan>될 수 있습니다. 
+                따라 퇴장</RedSpan>될 수 있습니다.😅
                 </div>
             </PhBox>
         </SectionBlock>
@@ -385,7 +385,7 @@ const PassPageData = ({ id }) => {
                 안되는 등 타 크루들에게 피해를 <br/>
                 입히는 분보다는, 아직은 잘 못하더라도 <br/>
                 팔랑크스의 진행 과정을 <YellowSpan>천천히 잘 따라오며 <br/>
-                하나하나 성장해가는 분</YellowSpan>을 <br/>
+                하나하나 🔥성장해가는 분🔥</YellowSpan>을 <br/>
                 더 높이 평가합니다.)
                 </div>
             </PhBox>
@@ -447,8 +447,9 @@ const PassPageData = ({ id }) => {
                 imagePath={"002.png"}
                 width={"30%"}/>
                 <div>
-                각 카드 사항마다, <RedSpan>확인 후 ‘체크’ 표시를<br/>
-                하여야</RedSpan> 다음 단계로 넘어갈 수 있으니 <br/>
+                <RedSpan>총 9개의 각 카드 사항마다,</RedSpan> 확인 후 <br/>
+                <GreenSpan>✔체크✔ 표시</GreenSpan>를 하여야 <br/>
+                다음 단계로 넘어갈 수 있으니 <br/>
                 유의해주세요 
                 </div>
             </PhBox>
@@ -505,6 +506,198 @@ const PassPageData = ({ id }) => {
                 (면접 미팅당 최대 10분) 
                 </div>
             </PhBox>
+        </SectionBlock>
+      </>
+    );
+  }else if (id === '310') {
+
+    content = (
+      <>
+       <SectionBlock>
+            <ImgComponent2 imagePath={"Mic.png"} 
+            top={"20%"} 
+            left={"65%"}
+            rotate={"0deg"}
+            width={"50%"}/>
+                
+            <TextSection>
+                <SubTitle style={{textAlign : "start"}}>
+                마지막 안내 사항은, <br/>
+                팔랑크스의 기타 면접  <br/>
+                준비 사항에 대한 안내입니다.
+                </SubTitle>
+            </TextSection> 
+        </SectionBlock>
+      </>
+    );
+  }else if (id === '311') {
+
+    content = (
+      <>
+       <SectionBlock>           
+        <PhBox>
+                <ImgComponent
+                imagePath={"001.png"}
+                width={"50%"}/>
+                <div>
+                면접 미팅 일시는,<br/>
+                지원자가 <BlueSpan>서류 지원시 선택한 후보 일시 중 <br/>
+                1개</BlueSpan>로 확정되었으며, 본 안내 페이지에 대한 <br/>
+                링크를 받은 <OrangeSpan>지원자의 문자 메시지에 <br/>
+                명시되어 있음</OrangeSpan>을 재확인드립니다.<br/> 
+                </div>
+          </PhBox>
+        </SectionBlock>
+      </>
+    );
+  }else if (id === '312') {
+
+    content = (
+      <>
+       <SectionBlock>           
+       <PhBox>
+                <ImgComponent
+                imagePath={"002.png"}
+                width={"50%"}/>
+                <div>
+                기타 조정 요청 혹은 모든 문의는, <br/>
+                <OrangeSpan>팔랑크스 카카오톡 플러스친구 <br/>
+                채널로</OrangeSpan> 부탁드립니다. 😊​<br/>
+                <StyleLink href='https://pf.kakao.com/_RxluiG'>카카오 플친 바로가기✈</StyleLink>​
+                </div>
+          </PhBox>
+        </SectionBlock>
+      </>
+    );
+  }else if (id === '313') {
+
+    content = (
+      <>
+       <SectionBlock>           
+       <PhBox>
+                <ImgComponent
+                imagePath={"003.png"}
+                width={"50%"}/>
+                <div>
+                면접시 주변이 <RedSpan>시끄러운 환경이거나, <br/>
+                미팅에 집중할 수 없는 조건</RedSpan>으로 <br/>
+                다른 지원자에게 불편을 끼칠 수 있는 경우, <br/>
+                <BiggerSpan><RedSpan>강제 퇴장 조처</RedSpan></BiggerSpan>될 수 있으므로, <br/>
+                인터넷 연결, 주변 환경 등에 대해 <br/>
+                면밀히 체크, 준비 부탁드립니다. <br/>
+                <br/><RedSpan>
+                강제 퇴장 조처될 경우, 동아리 지원 과정이 <br/>
+                자동 중단될 수 있음을 알려드립니다. <br/></RedSpan>
+                </div>
+          </PhBox>
+        </SectionBlock>
+      </>
+    );
+  }else if (id === '314') {
+
+    content = (
+      <>
+       <SectionBlock>           
+       <PhBox>
+                <ImgComponent
+                imagePath={"004.png"}
+                width={"50%"}/>
+                <div>
+                면접 미팅은 <GreenSpan>국내 최고 기획/컨설팅 동아리, <br/>
+                팔랑크스의 수준과 정도에 맞도록 <br/></GreenSpan>
+                면접관의 사전 준비와 체계를 바탕으로, <br/>
+                <GreenSpan>충분한 상호 커뮤니케이션 시간</GreenSpan>을 <br/>
+                가지는 것을 중시하며, <br/>
+                <br/>
+                모든 지원자들이 부담을 갖지 않고 <br/>
+                본인을 잘 어필하여, 팔랑크스의 <br/>
+                준비된 <YellowSpan>동아리 활동 과정을 가능한 한 <br/>
+                많은 크루들이 누리도록 하는 것</YellowSpan>에 <br/>
+                중점을 둡니다. 
+                ​</div>
+          </PhBox>
+        </SectionBlock>
+      </>
+    );
+  }else if (id === '315') {
+
+    content = (
+      <>
+       <SectionBlock>           
+       <PhBox>
+                <ImgComponent
+                imagePath={"005.png"}
+                width={"50%"}/>
+                <div>
+                안내받은 면접 일시에 대한 <br/>
+                [참가 확정 여부] 메시지를 <br/>
+                <YellowSpan>‘내일 자정’ 까지, <br/>
+                팔랑크스 카카오톡 플러스친구 채널로</YellowSpan> <br/>
+                아래 양식으로 보내주세요. (필수)<br/>
+                <br/><YellowSpan>
+                 “이름 / 면접 일시 / <br/>
+                 팔랑크스 면접 참가 합니다”<br/>
+                 <br/></YellowSpan><RealGraySpan>
+                ex) 홍길동 / 1일(화) 14시 / <br/>
+                팔랑크스 면접 참가 합니다<br/>​
+                <br/></RealGraySpan>
+                *위 회신이 없는 경우, <br/>
+                시스템 상 확인이 되지 않아 <br/><RedSpan>
+                면접 지원 과정을 중단한 것으로 <br/>
+                간주될 수 있습니다. 😅​</RedSpan>
+                ​</div>
+          </PhBox>
+        </SectionBlock>
+      </>
+    );
+  }else if (id === '316') {
+
+    content = (
+      <>
+       <SectionBlock>           
+       <PhBox>
+                <ImgComponent
+                imagePath={"006.png"}
+                width={"50%"}/>
+                <div>
+                ​본 페이지에서 안내된, <br/>
+                사전 공통 질문들과 지원자 <br/>
+                본인이 작성한 지원서류를 토대로 <br/>
+                <GreenSpan>본인의 포부와 의지를 마음껏 <br/>
+                드러내주시기 바라며, <br/></GreenSpan>
+                <br/>
+                면접 미팅 시간 내에 준비된 시간을 통해, <br/>
+                <BlueSpan>동아리 활동에 대해 궁금한 점이 있는 경우 <br/>
+                모두 해결할 수 있는 시간</BlueSpan>이 되기 바랍니다.<br/>
+                </div>
+          </PhBox>
+        </SectionBlock>
+      </>
+    );
+  }else if (id === '317') {
+
+    content = (
+      <>
+       <SectionBlock>           
+       <PhBox>
+                <div>
+                ​<br/>
+                기획/컨설팅 분야에서  우리의 첫<br/>
+                실무 커리어 포트폴리오를 시작하는, <br/>
+                <br/><BiggestSpan>
+                전국대학연합 최강! <br/>
+                <SubTitle><GreenSpan><BiggestSpan>클럽 팔랑크스에서 </BiggestSpan>​<br/></GreenSpan></SubTitle>
+                함께 하기 바랍니다!​<br/></BiggestSpan>
+                <br/><ImgComponent
+                imagePath={"wellcome2.png"}
+                width={"100%"}/>
+                본 페이지의 내용을 바탕으로 잘 준비하셔서,<br/>
+                <BiggerSpan><YellowSpan>후회없이 본인을 나타내주세요! </YellowSpan><br/></BiggerSpan>
+                <br/>
+                <br/>
+                면접 미팅에서 뵙겠습니다🤗
+                </div>
+          </PhBox>
         </SectionBlock>
       </>
     );
@@ -706,7 +899,9 @@ color : #81F7F3;
 const GraySpan = styled.span`
 color : #228B22;
 `
-
+const RealGraySpan = styled.span`
+color : #BDBDBD;
+`
 const SubTitle = styled.h2`
   font-family : "워헤븐";
   font-size : 7vmin;
@@ -714,4 +909,10 @@ const SubTitle = styled.h2`
   width : 100%;
   line-height : 150%;
 `;
+
+const StyleLink = styled.a`
+  font-family : "한나";
+  color :#F79F81;
+`;
+
 

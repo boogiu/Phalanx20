@@ -46,7 +46,7 @@ const Modal = ({ onClose, passcode }) => {
   };
   
   const DocuPassPage = () => {
-    const PassCode = "1233";
+    const PassCode = "#PXWSDP1";
     const [showModal, setShowModal] = useState(true);
   
     useEffect(() => {
