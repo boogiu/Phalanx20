@@ -86,7 +86,7 @@ const PassedGuide = () => {
             <TextSubGruop>
                 <p>
                 <BiggestSpan><GreenSpan>팔랑크스는, </GreenSpan><br/></BiggestSpan>
-                대학에 들어와서 <BiggerSpan><YellowSpan>가장 에너지 넘치고, </YellowSpan></BiggerSpan><br/>
+                대학에 들어와서 가장 <BiggerSpan><YellowSpan>에너지 넘치고, </YellowSpan></BiggerSpan><br/>
                 무언가를 <BiggerSpan><YellowSpan>해볼 수 있는 시기</YellowSpan></BiggerSpan>에서<br/>
                 <br/>
                 그냥 처음에만 <PinkSpan>그럴싸한 슬로건과 <br/></PinkSpan>
@@ -474,7 +474,7 @@ const TextSubGruop2 = styled.div`
 
     /* box2 */
     box-shadow: 0px 0px 4px 0px #979797;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(25px);
     `;
 
     const TextSubGruop3 = styled.div`

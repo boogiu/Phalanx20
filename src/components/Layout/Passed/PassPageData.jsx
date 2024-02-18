@@ -361,11 +361,11 @@ const PassPageData = ({ id }) => {
     content = (
       <>
         <SectionBlock>
-        <ImgComponent2 imagePath={"Px4.png"} 
+        <ImgComponent2 imagePath={"Babel.png"} 
                   top={"0%"} 
-                  left={"-50%"}
-                  rotate={"-30deg"}
-                  width={"200%"}/>
+                  left={"40%"}
+                  rotate={"0deg"}
+                  width={"60%"}/>
             <PhBox>
                 <ImgComponent
                 imagePath={"009.png"}
@@ -810,7 +810,7 @@ const PhBox = styled.div`
     overflow : hidden;
     border-radius : 20px;
     margin: 2% 0% 0% 0%;
-    backdrop-filter: blur(9.999999046325684px);
+    backdrop-filter: blur(25px);
     box-shadow: inset 0px 0px 15px 15px rgb(204,204,204,0.2);
     position : relative;
 `;
@@ -915,5 +915,4 @@ const StyleLink = styled.a`
   font-family : "한나";
   color :#F79F81;
 `;
-
 

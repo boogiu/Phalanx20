@@ -218,10 +218,8 @@ const BackGroundGroup = styled.div`
   height: auto;
   background-image: linear-gradient(
     rgba(0, 0, 0, 0.95), 
-    rgba(0, 0, 0, 0.45),
-    rgba(0, 0, 0, 0.45),
     rgba(0, 0, 0, 0.65),
-    rgba(0, 0, 0, 0.55),
+    rgba(0, 0, 0, 0.75),
     rgba(0, 0, 0, 0.95)
   ),
     url(${({ BackGroundImage }) => BackGroundImage});
