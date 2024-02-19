@@ -44,9 +44,9 @@ const PassCa = () => {
                   1차 서류 전형을 <GreenSpan>합격한 지원자는,</GreenSpan> <br/>
                   그 다음 안내를 위한 <YellowSpan>개별 고유 코드</YellowSpan>를  <br/>
                   부여 받아, 면접 안내 페이지로 <br/>
-                  들어옵니다. <br/>
+                  들어옵니다.🤗 <br/>
                   <br/>
-                  <GraySpan>(지금 이 단계이며, 본 메시지를 보는 <br/>
+                  <GraySpan>(❗지금 이 단계이며, 본 메시지를 보는 <br/>
                   모든 분은 이미 이 1단계가 이행되었습니다.)<br/></GraySpan>
                 </Txt>
               </BoxinBox>
@@ -72,7 +72,7 @@ const PassCa = () => {
                 본 페이지<GraySpan>(지금 안내되는 <br/>
                 이 페이지 단계)</GraySpan>를 <GreenSpan>‘면접 안내 페이지’</GreenSpan>라 <br/>
                 하며, 이 페이지에서는 다음 사항이 <br/>
-                안내됩니다. <br/>
+                안내됩니다. 😊<br/>
                 <br/><BiggerSpan>
                 ㄱ. 지원 <BlueSpan>진행 과정과 참고 사항</BlueSpan> <br/><br/>
                 ㄴ. 면접 상황 시 <BlueSpan>구성 순서와 <br/>
@@ -195,9 +195,9 @@ const PassCa = () => {
                   (팔랑크스 클럽 1주차)<br/>
                   <br/>
                   *별도의 안내를 받아 동아리의 시즌을 <br/>
-                  등록한  <PinkSpan>최종 합격자</PinkSpan>는 클럽 팔랑크스의 <br/>
+                  등록한  <YellowSpan>최종 합격자</YellowSpan>는 클럽 팔랑크스의 <br/>
                   크루로서 1주차 과정인 신입OT 단계, <br/>
-                  <PinkSpan>‘클럽 온보딩’ 주차</PinkSpan>에 돌입합니다. 
+                  <YellowSpan>‘클럽 온보딩’ 주차💛</YellowSpan>에 돌입합니다. 
                 </Txt>
               </BoxinBox>
               
@@ -208,9 +208,9 @@ const PassCa = () => {
                 (팔랑크스 클럽 2주차 ~ )<br/>
                 <br/>
                 *클럽 온보딩 과정 중 크루가 지원한 <br/>
-                <PinkSpan>세부 팀 중 1개에, 2주차부터 배정</PinkSpan>되어 <br/>
+                <GreenSpan>세부 팀 중 1개에, 2주차부터 배정</GreenSpan>되어 <br/>
                 클럽 팔랑크스의 진행 과정 속에서 <br/>
-                <GreenSpan>나의 기획 포트폴리오</GreenSpan>를 쌓아갑니다. <br/>
+                <GreenSpan>나의 ✨기획 포트폴리오✨</GreenSpan>를 쌓아갑니다. <br/>
                 (이후 지속 유지)
                 </Txt>
               </BoxinBox>
@@ -238,13 +238,13 @@ const PassCa = () => {
 
               <BoxinBox>
                 <Txt>
-                위 과정과 <RedSpan>다른 순서로 진행되거나 <br/>
+                ❗위 과정과 <RedSpan>다른 순서로 진행되거나 <br/>
                 오류가 생긴 것 같은 경우</RedSpan>에는 <br/>
                 플친으로 알려주시기 바랍니다. <br/>
                 <br/>
                 *각 단계별 <RedSpan>정해진 양식을 준수하지 않고,</RedSpan><br/>
                 임의로 작성하거나 회신이 없는 경우에는 <br/>
-                <RedSpan>지원 과정이 자동 중단</RedSpan>될 수 있습니다.<br/>
+                <RedSpan>지원 과정이 자동 중단</RedSpan>될 수 있습니다.😅<br/>
                 <br/>
                 *지원 과정이 모두 정상적으로 진행되어, <br/>
                 <PupSpan>최종 합격 후</PupSpan> 동아리 시즌 등록까지 <br/>
@@ -348,10 +348,11 @@ const TextSubGruop2 = styled.div`
     box-shadow: inset 0px 0px 15px 15px rgb(204,204,204,0.2);
     border-radius : 20px;
     margin: 5vh 0vw 5vh 0vw;
-    font-family : '스윗';
+    font-family : '한나';
     font-weight : 400;
     z-index : 1;
     position : relative;
+    line-height : 160%;
 `;
 
 const Main = styled.h2`
@@ -362,10 +363,12 @@ const Main = styled.h2`
   margin: 5% 0% 5% 0%;
   text-shadow:0 0 2px #FF4000,  0 0 3px #FF4000;
   width : 100%;
+  line-height : 200%;
 `
 const Txt = styled.p`
-  font-family : '스윗';
+  font-family : '한나';
   font-size : 5vmin;
+  line-height : 160%;
 `
 
 const BigNum = styled.span`

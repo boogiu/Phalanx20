@@ -144,6 +144,7 @@ const SectionBlock = styled.div`
 const CheckboxContainer = styled.div`
   display: inline-block;
   vertical-align: middle;
+
 `;
 
 const Icon = styled.svg`
@@ -173,7 +174,6 @@ const StyledCheckbox = styled.div`
   background: ${(props) => (props.checked ? '#00FF7F' : 'white')};
   border-radius: 3px;
   transition: all 150ms;
-
   ${Icon} {
     visibility: ${(props) => (props.checked ? 'visible' : 'hidden')};
   }
@@ -199,14 +199,11 @@ color: white;
 font-size: 5vmin;
 font-family : '스윗';
 border-radius: 25px;
-padding: 5%;
 box-shadow: 0px 4px 0px 0px #ff7300;
 width : 100%;
 display : flex;
-justify-content : center;'
-border : 2px solid red;
+justify-content : center;
 line-height : 130%;
-
 `
 const CheckBoxLabel = styled.label`
 `    

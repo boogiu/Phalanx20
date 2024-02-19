@@ -45,7 +45,7 @@ const PassedGuide = () => {
                 <BlueSpan> <BiggerSpan>최고의 기획 포트폴리오를 <br/>
                 확보하는,팔랑크스의 </BiggerSpan></BlueSpan><br/>
                 자랑스러운 동문으로 <br/>
-                함께 하길 바랍니다. ☺
+                함께 하길 바랍니다.😊
                 </p>
                 <JustImg imagePath={"wellcome2.png"}
                 />
@@ -107,7 +107,7 @@ const PassedGuide = () => {
                 갖출 수 있는 동아리를 추구하는<br/><br/>
 
                 <BiggerSpan>전국대학연합 <YellowSpan><BiggestSpan>최강!</BiggestSpan> <br/></YellowSpan>
-                기획 동아리 입니다. ☺</BiggerSpan>
+                기획 동아리 입니다. 😙</BiggerSpan>
                 </p>
             </TextSubGruop>
             <ImgComponent 

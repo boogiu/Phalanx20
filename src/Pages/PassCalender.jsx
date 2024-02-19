@@ -117,10 +117,6 @@ const StyledContainer = styled.div`
 
 
 // 스타일드 컴포넌트를 활용한 스타일링
-const CheckboxContainer = styled.div`
-  display: inline-block;
-  vertical-align: middle;
-`;
 
 const Icon = styled.svg`
   fill: none;
@@ -175,15 +171,18 @@ color: white;
 font-size: 5vmin;
 font-family : '스윗';
 border-radius: 25px;
-padding: 5%;
 box-shadow: 0px 4px 0px 0px #ff7300;
 width : 100%;
 display : flex;
-justify-content : center;'
-border : 2px solid red;
+justify-content : center;
 line-height : 130%;
 
 `
+const CheckboxContainer = styled.div`
+  display: inline-block;
+  vertical-align: middle;
+`;
+
 const CheckBoxLabel = styled.label`
 `    
 const GradientButton = styled.button`

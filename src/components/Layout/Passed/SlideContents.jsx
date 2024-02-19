@@ -46,7 +46,7 @@ const SlideContents = ({ id,children }) => {
           제가(9기 단장) 기억하는 <br/>
           1, 2학년 때에 했던 8개 동아리는, <br/>
           한 <RedSpan>20~30명 정도가 주 1회 정도 <br/>
-          모였다가 와서 삼삼오오 떠들고 </RedSpan><br/>
+          모였다가 와서 삼삼오오 떠들고🤷‍♂️ </RedSpan><br/>
           어떤 주제(영어회화, 여행, 기획..등)를 <br/>
           놓고<RedSpan> 조별 토론을 하기도 하고,</RedSpan> <br/>
           <br/>
@@ -63,12 +63,12 @@ const SlideContents = ({ id,children }) => {
           놀고 그러다가 또 학기에 한번씩<br/> 
           같이 MT 갔다가 누구누구 깨졌다💦 <br/>
           <br/>
-          혹은 뭔가 <OrangeSpan>새로운게 없어..지루해..</OrangeSpan> <br/>
+          혹은 뭔가 <OrangeSpan>새로운게 없어..지루해..😒</OrangeSpan> <br/>
           그러면서 그냥 톡방에서 말 없어지고 …<br/>
           다른 동아리 놀러가고,<br/>
           또 반복…그러면서 <br/>
           <br/>
-          <BiggerSpan>취업 전선..?<br/></BiggerSpan>
+          <BiggerSpan>취업 전선..?🙄<br/></BiggerSpan>
           이거였어요. <br/>
 
           
@@ -187,9 +187,9 @@ const SlideContents = ({ id,children }) => {
       <br/>
       잘 준비를 해서 발표를 한다고 <br/>
       하더라도, 몇 번의 질의응답 <br/>
-      이후에 <BlueSpan>“너는 뭐가 안좋다”</BlueSpan> 는 말을 <br/>
+      이후에 <BlueSpan>“너는 뭐가 안좋다”⚡</BlueSpan>는 말을 <br/>
       다수에게 들을 수 있는 가장 <br/>
-      중요한 기회는 얻기 어려워요.<br/>
+      중요한 기회는 얻기 어려워요.🔥<br/>
       <br/> 
 
      그래서 팔랑크스에서는, <br/>
@@ -219,7 +219,7 @@ const SlideContents = ({ id,children }) => {
          기획안과 피드백, 그리고 <br/>
          그 피드백을 수령하고 주차별로 <br/>
          디벨롭되는 <OrangeSpan>‘모든 과정’ </OrangeSpan>을 <br/>
-         그대로 <OrangeSpan>세상에 던집니다.</OrangeSpan> <br/>
+         그대로 <OrangeSpan>세상에 던집니다.🚀</OrangeSpan> <br/>
          <br/>
          우리 <RedSpan>대학생들끼리의 상호 칭찬과 <br/>
          감탄이 아니라,</RedSpan> 실무자, 세상, <br/>
@@ -230,16 +230,16 @@ const SlideContents = ({ id,children }) => {
          <br/>
         <GreenSpan>팔랑크스 공식 아카이빙 <br/>
         채널(티스토리)</GreenSpan>에 <OrangeSpan>
-          기획자로서의 <br/>
+        기획자로서의 <br/>
         결과물 성장</OrangeSpan>이 주차별로 쌓여지고, <br/>
         내가 관심있는(대부분 추후에 <br/>
         지원하고 싶은 기업과 브랜드를 <br/>
         선택해요) 기업/브랜드를 대상으로, <br/>
-        약점을 발견하고 새로운 기능, <br/>
+        약점을 발견하고🔍 새로운 기능, <br/>
         새로운 서비스, 새로운 브랜딩을 <br/>
         기획하는 과정을 담아, 실제 <br/>
          <BiggerSpan>그 기업과 브랜드에게 <br/>
-        공식 타진하는 것까지..!<br/></BiggerSpan>
+        공식 타진하는 것까지..❗<br/></BiggerSpan>
         <br/>
 
 
@@ -308,7 +308,7 @@ const SlideContents = ({ id,children }) => {
       <>
         <div style={{height : "100px"}}>
           <TitleSpan>잠깐?... <br/>
-          한번... 은 누가 못해 
+          한번..은 누가 못해 
             </TitleSpan>
         </div><BiggerSpan>
         얼마나 <GreenSpan>오랫동안</GreenSpan> 할 수 있어? <br/>
@@ -328,7 +328,7 @@ const SlideContents = ({ id,children }) => {
         4년 이상의 대학 과정 동안에, <br/>
         그 학점을 얼마나 <BiggerSpan><OrangeSpan>잘 ‘유지’ 하고, <br/>
         ‘관리’ 할 수 있느냐</OrangeSpan></BiggerSpan> 를 평가하는 <br/>
-        지표라는 것이었습니다.<br/> 
+        지표라는 것이었습니다.📊<br/> 
         <br/>
 
         그동안 저는 너무 <RedSpan>‘열정’</RedSpan>만 <br/>
@@ -371,8 +371,8 @@ const SlideContents = ({ id,children }) => {
         가장 큰 매력은,<br/>
         <br/> 
         “나는, <BlueSpan>나의 일정과 프로젝트를</BlueSpan> <br/>
-        <BlueSpan>‘관리’ </BlueSpan>하며, <BlueSpan>‘항상’</BlueSpan> 이 정도의 <br/>
-        역량을, <BlueSpan>‘정말 항상’</BlueSpan> 보여줄 수 <br/>
+        <BlueSpan>‘관리’ </BlueSpan>하며, <BlueSpan>‘항상💙’</BlueSpan> 이 정도의 <br/>
+        역량을, <BlueSpan>‘정말 항상💙’</BlueSpan> 보여줄 수 <br/>
         있다는 것” 이 핵심입니다.<br/>
       </>
     );
@@ -400,10 +400,10 @@ const SlideContents = ({ id,children }) => {
         나의 포트폴리오가 쌓이는 과정. <br/>
         <br/>
         항상 지난 주의 과정을 <br/>
-        <OrangeSpan>여러 평점과 포인트로</OrangeSpan> <br/>
+        <OrangeSpan>여러 평점과 포인트로💯</OrangeSpan> <br/>
         돌아볼 수 있고, 이를 바탕으로 <br/>
         내가 이번 주에 더 나아갈 <br/>
-        수 있는 방향을 구체화해보는!<br/>
+        수 있는 방향🏍을 구체화해보는!<br/>
         <br/>
         <BiggerSpan><GreenSpan>
         팔랑크스는, <br/>
@@ -460,7 +460,7 @@ const SlideContents = ({ id,children }) => {
         팔랑크스를 <br/>
         30주 이후 수료/졸업하는 크루는, <br/>
         이러한 매주의 커리큘럼 진행과 <br/>
-        그 <BiggerSpan>진행/과정/결과가  <br/>
+        그 <BiggerSpan>진행/과정/결과가📚<br/>
         팔랑크스 공식 포트폴리오에  <br/></BiggerSpan>
         담겨, 후원사와 관리/감독의 증빙이 <br/>
         포함, 발급됩니다. <br/>
@@ -490,7 +490,7 @@ const SlideContents = ({ id,children }) => {
         <br/>
         <BiggerSpan><OrangeSpan>2)</OrangeSpan></BiggerSpan> <br/>
         <BlueSpan>[니즈 파악 / 범위 구조화 / <br/>
-        심화 내용 / 제안 타진]</BlueSpan> 의 4단계<br/>
+        심화 내용 / 제안 타진]</BlueSpan> 의 4️⃣단계<br/>
         (1주에 1개)에 걸쳐 기획을 진행하고,<br/>
         <br/> 
         <BiggerSpan><OrangeSpan>3)</OrangeSpan></BiggerSpan> <br/>
@@ -500,7 +500,7 @@ const SlideContents = ({ id,children }) => {
         <BiggerSpan><OrangeSpan>4)</OrangeSpan></BiggerSpan><br/>
         그리고 위 과정을 모두 팔랑크스의 <br/>
         <BlueSpan>공식 아카이빙 채널(티스토리)에 <br/>
-        나의 이름을 걸고 포스팅</BlueSpan>합니다.<br/>
+        나의 이름을 걸고 포스팅📌</BlueSpan>합니다.<br/>
         <br/> 
         <BiggerSpan>이런 과정을 통해서, <br/></BiggerSpan>
         30주의 과정 중 첫 1주(신입OT), <br/>
@@ -608,11 +608,11 @@ const SlideContents = ({ id,children }) => {
         팔랑크스 활동 주차 30주차는<br/>
         크게 아래로 구분됩니다.<br/>
         <br/>
-          <BiggerSpan>* 1주차 : <br/></BiggerSpan>클럽온보딩 주차<br/>
+          <BiggerSpan>* 1주차 🤗: <br/></BiggerSpan>클럽온보딩 주차<br/>
           (견습 + 신입OT + 적응 지원)<br/>
-          <BiggerSpan>* 2~29주차 :</BiggerSpan> <br/>실제 기획 
+          <BiggerSpan>* 2~29주차 😤:</BiggerSpan> <br/>실제 기획 
           포트폴리오 진행 기간 <br/>
-          <BiggerSpan>* 30주차 :</BiggerSpan> <br/>진행 결과 검수, 
+          <BiggerSpan>* 30주차 🥳:</BiggerSpan> <br/>진행 결과 검수, 
           졸업 준비 주차 <br/>
           (졸업 시스템 + 알룸니 입장)<br/>
         <br/>
@@ -629,16 +629,16 @@ const SlideContents = ({ id,children }) => {
 
         그래서 매번 동일한 크루들과 <br/>
         사람들에게만 피드백 받고  <br/>
-        고여있지 않고, <OrangeSpan>항상 다른,  <br/>
+        고여있지 않고, <OrangeSpan>항상 다른❗<br/>
         새로운 학교의 새로운 전공의 <br/>
         사람들과 꾸준히 연계할 수 있도록 <br/></OrangeSpan>
         되어 있어요!<br/><GraySpan>
         (바뀌지 않는..맨날 정해진 <br/>
         사람들끼리만..이런거..ㄴㄴ )<br/></GraySpan>
         <br/>
-        <BoldSpan>새로운 사람들,</BoldSpan> <br/>
-        <BiggerSpan>새로운 정보들,</BiggerSpan> <br/>
-        <BiggestSpan>새로운 관점들!<br/></BiggestSpan>
+        <BoldSpan>새로운 사람들,💃</BoldSpan> <br/>
+        <BiggerSpan>새로운 정보들,📡</BiggerSpan> <br/>
+        <BiggestSpan>새로운 관점들!👓<br/></BiggestSpan>
         <br/>
         <GreenSpan><BiggestSpan>시즌과 주차 ㄱㄱ</BiggestSpan></GreenSpan>
 
@@ -725,12 +725,12 @@ const SlideContents = ({ id,children }) => {
         <br/>
         <BoldSpan><GreenSpan>이에 따라 팔랑크스는<br/></GreenSpan></BoldSpan>
         <br/>
-        <BlueSpan><BoldSpan>매주 월요일, <br/></BoldSpan></BlueSpan>
+        <BlueSpan><BoldSpan>매주 월요일,🌞 <br/></BoldSpan></BlueSpan>
         클럽 전체(중앙진행), 세부 팀장과 <br/>
         파트장(세부진행)의 <BlueSpan>시작브리핑을 <br/>
         기준으로,</BlueSpan> 한 주가 시작되고,<br/>
           <br/>
-         <PupSpan><BoldSpan>매주 토요일, <br/></BoldSpan></PupSpan>
+         <PupSpan><BoldSpan>매주 토요일,🌝<br/></BoldSpan></PupSpan>
          <PupSpan>마감 브리핑을 기준으로</PupSpan> 한 주의 <br/>
         과정을 종료합니다.<br/>
         <br/> 
@@ -758,12 +758,13 @@ const SlideContents = ({ id,children }) => {
         본 페이지의 7번 사항(1주의 여정)을 <br/>
         참고해주세요!<br/></RedSpan>
         <br/>
-        <OrangeSpan>‘투구⛑’</OrangeSpan> 는 매주 크루들이 모으게 되는,<br/>
+        <OrangeSpan>‘투구⛑’</OrangeSpan> 는 <br/>
+        매주 크루들이 모으게 되는,<br/>
         <DeepGreenSpan>아주 기본적인 포인트 단위</DeepGreenSpan>로서,<br/> 
         팔랑크스의 단장은 매주 월요일,<br/>
         시작 브리핑 시 해당 주차의 <br/>
         인정 조건인 <OrangeSpan>‘투구⛑’</OrangeSpan> 의 개수를 <br/>
-        공표하는데,<br/>
+        📣공표📣하는데,<br/>
         <br/> 
         <RedSpan>다음 주 집계 시 이 <OrangeSpan>‘투구⛑’</OrangeSpan> 의 <br/>
         개수를 달성하지 못한 크루는, <br/>
@@ -783,7 +784,7 @@ const SlideContents = ({ id,children }) => {
         <br/><DeepGreenSpan><BoldSpan>
         ‘안내된 사항’ 에 대한 확실한 인지,<br/>
          확인, 커뮤니케이션 미스 등에 <br/>
-        대한 부분을 체크하고, <br/>
+        대한 부분을 체크✔하고, <br/>
         확인이 되고 있느냐! </BoldSpan></DeepGreenSpan>입니다.<br/>
         <br/>
         즉, 팔랑크스 활동에 신경을 <br/>
@@ -791,7 +792,7 @@ const SlideContents = ({ id,children }) => {
         있느냐에 대한 부분이 절대적이기 <br/>
         때문에 주차 활동 인정 조건인, <br/>
         <RedSpan><BoldSpan>투구 개수를 달성하는 것은 <br/>
-        전혀 어렵지 않습니다.<br/> </BoldSpan></RedSpan>
+        전혀 어렵지 않습니다.❌<br/> </BoldSpan></RedSpan>
         <GraySpan>(오히려, 너무 기준이 낮아서 <br/>
         일부 크루분들에 의해서 <br/>
         불만이 생길 정도에요! <br/>
@@ -821,10 +822,10 @@ const SlideContents = ({ id,children }) => {
         <OrangeSpan>주별 활동의 인정 여부</OrangeSpan>는,잘난 몇명만 <br/> 
         인정되게 하는 것이 아닌!<br/> 
          클럽 팔랑크스의 공식 진행 과정과 <br/> 
-        커리큘럼을 잘 따라온 <BoldSpan><DeepGreenSpan>‘노력’</DeepGreenSpan></BoldSpan> 과, <br/> 
-        <BoldSpan><DeepGreenSpan>‘커뮤니케이션’</DeepGreenSpan></BoldSpan> 에 이상이 없는 <br/> 
+        커리큘럼을 잘 따라온 <BoldSpan><DeepGreenSpan>‘노력’🔥</DeepGreenSpan></BoldSpan> 과, <br/> 
+        <BoldSpan><DeepGreenSpan>‘커뮤니케이션’🤝</DeepGreenSpan></BoldSpan> 에 이상이 없는 <br/> 
         모든 크루들의 한 주 과정을 <br/> 
-        인정해주는 방향이라는 점을 <br/> 
+        ❗인정해주는 방향이라는 점❗을 <br/> 
         반드시 확인 바랍니다!<br/> 
         <GraySpan>(매주 투구 선정 기준과 활동 인정율은 <br/> 
         매주 팔랑크스의 카페로 세세하게 <br/> 
@@ -846,16 +847,16 @@ const SlideContents = ({ id,children }) => {
         24년 2월 기준<BoldSpan> <BlueSpan>IT</BlueSpan> /<PupSpan> 브랜딩</PupSpan> / <OrangeSpan>
           서비스</OrangeSpan>, <br/> </BoldSpan>
         이렇게 <DeepGreenSpan><BoldSpan>3개의 분야</BoldSpan></DeepGreenSpan>로 세부 팀을 <br/> 
-        이루고 있습니다. <br/> 
+        이루고 있습니다.💚 <br/> 
         <br/> 
         모든 크루는 <br/> 
         활동 1주차인 <BlueSpan>클럽 온보딩 과정의 <br/> 
         마지막에</BlueSpan>, 세부 팀 중 희망하는 <br/> 
-        팀을 지원할 수 있으며,<br/>  
+        팀을 지원🙋‍♀️할 수 있으며,<br/>  
         그 뒤 2주차 부터는, 그 팀 배정되어 <br/> 
-        활동을 진행합니다.<br/>
+        활동을 진행합니다.🏃‍♂️<br/>
         <br/> 
-        팀은 <DeepGreenSpan>보통 시즌이 바뀔 때, <br/> 
+        팀은 <DeepGreenSpan>보통 시즌이 바뀔 때,🌀 <br/> 
         혹은 내부의 큰 이슈가 있을 때 <br/> 
         변경 신청 절차가 고지되고,</DeepGreenSpan> <br/> 
         팀을 변경하고자 하는 크루 분은 <br/> 
@@ -889,7 +890,7 @@ const SlideContents = ({ id,children }) => {
         다양한 대기업/중견기업/<br/> 
         중소/스타트업들의 <BoldSpan>실무진이 <br/> 
         평가위원으로 참여하는,</BoldSpan><br/>  
-        <BoldSpan><DeepGreenSpan>올림피아 기획 대전</DeepGreenSpan></BoldSpan>(2월, 8월)의 <br/> 
+        <BoldSpan><DeepGreenSpan>올림피아 기획 대전🤴</DeepGreenSpan></BoldSpan>(2월, 8월)의 <br/> 
         무대에서, 기획 경쟁 PT의 <br/> 
         <DeepGreenSpan>주요 경쟁 단위가 됩니다.</DeepGreenSpan><br/> 
         <GraySpan>ex) 팔랑크스 산하, 15개 <br/> 
@@ -916,7 +917,7 @@ const SlideContents = ({ id,children }) => {
         이루고, <DeepGreenSpan>팔랑크스 활동의 가장 <br/> 
         중심이자 본질</DeepGreenSpan>로서 적용됩니다. <br/> 
         <br/> 
-        <PupSpan>일반 크루</PupSpan>로 활동을 하면서, <br/> 
+        <PupSpan>일반 크루🚶‍♂️</PupSpan>로 활동을 하면서, <br/> 
         자신의 팀 내에서 <OrangeSpan>상대적으로 높은 <br/> 
         역량을 보여주거나,<br/> </OrangeSpan> 
         타 크루에 <OrangeSpan>활동에 도움/지원을 <br/> 
@@ -924,7 +925,7 @@ const SlideContents = ({ id,children }) => {
         <BlueSpan>심화 크루</BlueSpan>로 선발 혹은 지원할 수 <br/> 
         있습니다.  <br/> 
         <br/> 
-        <BlueSpan>심화 크루</BlueSpan>는 <br/> 
+        <BlueSpan>심화 크루🏃‍♂️</BlueSpan>는 <br/> 
         팀장이 전체 크루 수를 고려하여 <br/> 
         선발하며, <DeepGreenSpan>일반 크루의 활동 내용, <br/> 
         당시의 결과물, 커뮤니케이션 역량 등<br/>  
@@ -993,25 +994,25 @@ const SlideContents = ({ id,children }) => {
         <BlueSpan>활동 인정 개수를 공표하고, <br/>
         그 다음 주인 N+1 주차에 <br/>
         그 활동 지표의 달성 여부가 <br/>
-        공표됩니다.</BlueSpan><br/>
+        🙌공표됩니다.🙌</BlueSpan><br/>
         <br/>
         아주 쉽게는, <br/>
         동료 크루가 만든 결과물을 <br/>
-        보고 <OrangeSpan>간단한 피드백</OrangeSpan>을 해주거나, <br/>
+        보고 <OrangeSpan>간단한 피드백💬</OrangeSpan>을 해주거나, <br/>
         매주 정기적으로 올라오는 <br/>
-        공지 사항에 대한 <OrangeSpan>확인 투표</OrangeSpan>만 <br/>
+        공지 사항에 대한 <OrangeSpan>확인 투표✅</OrangeSpan>만 <br/>
         진행하여도 얻을 수 있습니다.<br/>
         <br/>
         <OrangeSpan>‘투구⛑’</OrangeSpan> 를 못 받는다는 것은, <br/>
         기획의 역량이나 실력의 부족이 <br/>
         아닌, <RedSpan>활동하는 클럽의 규정과 <br/>
-        운영 방식을 따르지 않는 것</RedSpan>을 <br/>
+        운영 방식을 따르지 않는 것😨</RedSpan>을 <br/>
         의미하게 됩니다.<br/> 
         <br/>
         정해진 일정과 안내 사항을 <br/>
         내가 항상 수령하고, 커뮤니케이션 <br/>
         할 수 있는 성인으로서의 준비, <br/>
-        즉, <BoldSpan><OrangeSpan>‘사회화’ </OrangeSpan></BoldSpan>를 팔랑크스는 <br/>
+        즉, <BoldSpan><OrangeSpan>‘사회화’🎗</OrangeSpan></BoldSpan>를 팔랑크스는 <br/>
         가장 중요하게 생각합니다!<br/>
         <br/>
         아무리 자기 눈에 뛰어난 <br/>
@@ -1022,7 +1023,7 @@ const SlideContents = ({ id,children }) => {
         <br/>
         <BiggerSpan><RedSpan>사회 구성원으로서의 <br/>
         기본 도덕이 미달된 사람으로<br/>
-        팔랑크스는 생각합니다.</RedSpan></BiggerSpan> 
+        팔랑크스는 생각합니다.😤</RedSpan></BiggerSpan> 
       </>
     );
   }else if (id === '602') {
@@ -1291,7 +1292,7 @@ const SlideContents = ({ id,children }) => {
         육성, 포트폴리오 누적</BlueSpan>의 <br/>
         <PupSpan>📌세부 과정📌</PupSpan>  입니다. <br/>
         <br/>
-          <BoldSpan>ㄱ. 정기 브리핑<br/></BoldSpan>
+          <BoldSpan>ㄱ. 정기 브리핑💬<br/></BoldSpan>
           매주 월 / 수 / 토 를 기준으로, <br/>
           <OrangeSpan>각 팀의 팀장이 자신의 팀 커리큘럼과 <br/>
           별도 조정 사항을 안내하고,</OrangeSpan> <br/>
@@ -1299,7 +1300,7 @@ const SlideContents = ({ id,children }) => {
           모든 크루의<OrangeSpan> 해당 주 포트폴리오 <br/>
           육성을 지원합니다.<br/></OrangeSpan>
           <br/>
-          <BoldSpan>ㄴ. (필수형) 커리큘럼 유닛<br/></BoldSpan>
+          <BoldSpan>ㄴ. (필수형) 커리큘럼 유닛✨<br/></BoldSpan>
           <PinkSpan>4단계의 기획 유닛 과정을 거쳐,</PinkSpan> <br/>
           내가 원하는 실제 기업/브랜드에게 <br/>
           <PinkSpan>나의 기획안을 공식 타진하는 <br/>
@@ -1310,7 +1311,7 @@ const SlideContents = ({ id,children }) => {
           실제 기획 사례에 대한 분석</PinkSpan> <br/>
           역시 포함됩니다. <br/>
           <br/>
-          <BoldSpan>ㄷ. (선택형)  커리큘럼 유닛 <br/></BoldSpan>
+          <BoldSpan>ㄷ. (선택형)  커리큘럼 유닛📚 <br/></BoldSpan>
           기획/컨설팅 직무의 1~3년차 <br/>
           실무자들이 한창 익혀가는 <br/>
           <DeepGreenSpan>실제 도구들과 전략, 전술, 개념 등을 <br/>
@@ -1319,7 +1320,7 @@ const SlideContents = ({ id,children }) => {
           <DeepGreenSpan>주차 인정 조건에 필수가 <br/>
           아닙니다.</DeepGreenSpan><br/> 
           <br/>
-          <BoldSpan>ㄹ. 기획 과정 포스팅 <br/></BoldSpan>
+          <BoldSpan>ㄹ. 기획 과정 포스팅 🖥<br/></BoldSpan>
           진행한 커리큘럼 유닛에 대한 <br/>
           <BlueSpan>나의 실제 진행 내용을, 팔랑크스 <br/>
           공식 아카이빙 채널(티스토리)에 <br/>
@@ -1330,7 +1331,7 @@ const SlideContents = ({ id,children }) => {
           추후 포트폴리오의 <br/>
           가치를 드높이게 됩니다.<br/> </BlueSpan>
           <br/>
-          <BoldSpan>ㅁ. 주차 결산 <br/></BoldSpan>
+          <BoldSpan>ㅁ. 주차 결산 🤴<br/></BoldSpan>
           한 주의 과정을 종료하고, <br/>
           <GoldSpan>지난 기간에 포스팅한 나의 <br/>
           기획안에 대한 조회수와 유명인사 <br/>
@@ -1362,14 +1363,14 @@ const SlideContents = ({ id,children }) => {
         비정기적 활동으로서,  <BlueSpan>클럽 내/외부와 <br/>
         연계하여 진행하는 ‘별도 과정’</BlueSpan>입니다.<br/>
         <br/>  
-        <BoldSpan>ㄱ. 포럼<br/></BoldSpan>
+        <BoldSpan>ㄱ. 포럼📺<br/></BoldSpan>
         각 팀에서 <OrangeSpan>우수한 역량을 가지거나,<br/>
         뛰어난 결과를 낸</OrangeSpan>  선배 크루들의<br/>
         <OrangeSpan>인사이트와 기획/컨설팅 부분에서의 <br/>
         역량 팁을 전수하는 소통 강의</OrangeSpan><br/>
         (온라인 혹은 오프라인) 입니다. <br/>
         <br/>
-        <BoldSpan>ㄴ. 이벤트<br/></BoldSpan>
+        <BoldSpan>ㄴ. 이벤트💌<br/></BoldSpan>
         클럽 팔랑크스와 연계된 다양한 <br/>
         <PupSpan>외부 기업/프로젝트들 속에서</PupSpan> <br/>
         크루들이 참여하여 다양한 <br/>
@@ -1377,7 +1378,7 @@ const SlideContents = ({ id,children }) => {
         (기획 분야 공모전 등) <br/>
         안내됩니다.<br/> 
         <br/>
-        <BoldSpan>ㄷ. 특별행사 :올림피아 기획 대전<br/></BoldSpan>
+        <BoldSpan>ㄷ. 특별행사 :올림피아 기획 대전👊<br/></BoldSpan>
         <DeepGreenSpan>클럽 팔랑크스의 대표 행사로서,</DeepGreenSpan> <br/>
         매년 2, 8월을 기준으로 모든 <br/>
         크루가 필수 참석하는, <DeepGreenSpan>기획/컨설팅 <br/>
@@ -1389,7 +1390,7 @@ const SlideContents = ({ id,children }) => {
         경쟁 발표는 ‘파트’를 기준으로 <br/>
         합니다.<br/>
         <br/> 
-        <BoldSpan>ㄹ. 실무 연계 프로젝트 <br/></BoldSpan> 
+        <BoldSpan>ㄹ. 실무 연계 프로젝트🤝 <br/></BoldSpan> 
         클럽 팔랑크스의 활동 중 <PinkSpan>외부 기업과<br/>
         연계된 실무 프로젝트</PinkSpan>입니다. <br/>
         크루들의 기획안 또는 후원사의 <br/>
@@ -1415,7 +1416,7 @@ const SlideContents = ({ id,children }) => {
         <br/>
         <TitleSpan>졸업 결과물</TitleSpan><br/>
         <br/>
-        <BoldSpan><PupSpan>1) 클럽 팔랑크스 활동 증명서 <br/></PupSpan></BoldSpan>
+        <BoldSpan><PupSpan>1) 클럽 팔랑크스 활동 증명서📑 <br/></PupSpan></BoldSpan>
         (후원사 명의)<br/>
         -&gt; 팔랑크스 클럽이 연계되어 있는, <br/>
         <DeepGreenSpan>후원사들의 검수와 증빙을 거친, <br/>
@@ -1423,7 +1424,7 @@ const SlideContents = ({ id,children }) => {
         (행정 증빙을 담당하는 후원사는 <br/>
         시즌마다 달라질 수 있습니다.)<br/>
         <br/>
-        <BoldSpan><PupSpan>2) 기획/컨설팅 활동 내역서<br/></PupSpan></BoldSpan>
+        <BoldSpan><PupSpan>2) 기획/컨설팅 활동 내역서👔<br/></PupSpan></BoldSpan>
         (Portfolio)<br/>
         -&gt;  팔랑크스 클럽 30주 동안 쌓아온 <br/>
         <DeepGreenSpan>개별 크루의 주차별 포트폴리오와 <br/>
@@ -1434,7 +1435,7 @@ const SlideContents = ({ id,children }) => {
         <RedSpan>*심화 크루는, 이와는 별도로 <br/>
         advanced 슬라이드를 추가 안내 <br/>받습니다.<br/></RedSpan>
         <br/>
-        <BoldSpan><PupSpan>3) 기획/컨설팅 채용 추천서 <br/></PupSpan></BoldSpan>
+        <BoldSpan><PupSpan>3) 기획/컨설팅 채용 추천서 🙋‍♀️<br/></PupSpan></BoldSpan>
         -&gt;  팔랑크스 클럽 활동 중 우수한 <br/>
         기획 과정과 높은 열정, 노력을 <br/>
         통해, 타의 모범이 된 크루를 <br/>
@@ -1442,7 +1443,7 @@ const SlideContents = ({ id,children }) => {
         채용 추천서<br/></DeepGreenSpan>
         <br/>
         <BoldSpan><PupSpan>4) 기획/컨설팅 분야 <br/>
-        에세이 컬렉션<br/></PupSpan></BoldSpan>
+        에세이 컬렉션📰<br/></PupSpan></BoldSpan>
         -&gt;  팔랑크스 클럽의 중앙 과정 중 <br/>
         하나로서 매주 진행한 <DeepGreenSpan>‘에세이’ <br/>
         컬렉션에 대한 본인 소유의 <br/>
@@ -1453,7 +1454,7 @@ const SlideContents = ({ id,children }) => {
         <br/>
 
         <BoldSpan><PupSpan>5) 기획/컨설팅 분야 <br/>
-        실무 연계 프로젝트 경력서<br/></PupSpan></BoldSpan>
+        실무 연계 프로젝트 경력서🌟<br/></PupSpan></BoldSpan>
         -&gt; 팔랑크스 클럽 활동 중 <br/>
         상시적으로 연계되는 <br/>
         <DeepGreenSpan>실무 프로젝트에 대한 <br/>
@@ -1563,26 +1564,26 @@ const SlideContents = ({ id,children }) => {
         클럽 진행에 피해를 입히는 일</RedSpan>이라고 <br/>
         간주합니다.<br/>
         <br/> 
-        이에 따라 가장 페널티(화살 등)가 <br/>
+        이에 따라 가장 페널티(화살🏹 등)가 <br/>
         많이 발생하는 가장 중요한 일로서 <br/>
         아래 사항에 대해  <BoldSpan><RedSpan>단호히 재명시 <br/>
         드립니다.<br/></RedSpan></BoldSpan>
         <br/>
-        <BoldSpan><RedSpan>1. 단톡방을 통한 태그 및 안내<br/></RedSpan></BoldSpan>
+        <BoldSpan><RedSpan>1. 단톡방을 통한 태그 및 안내📌<br/></RedSpan></BoldSpan>
         <br/>
         -&gt; 팔랑크스 클럽의 활동을 <br/>
         시작하게 되면, 각 크루가 사용하는 <br/>
         드라이브, 폴더, 아카이빙 포스팅 권한, <br/>
         네이밍 카드, 투표 시스템, 내부 <br/>
         운영 홈페이지 등 <PupSpan>많은 클럽 인프라에 <br/>
-        초대가 됩니다. <br/></PupSpan>
+        초대가 됩니다.💌 <br/></PupSpan>
         <br/>
         여기서 가장 중요한 채널 중 하나는, <br/>
         <PupSpan>팔랑크스 클럽 활동이 진행되는 <br/>
         여러 단톡들인데,</PupSpan> 이 단톡은 팔랑크스 <br/>
         클럽의 활동이 진행되는 <BoldSpan>‘공식적’인 <br/>
         채널</BoldSpan>이기 때문에 여기에서 <br/>
-        커뮤니케이션 미스가 있지 않도록 <br/>
+        커뮤니케이션 미스가 있지 않도록❌ <br/>
         각별히 유의해야 합니다.  <br/>
         <GraySpan>(아무리 불러도 대답 없는 <br/>
         너..ㅠ..안돼요!😖)<br/></GraySpan>
@@ -1594,7 +1595,7 @@ const SlideContents = ({ id,children }) => {
         단톡을 통해 본인에게 오는 다양한 <br/>
         <PupSpan>메시지와 피드백 들을 확인 하는 것에 <br/>
         어려움을 느끼지 않는 마인드셋</PupSpan>이 <br/>
-        중요합니다. <br/>
+        ❗중요❗합니다. <br/>
         <br/>
         자신의 경력을 시작하는 <br/>
         포트폴리오를 쌓는 <DeepGreenSpan>공적인 <br/>
@@ -1615,15 +1616,15 @@ const SlideContents = ({ id,children }) => {
         <div style={{height : "100px"}}>
          <TitleSpan>커뮤니케이션(2)</TitleSpan>
         </div>
-        <BoldSpan><RedSpan>2. 공지 사항에 대한 투표 및 확인</RedSpan></BoldSpan><br/><br/>
+        <BoldSpan><RedSpan>2. 공지 사항에 대한 투표 및 확인⭕</RedSpan></BoldSpan><br/><br/>
         -&gt; 팔랑크스에서는, 미리 짜여진 <br/>
         일정과 과정을 포함하여 <PupSpan>다양한 안내 <br/>
         및 리마인딩을 알리는 공지 사항이 <br/>
-        올라옵니다.<br/></PupSpan>
+        올라옵니다.📢📢<br/></PupSpan>
         <br/>
         그리고 대부분의 공지 사항은, <br/>
         <DeepGreenSpan>팔랑크스 클럽 시스템과 연동되는 <br/>
-        투표를 포함하고 있는데,</DeepGreenSpan> <br/>
+        투표를 포함하고 있는데,💻</DeepGreenSpan> <br/>
         이 투표는 시즌 등록된 모든 <br/>
         크루들의 확인과 진행 과정에 대한 <br/>
         활동을 캐칭하여, <DeepGreenSpan>주차 인정 조건에 <br/>
@@ -1634,7 +1635,7 @@ const SlideContents = ({ id,children }) => {
         숙지하여야 하며</RedSpan> 공지사항을 숙지하지 <br/>
         않을 시 발생하는 <RedSpan>페널티와 불이익에 <br/>
         대해서는 운영진이 책임을 질 수 <br/>
-        없어요!<br/></RedSpan>
+        없어요!😫<br/></RedSpan>
         <br/> 
         그간 통상적으로 보았을 때, <br/>
         10명 정도에게 전달된 안내와 <br/>
@@ -1645,10 +1646,10 @@ const SlideContents = ({ id,children }) => {
         금전 비용 그리고 클럽 전체 크루들이 <br/>
         입는 피해는 <br/>
         <RedSpan><BiggerSpan>그 1명 때문에 발생하는<br/>
-        경우가 많습니다!<br/></BiggerSpan></RedSpan>
+        경우가 많습니다!😤<br/></BiggerSpan></RedSpan>
         <br/>
         본인이 그 1명이 되지 않도록 <br/>
-        <BoldSpan>각별히</BoldSpan> 유의 부탁드립니다.
+        <BoldSpan>각별히</BoldSpan> 유의 부탁드립니다.😉
       </>
     );
   }
@@ -1660,7 +1661,7 @@ const SlideContents = ({ id,children }) => {
          <TitleSpan>커뮤니케이션(3)</TitleSpan>
         </div>
         <BoldSpan><RedSpan>3. 클럽 공식의 <br/>
-        커뮤니케이션 페이지를 <br/>
+        커뮤니케이션 페이지💻를 <br/>
         적극 활용하라</RedSpan></BoldSpan><br/> <br/>
         -&gt; 활동을 시작하면, <DeepGreenSpan>내부 <br/>
         크루들에게만 공개되는, 전용 <br/>
@@ -1673,8 +1674,8 @@ const SlideContents = ({ id,children }) => {
         공적인 활동을 진행하게 될 경우, <br/>
         당연하게도 해당 공간은 <BoldSpan>‘사적’ 인 <br/>
         공간</BoldSpan>으로서, 운영 과정에서 <br/>
-        어떤 <RedSpan>책임이나 활동 내용에 대한  <br/>
-        증빙이 곤란할 수 있습니다.<br/></RedSpan>
+        어떤 <RedSpan>❌책임이나 활동 내용에 대한  <br/>
+        증빙이 곤란할 수 있습니다.❌<br/></RedSpan>
         <br/>
         클럽 활동 안에서 발생하는 <br/>
         여러 문의나 피드백, 내용은<br/>
@@ -1697,13 +1698,13 @@ const SlideContents = ({ id,children }) => {
         <div style={{height : "100px"}}>
          <TitleSpan>커뮤니케이션(4)</TitleSpan>
         </div>
-        <BoldSpan><RedSpan>4. 커뮤니케이션 상에서의 <br/>
-        사회의 상식을 익히는 기회로 활용하라</RedSpan></BoldSpan><br/> <br/>
+        <BoldSpan><RedSpan>4. 커뮤니케이션 상에서의 사회의 <br/>
+        상식을 익히는 기회로 활용하라💪</RedSpan></BoldSpan><br/> <br/>
         -&gt; 팔랑크스 클럽은, 기획/컨설팅 <br/>
         부분에서의 <DeepGreenSpan>실무 포트폴리오를 <br/>
         준비하는 과정으로써</DeepGreenSpan>, 즉 우리가 <br/>
         대학생을 넘어, 사회로 진출하는 <br/>
-        <DeepGreenSpan>준비된 청춘으로서의 성장을 <br/>
+        <DeepGreenSpan>준비된 청춘으로서의 성장🔥을 <br/>
         가장 중요시하게 생각합니다.<br/></DeepGreenSpan>
         <br/> 
         이에 따라 팔랑크스 클럽의 <br/>
@@ -1722,12 +1723,12 @@ const SlideContents = ({ id,children }) => {
         마감 기한에 대한 것을 <RedSpan>개인 임의의 <br/>
         사정으로 무시하거나 미룰 수 없다는,</RedSpan> <br/>
         <BiggerSpan>‘당연한‘</BiggerSpan> 사항들을 익힐 수 있는 <br/>
-        기회로 삼아주세요 <br/>
+        기회로 삼아주세요 <br/>😊
         <br/>
         2024년 기준, <br/>
         대한민국의 20대 청춘이 <BoldSpan>24시간 이상 <br/>
         스마트폰을 확인하지 않는다는 것은, <br/>
-        <RedSpan>‘비상 상황’ </RedSpan>이라는 것을</BoldSpan> <br/>
+        <RedSpan>‘비상 상황🚨’ </RedSpan>이라는 것을</BoldSpan> <br/>
         우리 모두가 인지할 것입니다.<br/>
         <br/> 
         본인을 부르는, 메시지를 <br/>
@@ -1752,7 +1753,7 @@ const SlideContents = ({ id,children }) => {
          <TitleSpan>커뮤니케이션(5)</TitleSpan>
         </div>
         <BoldSpan><RedSpan>5. 나는 아직 <br/>
-        케어가 필요한 청소년인가? <br/>
+        케어가 필요한 청소년인가? 🤔<br/>
         스스로 우뚝 설 수 있는 성인인가?</RedSpan></BoldSpan><br/> <br/>
         -&gt; 팔랑크스는, 30주의 기간과 내부의 <br/>
         커리큘럼과 진행과정, 그리고 증빙받는 <br/>
@@ -1764,8 +1765,8 @@ const SlideContents = ({ id,children }) => {
         <RedSpan>친목 관계를 가지는 동아리 활동이 <br/>
         아니라,</RedSpan> 많은 후원사와 연계 프로젝트, <br/>
         그리고 채용과 직접적으로 연결되는 <br/>
-        <BlueSpan>기획/컨설팅 프로젝트의 <br/>
-        실무 포트폴리오를 시작하는 <br/></BlueSpan>
+        <BlueSpan>💙기획/컨설팅 프로젝트의 <br/>
+        실무 포트폴리오를 시작하는💙<br/></BlueSpan>
         <br/>
         <BiggerSpan>‘커리어의 시작‘,</BiggerSpan> 클럽이기 때문에 <br/>
         우리 외에도 연계/ 후원/ 졸업한 <br/>
@@ -1778,12 +1779,13 @@ const SlideContents = ({ id,children }) => {
         동아리 활동에서의 술자리 진상 짓은, <br/>
         기껏해야 학과 동기 정도가 알고 <br/>
         이불킥 추억으로 지나가지만, <br/>
+        <br/>
         <BoldSpan>팔랑크스에서는 채용이나 실제 <br/>
         기획/컨설팅 직무의 다양한 선후배와 <br/>
         실무자, 연계 기업들이 함께하기 <br/>
         때문에 <RedSpan>괜히 부주의하고 무책임한 <br/>
-        행동으로 책임질 수 없는 상황이 <br/>
-        오지 않도록</RedSpan> 유의하는 것을 <br/>
+        행동으로 💥책임질 수 없는 상황이 <br/>
+        오지 않도록💥</RedSpan> 유의하는 것을 <br/>
         추천드립니다.<br/></BoldSpan>
         <br/> 
         <BiggerSpan><GreenSpan>본인의 좋은 평판을 <br/>
