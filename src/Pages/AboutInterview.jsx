@@ -61,8 +61,8 @@ const AboutInterview = () => {
                     <OrangeSpan>Q. 동아리 활동은 얼마만큼 하는 건가요?<br/></OrangeSpan>
                     <br/>
                     <DeepGreenSpan>
-                    A. 안내페이지 및 여러 안내 사항에,<br/>
-                    ’30주’ 라는 활동 주차가 명시되어 있기 때문에, <br/>
+                    A. 안내페이지 및 여러 안내 사항에, ’30주’ <br/>
+                    라는 활동 주차가 명시되어 있기 때문에, <br/>
                     부정적인 평가로 이어지는 질문이 됨.<br/></DeepGreenSpan>
                     <br/><BingFont>
                     (“앗, 당신은 주어진 안내를 제대로 읽지 않아서, <br/>
@@ -79,14 +79,14 @@ const AboutInterview = () => {
                     할 수 있다고 하는데, 예정된 휴식이 아닌, <br/>
                     불가피하게 급작스러운 휴식이 필요한 <br/>
                     주차가 발생하면 어떻게 해야 되나요?​<br/></OrangeSpan>
-                    <DeepGreenSpan><br/>
+                    <GreenSpan><br/>
                     A. 전체 규정이 잘 준수되고 있다는 전제 하에, <br/>
-                    클럽 내부 크루들이 수시로 사용하는 <br/>
-                    팔랑크스 전용 커뮤니케이션 페이지를 활용하여, <br/>
+                    클럽 내부 크루들이 수시로 사용하는 팔랑크스<br/>
+                     전용 커뮤니케이션 페이지를 활용하여, <br/>
                     양식에 따라  해당 상황을 남겨주시면, <br/>
                     <br/>
                     추후 팀장 및 파트장 크루들이 최대한 피해가 <br/>
-                    가지 않도록 처리해드릴 수 있습니다. <br/></DeepGreenSpan>
+                    가지 않도록 처리해드릴 수 있습니다. <br/></GreenSpan>
                     <BingFont>
                     (단, “그냥 놀고 싶어요!” 같은 이유라면..<br/>
                     처리가 어려울 수 있겠죠 ^^;) ​<br/></BingFont></div>
@@ -327,7 +327,7 @@ const SlideContainer = styled.div`
   margin: 2%;
   position : relative;
   border-radius: 16px;
-  background-color: rgb(50,50,50,0.5);
+  background-color: rgb(50,50,50,0.8);
   box-shadow: 0px 0px 4px 0px #979797;
   backdrop-filter: blur(9.999999046325684px);
   box-shadow: inset 0px 0px 15px 15px rgb(0,0,0,0.08);

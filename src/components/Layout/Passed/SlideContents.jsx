@@ -148,9 +148,10 @@ const SlideContents = ({ id,children }) => {
         <div style={{height : "100px"}}>
           <TitleSpan>우리끼리의 <br/>장난이 아닌, 
             </TitleSpan><br/>
-            <SemiBiggerSpan>나아가고자 하는 세상과 직접 연결</SemiBiggerSpan><br/>
+            <SemiBiggerSpan>나아가고자 하는 <br/>세상과 직접 연결</SemiBiggerSpan>
         </div>
-        
+        <br/>
+        <br/>
         <br/>
         동아리/학회에서의 활동을 <br/>
         열심히 하고 난 다음에의 <RedSpan>문제는</RedSpan>, <br/>

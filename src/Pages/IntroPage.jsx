@@ -36,6 +36,11 @@ const IntroPage = () => {
         } else {
             setTextIndex(textIndex + 1);
             console.log('하나 더');
+            ReactGA4.event({
+                category: 'Intro Navigation',
+                action: `Intro Skipped ${textIndex}`,
+                label: 'Intro Page Skipped'
+            });
         }
     };
 

@@ -11,6 +11,7 @@ import Checkbox from '../components/common/CheckBox';
 import SlideContents from '../components/Layout/Passed/SlideContents';
 import { FcNext, FcPrevious } from "react-icons/fc";
 import { TfiAngleDoubleDown, TfiAngleDoubleUp  } from "react-icons/tfi";
+import ReactGA4 from 'react-ga4';
 
 const ClubDeTail = () => {
   const navigate = useNavigate();
@@ -40,6 +41,11 @@ const ClubDeTail = () => {
       newState[index] = !newState[index]; // 현재 상태의 반대값으로 변경
       return newState;
     });
+    ReactGA4.event({
+      category: 'InterviewPage',
+      action: `9B Check${index}`,
+      label: '9B Check'
+  });
   };
 
   const handleLinkClick = () => {

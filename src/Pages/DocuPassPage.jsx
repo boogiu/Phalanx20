@@ -4,7 +4,7 @@ import Header from '../components/common/Header';
 import Footer from '../components/common/Footer';
 import WaitModal from '../components/Layout/Passed/WaitModal'
 import PassedGuide from '../components/Layout/Passed/PassedGuide';
-
+import ReactGA4 from 'react-ga4';
 
 // 인풋 박스 테두리 플래시 애니메이션
 
@@ -22,6 +22,12 @@ const Modal = ({ onClose, passcode }) => {
         setTimeout(() => {
             setIncorrectPass(false);
         }, 1000); // 1초 후에 플래시 애니메이션을 해제합니다.
+
+        ReactGA4.event({
+          category: 'InterviewPage',
+          action: `CodeWrong`,
+          label: 'PassCode Wrong'
+      });
         }
     };
   
@@ -46,7 +52,7 @@ const Modal = ({ onClose, passcode }) => {
   };
   
   const DocuPassPage = () => {
-    const PassCode = "#PXWSDP1";
+    const PassCode = "#pxwsdp1";
     const [showModal, setShowModal] = useState(true);
   
     useEffect(() => {
