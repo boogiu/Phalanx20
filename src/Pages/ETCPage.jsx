@@ -1,6 +1,5 @@
 import React, { Children, useEffect, useRef,useState  } from 'react';
 import styled, { keyframes, css } from 'styled-components';
-import Header from '../components/common/Header';
 import FAQ from '../components/Layout/ETC/F&Q'
 import Footer from '../components/common/Footer';
 import SnsFooter from '../components/Layout/SnsFooter';
@@ -8,7 +7,6 @@ const ETCPage = () => {
 
   return (
     <StyledContainer>
-      <Header/>
       <div>
         <FAQ/>
         <SnsFooter/>

@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
 import styled, {css} from 'styled-components';
-import Header from '../components/common/Header';
 import Footer from '../components/common/Footer';
 import { useNavigate } from 'react-router-dom';
 import { CgChevronDoubleLeft, CgChevronDoubleRight  } from "react-icons/cg";
@@ -33,7 +32,6 @@ const AboutInterview = () => {
   return (
     <BackGroundSrc imagePath={"ThirdBack.png"}>
       <StyledContainer>
-        <Header/>
             <div>
                 <PassPageData id={'310'}/>
                 <PassPageData id={'311'}/>
@@ -268,6 +266,7 @@ const GradientButton = styled.button`
   transition: background 0.3s ease;
   margin : 5% 0% 15% 0%;
   box-shadow: 0px 4px 0px 0px #ff7300;
+  
   width : 90%;
 `;
 const BtnDiv = styled.div`
@@ -375,21 +374,6 @@ color : #FF8000;
 const RedSpan = styled.span`
 color : #FF0000;
 `
-const BlueSpan = styled.span`
-color : #0040FF;
-`
-const GraySpan = styled.span`
-color : #A4A4A4;
-`
-
-const PupSpan = styled.span`
-color : #BF00FF;
-`
-
-const PinkSpan = styled.span`
-color : #FF0080;
-`
-
 const DeepGreenSpan =styled.span`
   color : #04B404;
 `

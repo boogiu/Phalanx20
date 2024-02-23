@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import styled, {css} from 'styled-components';
-import Header from '../components/common/Header';
 import Footer from '../components/common/Footer';
 import PassCa from '../components/Layout/Passed/PassCa'
 import { useNavigate } from 'react-router-dom';
@@ -30,7 +29,6 @@ const PassCalender = () => {
   return (
     <BackGroundSrc imagePath={"PassBack2.png"}>
       <StyledContainer>
-              <Header/>
                   <div>
                       <PassCa/>
                       <SectionBlock>

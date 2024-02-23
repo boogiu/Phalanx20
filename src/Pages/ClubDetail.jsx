@@ -4,7 +4,6 @@ import React, { useState, useEffect, useRef } from 'react';
 import styled from 'styled-components';
 import { useNavigate } from 'react-router-dom';
 import { CgChevronDoubleLeft, CgChevronDoubleRight } from 'react-icons/cg';
-import Header from '../components/common/Header';
 import Footer from '../components/common/Footer';
 import PassPageData from '../components/Layout/Passed/PassPageData';
 import Checkbox from '../components/common/CheckBox';
@@ -63,7 +62,6 @@ const ClubDeTail = () => {
   return (
     <BackGroundSrc imagePath={"PassBack4.png"}>
       <StyledContainer>
-        <Header />
         <div>
           <PassPageData id={'211'}/>
           <PassPageData id={'212'}/>

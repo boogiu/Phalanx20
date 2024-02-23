@@ -897,10 +897,6 @@ color : #81F7F3;
 
 `
 
-
-const GraySpan = styled.span`
-color : #228B22;
-`
 const RealGraySpan = styled.span`
 color : #BDBDBD;
 `

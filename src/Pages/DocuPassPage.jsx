@@ -1,6 +1,5 @@
 import React, { Children, useEffect, useRef,useState  } from 'react';
 import styled, { keyframes, css } from 'styled-components';
-import Header from '../components/common/Header';
 import Footer from '../components/common/Footer';
 import WaitModal from '../components/Layout/Passed/WaitModal'
 import PassedGuide from '../components/Layout/Passed/PassedGuide';
@@ -66,7 +65,6 @@ const Modal = ({ onClose, passcode }) => {
     return (
     <BackGroundSrc imagePath={"PassBack1.png"}>
       <StyledContainer>
-        <Header/>
         <div>
           <PassedGuide/>
           

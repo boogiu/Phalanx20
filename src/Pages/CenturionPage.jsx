@@ -1,6 +1,5 @@
 import React, { Children, useEffect, useRef,useState  } from 'react';
 import styled, { keyframes, css } from 'styled-components';
-import Header from '../components/common/Header';
 import Wisdom from '../components/Layout/Centurion/Wisdom'
 import Calender from '../components/Layout/Centurion/Calender';
 import Session from '../components/Layout/Centurion/Session';
@@ -29,7 +28,6 @@ const CenturionPage = () => {
   
   return (
     <StyledContainer>
-      <Header/>
       <div>
         <div ref={sectionDefault}/>
         <Centurion/>

@@ -48,7 +48,6 @@ const ImageRoll = () => {
     return (
         <BackGroundSrc imagePath={"imgRollBack.png"}>
             <RollContainer>
-                <ClickDiv ><ClickIcon/><ClickIcon/><ClickIcon/></ClickDiv>
                 <BtnDiv>
                     <Btn id='1' onClick={() => openModal('1')}><Titlespan>수치!</Titlespan></Btn>
                     <Btn id='2' onClick={() => openModal('2')}><Titlespan>구조!</Titlespan></Btn>
@@ -109,43 +108,29 @@ const StrongSpan = styled.span`
 
 
 const BtnDiv = styled.div`
-    display : flex;
+    display : grid;
     flex-flow : row wrap;
     justify-content : center;;
     align-items : center;
     width : 100%;
     height : 15vh;
     margin: 1vh 0vw 8vh 0vw;
-
+    grid-template-columns: repeat(3, 1fr);
 `;
 
 const Btn = styled.button`
   position: relative;
-  float: left;
-  width: 25%;
-  height : auto;
-  min-height : 70px;
-  max-width : 210px;
-  padding: 0;
-  margin: 0px 10px 0px 10px ;
-  font-family : '워헤븐';
-  font-size : 5vmin;
-  font-weight: 600;
-  text-align: center;
-  line-height: 50px;
-  color: #2E2E2E;
-  border : none;
-  border-radius: 10%;
-  transition: all 0.2s ;
-  background: rgb(204,255,204,0.8);
-  box-shadow: 0px 8px 0px 0px #088A29;
-  &:hover {
-    box-shadow: 0px 0px 0px 0px #088A29;
-    background-color: #00FF40; /* 호버 효과에 대한 배경색 변경 */
-    margin-top: 15px;
-    margin-bottom: 5px;
-  }
-  animation: ding 1.5s infinite ease-out;
+  background: linear-gradient(45deg, #00FF66, #99FF99);
+  border: none;
+  color: white;
+  font-size: 15vmin;
+  font-family : '스윗';
+  border-radius: 25px;
+  cursor: pointer;
+  margin : 5%;
+  transition: background 0.3s ease;
+  box-shadow: 0px 4px 0px 0px #00CC00;
+  animation: ding 2s infinite ease-out;
 
     @keyframes ding {
     50% {
@@ -153,19 +138,6 @@ const Btn = styled.button`
         margin-bottom: 5px;
         box-shadow: 0px 0px 0px 0px #088A29;
     }
-}
-`
-
-const ClickDiv =styled.div `
-
-` 
-const ClickIcon = styled(FcInternal)`
-font-size : 9vmin;
-margin : 0 30px 0 30px;
-animation: float 1.5s infinite ease-out;
-    @keyframes float {
-      0%{transform:translate(0,0);}
-      50%{transform:translate(0,20px);}
 }
 `
 

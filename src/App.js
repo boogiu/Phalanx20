@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import { AppProvider } from './AppContext';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, useLocation  } from 'react-router-dom';
 import RouteChangeTracker from './RouteChangeTracker';
 import IntroPage from './Pages/IntroPage';
 import DefaultPage from './Pages/DefaultPage';
@@ -15,17 +15,26 @@ import PassCalender from './Pages/PassCalender';
 import AboutInterview from './Pages/AboutInterview';
 import PreGuide from './Pages/PreGuide';
 import ClubDetail from './Pages/ClubDetail'
-
+import TestPreMessage from './Pages/TestPreMessage'
 import ScrollToSection from './components/common/ScrollToSection';
+import NewHeader from './components/common/NewHeader';
+
+function RenderNewHeader() {
+  const location = useLocation();
+  const isIntroPage = location.pathname === '/';
+  return !isIntroPage && <NewHeader />;
+}
 
 function App() {
-  
+
   return (
     <div className="App">
       <BrowserRouter>
+      <AppProvider>
+        <RenderNewHeader/>
         <RouteChangeTracker />
         <ScrollToSection/>
-        <AppProvider>
+        
           <Routes >
             <Route path="/" element={<IntroPage />} />
             <Route path="/DefaultPage" element={<DefaultPage />}/>

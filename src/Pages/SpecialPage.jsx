@@ -1,6 +1,5 @@
 import React, { Children, useEffect, useRef,useState  } from 'react';
 import styled, { keyframes, css } from 'styled-components';
-import Header from '../components/common/Header';
 import Footer from '../components/common/Footer';
 import Special from '../components/Layout/Special/Special'
 import RealProject from '../components/Layout/Special/RealProject';
@@ -30,7 +29,6 @@ const SpecialPage = () => {
 
   return (
     <StyledContainer>
-      <Header/>
       <div>
         <div ref={sectionDefault}/>
         <Special/>

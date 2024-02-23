@@ -9,11 +9,11 @@ import SeocndSection from '../components/Layout/SecondSection';
 import ThirdSection from '../components/Layout/ThirdSection';
 import MapLink from '../components/Layout/MapLink';
 import ImageRoll from '../components/common/ImageRoll';
-import Header from '../components/common/Header';
 import SnsFooter from '../components/Layout/SnsFooter';
 import Footer from '../components/common/Footer';
 import LeaderMessage from '../components/Layout/LeaderMessage';
 import { useAppContext } from '../AppContext';
+
 
 const DefaultSection = () => {
   const { scrollToRef } = useAppContext();
@@ -80,12 +80,10 @@ const DefaultSection = () => {
   
   return (
     <StyledContainer>
-       <Header />
-        
+       {/*<Header/>*/}
       <div style={{margin : "13vh 0 0 0"}}>
         <div ref={sectionDefault}/>
         <FirstSection/>
-        
         <LeftSlideGroup ref={titleRef} isInViewport={isInViewport}>
           <SeocndSection/>
         </LeftSlideGroup>

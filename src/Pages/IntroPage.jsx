@@ -39,7 +39,7 @@ const IntroPage = () => {
             ReactGA4.event({
                 category: 'Intro Navigation',
                 action: `Intro Skipped ${textIndex}`,
-                label: 'Intro Page Skipped'
+                label: `Intro ${textIndex} Skipped`
             });
         }
     };

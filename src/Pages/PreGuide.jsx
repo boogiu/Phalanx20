@@ -4,7 +4,6 @@ import React, { Children, useState } from 'react';
 import styled from 'styled-components';
 import { useNavigate } from 'react-router-dom';
 import { CgChevronDoubleLeft, CgChevronDoubleRight } from 'react-icons/cg';
-import Header from '../components/common/Header';
 import Footer from '../components/common/Footer';
 import PassPageData from '../components/Layout/Passed/PassPageData';
 
@@ -33,7 +32,6 @@ const PreGuide = () => {
   return (
     <BackGroundSrc imagePath={"PassBack3.png"}>
       <StyledContainer>
-            <Header />
             <div>
               <PassPageData id={'111'}/>
               <PassPageData id={'112'}/>

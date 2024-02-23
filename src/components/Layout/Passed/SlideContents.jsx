@@ -626,7 +626,7 @@ const SlideContents = ({ id,children }) => {
         30주가 되었을 때 졸업하게 되는 <br/>
         시스템입니다. <br/><GraySpan>
         (내가 4주차 일때, 15주차인 선배님도, <br/>
-        2주차인 후배도 있겠죠) <br/></GraySpan>
+        2주차인 후배님도 있겠죠) <br/></GraySpan>
 
         그래서 매번 동일한 크루들과 <br/>
         사람들에게만 피드백 받고  <br/>

@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import styled, { keyframes, css } from 'styled-components';
-import {slideDiagonal,scaleInAnimation} from '../common/Animation'
 import ModalContents from './ModalContents';
 
 
@@ -70,33 +69,28 @@ const CloseButton = styled.button`
 `;
 
 const PopUpBox = styled.div`
-  cursor: pointer;
-  background: #4C0B5F;
+  width: 100%;
+  height: 60%;
+  background: linear-gradient(45deg, #00FF66, #99FF99);
   border: none;
-  width : 100%;
-  height : 50%;
+  color: white;
+  padding: 10px 20px;
+  font-size: 15vmin;
+  font-family : '스윗';
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  box-shadow: 0px 4px 0px 0px #00CC00;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #01DF3A;
-  font-size : 14vmin;
-  font-family:'워헤븐';
   text-align:start;
-
-  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
-  7px 7px 20px 0px rgba(0,0,0,.1),
-  4px 4px 5px 0px rgba(0,0,0,.1);
-
-  transition: all 0.3s ease;
-
-  animation: heartbeat 2s infinite ;
-
-  border-radius: 15px;
+  animation: heartbeat 5s infinite ;
+  
   @keyframes heartbeat {
     
     50% {
       transform: scale(0.9);
-      box-shadow:inset 0px 0px 0px 0px rgba(255,255,255,.5);
     }
     
   }

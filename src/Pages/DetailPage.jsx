@@ -1,6 +1,5 @@
 import React, { Children, useEffect, useRef,useState  } from 'react';
 import styled, { keyframes, css } from 'styled-components';
-import Header from '../components/common/Header';
 import Team from '../components/Layout/Detail/Team'
 import Curriculum from '../components/Layout/Detail/Curriculum';
 import DetailAct from '../components/Layout/Detail/DetailAct';
@@ -29,7 +28,6 @@ const DetailPage = () => {
   
   return (
     <StyledContainer>
-      <Header/>
       <div>
       <div ref={sectionDefault}/>
         <Detail/>

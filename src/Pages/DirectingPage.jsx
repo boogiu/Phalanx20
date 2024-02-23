@@ -1,6 +1,5 @@
 import React, { Children, useEffect, useRef,useState  } from 'react';
 import styled, { keyframes, css } from 'styled-components';
-import Header from '../components/common/Header';
 import Footer from '../components/common/Footer';
 import Season from '../components/Layout/Directing/Season'
 import { useAppContext } from '../AppContext';
@@ -30,7 +29,6 @@ const DirectingPage = () => {
   
   return (
     <StyledContainer>
-      <Header/>
       <div>
         <div ref={sectionDefault}/>
         <Directing/>
