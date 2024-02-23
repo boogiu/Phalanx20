@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import styled from 'styled-components';
 import { BsHouseHeart ,BsSignpost2 ,BsRocketTakeoff,BsHeartPulse ,BsMortarboard  ,BsEnvelopePaperHeart  } from "react-icons/bs";
 import { useAppContext } from '../../AppContext';
+import ReactGA4 from 'react-ga4';
 
 const HeaderContainer = styled.div`
   position: fixed;
@@ -174,6 +175,11 @@ const NewHeader = () => {
   
     const handleLinkClick = (url) => {
       navigate(url); // navigate 함수를 사용하여 페이지 이동
+      ReactGA4.event({
+        category: 'MenuClick',
+        action: `${url}`,
+        label:  `${url}`
+    });
     };
 
     useEffect(() => {
