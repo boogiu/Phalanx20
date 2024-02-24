@@ -51,25 +51,19 @@ const Modal = ({ onClose, passcode }) => {
     </ModalOverlay>
   );
 };
+
 const DocuPassPage = () => {
   const PassCode = "#pxwsdp1";
   const [showModal, setShowModal] = useState(true);
   const handleCloseModal = () => {
     setShowModal(false); // 모달을 닫음
   };
-  useEffect(() => {
-    if (showModal) {
-      document.body.style.overflow = 'hidden'; // 스크롤 금지
-    } else {
-      document.body.style.overflow = 'auto'; // 스크롤 허용
-    }
-  }, [showModal]);
 
   return (
-    <BackGroundSrc imagePath={"PassBack1.png"}>
+    <BackGroundSrc imagePath={"PassBack1.png"} >
       <StyledContainer>
         <div>
-          <PassedGuide/>
+          {!showModal ? <PassedGuide /> : null}
           {showModal && <Modal onClose={handleCloseModal} 
           passcode={PassCode} />}
         </div>
