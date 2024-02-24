@@ -4,90 +4,82 @@ import Footer from '../components/common/Footer';
 import WaitModal from '../components/Layout/Passed/WaitModal'
 import PassedGuide from '../components/Layout/Passed/PassedGuide';
 import ReactGA4 from 'react-ga4';
-
+import { useNavigate } from 'react-router-dom';
 // 인풋 박스 테두리 플래시 애니메이션
 
 
 const Modal = ({ onClose, passcode }) => {
-    const [inputValue, setInputValue] = useState('');
-    const [incorrectPass, setIncorrectPass] = useState(false);
+  const [inputValue, setInputValue] = useState('');
+  const [incorrectPass, setIncorrectPass] = useState(false);
 
-    const handleClose = () => {
-        if (inputValue === passcode) {
-        onClose();
-        enableScroll(); // 모달이 닫힐 때 스크롤 다시 허용
-        } else {
-        setIncorrectPass(true);
-        setTimeout(() => {
-            setIncorrectPass(false);
-        }, 1000); // 1초 후에 플래시 애니메이션을 해제합니다.
 
-        ReactGA4.event({
-          category: 'InterviewPage',
-          action: `CodeWrong`,
-          label: 'PassCode Wrong'
+  const handleClose = () => {
+    if (inputValue === passcode) {
+      onClose();
+    } else {
+      setIncorrectPass(true);
+      setTimeout(() => {
+        setIncorrectPass(false);
+      }, 1000); // 1초 후에 플래시 애니메이션을 해제합니다.
+
+      ReactGA4.event({
+        category: 'InterviewPage',
+        action: `CodeWrong`,
+        label: 'PassCode Wrong'
       });
-        }
-    };
-  
-    return (
-      <ModalOverlay>
-        <ModalContent onClick={e => e.stopPropagation()}>
-          
-          <WaitModal />
-          
-          <PassInput
-            value={inputValue}
-            onChange={e => setInputValue(e.target.value)}
-            placeholder="Passcode를 입력하세요"
-            incorrectPass={incorrectPass} 
-          />
-          <CloseButton onClick={handleClose}>SubMit</CloseButton>
-          <TxT>*이전 기수에서, 필수 커리큘럼 수료 후 재지원 하시는 경우, <br/>
-          본 코드가 아닌 별도 안내된 사항을 참고 바랍니다.</TxT>
-        </ModalContent>
-      </ModalOverlay>
-    );
+    }
   };
-  
-  const DocuPassPage = () => {
-    const PassCode = "#pxwsdp1";
-    const [showModal, setShowModal] = useState(true);
-  
-    useEffect(() => {
-      if (showModal) {
-        disableScroll(); // 모달이 열릴 때 스크롤 막기
-      } else {
-        enableScroll(); // 모달이 닫힐 때 스크롤 허용
-      }
-    }, [showModal]);
-  
-    return (
+
+  const handleModalClose = () => {
+    onClose();
+  };
+
+  return (
+    <ModalOverlay>
+      <ModalContent onClick={e => e.stopPropagation()}>
+        <WaitModal />
+        <PassInput
+          value={inputValue}
+          onChange={e => setInputValue(e.target.value)}
+          placeholder="Passcode를 입력하세요"
+          incorrectPass={incorrectPass}
+        />
+        <CloseButton onClick={handleClose}>SubMit</CloseButton>
+        <TxT>*이전 기수에서, <br />필수 커리큘럼 수료 후 재지원 하시는 경우, <br />
+        본 코드가 아닌 별도 안내된 사항을 <br />참고 바랍니다.</TxT>
+      </ModalContent>
+    </ModalOverlay>
+  );
+};
+const DocuPassPage = () => {
+  const PassCode = "#pxwsdp1";
+  const [showModal, setShowModal] = useState(true);
+  const handleCloseModal = () => {
+    setShowModal(false); // 모달을 닫음
+  };
+  useEffect(() => {
+    if (showModal) {
+      document.body.style.overflow = 'hidden'; // 스크롤 금지
+    } else {
+      document.body.style.overflow = 'auto'; // 스크롤 허용
+    }
+  }, [showModal]);
+
+  return (
     <BackGroundSrc imagePath={"PassBack1.png"}>
       <StyledContainer>
         <div>
           <PassedGuide/>
-          
-          {showModal && <Modal onClose={() => setShowModal(false)} passcode={PassCode} />}
+          {showModal && <Modal onClose={handleCloseModal} 
+          passcode={PassCode} />}
         </div>
         <Footer/>
       </StyledContainer>
     </BackGroundSrc>
-      
-    );
-  };
-  
-  export default DocuPassPage;
-  
-  // 스크롤 막기
-  const disableScroll = () => {
-    document.body.style.overflow = 'hidden';
-  };
-  
-  // 스크롤 허용
-  const enableScroll = () => {
-    document.body.style.overflow = 'auto';
-  };
+  );
+};
+
+export default DocuPassPage;
 
   //콘테이너 디자인//
 const StyledContainer = styled.div`
@@ -100,6 +92,7 @@ const StyledContainer = styled.div`
   overflow: hidden;
   margin : 0;
   position : relative;
+  
   `;
 
 
@@ -129,7 +122,7 @@ position: fixed;
 top: 0;
 left: 0;
 width: 100%;
-height: 100%;
+height: auto%;
 background-color: rgba(0, 0, 0, 0.7);
 display: flex;
 justify-content: center;
@@ -141,14 +134,16 @@ const ModalContent = styled.div`
 background-color: rgb(0,0,0,0.4);
 color: black;
 width: 90%;
-height: 80vh;
+margin : 10% 0% 0% 0%;
+height: 90vh;
 padding: 20px;
 border-radius: 10px;
 box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 overflow-y : auto;
 position : relative;
 box-shadow: 0px 0px 4px 0px #979797;
-backdrop-filter: blur(3px);
+backdrop-filter: blur(30px);
+text-align : left;
 `;
 
 const PassInput = styled.input`
@@ -180,8 +175,9 @@ const PassInput = styled.input`
 `;
 const TxT = styled.p`
  color : white;
- font-family : '스윗';
- font-size: 3.6vmin;
+ font-family : '한나';
+ font-size: 5vmin;
+ 
 `;
 const BackGroundGroup = styled.div`
   height: auto;

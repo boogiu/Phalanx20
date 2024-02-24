@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import './App.css';
 import { AppProvider } from './AppContext';
 import { BrowserRouter, Routes, Route, useLocation  } from 'react-router-dom';
@@ -26,7 +26,7 @@ function RenderNewHeader() {
 }
 
 function App() {
-
+  
   return (
     <div className="App">
       <BrowserRouter>
@@ -57,3 +57,5 @@ function App() {
 }
 
 export default App;
+
+
