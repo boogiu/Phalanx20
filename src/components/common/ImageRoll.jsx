@@ -110,7 +110,7 @@ const StrongSpan = styled.span`
 const BtnDiv = styled.div`
     display : grid;
     flex-flow : row wrap;
-    justify-content : center;;
+    justify-content : center;
     align-items : center;
     width : 100%;
     height : 15vh;
@@ -119,15 +119,20 @@ const BtnDiv = styled.div`
 `;
 
 const Btn = styled.button`
+    display : flex;
+    justify-content : center;
+    align-items : center;
   position: relative;
   background: linear-gradient(45deg, #00FF66, #99FF99);
   border: none;
   color: white;
+  width : auto;
+  height : 100px;
   font-size: 15vmin;
   font-family : '스윗';
   border-radius: 25px;
   cursor: pointer;
-  margin : 5%;
+  margin : 0% 5% 0% 5%;
   transition: background 0.3s ease;
   box-shadow: 0px 4px 0px 0px #00CC00;
   animation: ding 2s infinite ease-out;
