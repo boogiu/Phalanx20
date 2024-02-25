@@ -282,7 +282,6 @@ const SectionBlock = styled.div`
   color : white;
   margin: 6vh 0vw 5vh 0vw;
   position : relative;
-
 `;
 
 

@@ -10,12 +10,13 @@ const HeaderContainer = styled.div`
   top: 0;
   left: 0;
   width: 100%;
-  height: 18vh;
+  height: auto;
+  min-height: 100px;
   z-index: 1000;
   transition: top 0.7s; /* 이 부분을 추가합니다. */
   background:black;
   display: grid;
-  grid-template-rows: 1fr 3fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
   &.hidden {
     top: -20vh; /* 헤더를 숨깁니다. */
   }
@@ -45,7 +46,7 @@ const HeaderDiv = styled.div`
   width: 100%;
   height: 100%;
   overflow-x: auto;
-  overflow-y: hidden;
+  overflow-y: visible;
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 `;
@@ -99,11 +100,11 @@ const ThirdLine = styled.div`
   grid-template-columns: 1fr 1fr 1fr;
   position: relative;
   gap : 10px;
-  
 `;
 const BtnDiv = styled.button`
   cursor: pointer;
-  width: 70%;
+  width: auto;
+  height : auto;
   display: flex;
   align-items: center;
   justify-content: center;

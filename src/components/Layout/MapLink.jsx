@@ -1,4 +1,4 @@
-
+  
 import styled from 'styled-components';
 import ImageMap from "image-map"
 import { useRef,useEffect } from 'react';
