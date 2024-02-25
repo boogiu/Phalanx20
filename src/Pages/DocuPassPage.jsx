@@ -86,6 +86,7 @@ const StyledContainer = styled.div`
   overflow: hidden;
   margin : 0;
   position : relative;
+  background-color: black;
   
   `;
 
@@ -117,7 +118,7 @@ top: 0;
 left: 0;
 width: 100%;
 height: auto%;
-background-color: rgba(0, 0, 0, 0.7);
+background-color: rgba(0, 0, 0);
 display: flex;
 justify-content: center;
 align-items: center;
@@ -125,7 +126,7 @@ z-index: 50;
 `;
 
 const ModalContent = styled.div`
-background-color: rgb(0,0,0,0.4);
+background-color: rgba(0, 0, 0);
 color: black;
 width: 90%;
 margin : 10% 0% 0% 0%;

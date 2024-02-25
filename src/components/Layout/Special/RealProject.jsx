@@ -29,17 +29,17 @@ const RealProject = () => {
                     
                      </Txt>
                      <Imagediv>
-                    <ImgComponent imagePath={"project.png"} 
-                    top={"-20%"} 
-                    left={"50%"}
-                    rotate={"0deg"}
-                    width={"100%"}/>
-                     <ImgComponent imagePath={"project2.png"} 
-                    top={"0%"} 
-                    left={"-40%"}
-                    rotate={"0deg"}
-                    width={"110%"}/>
                     
+                     <ImgComponent imagePath={"project2.png"} 
+                    top={"-10%"} 
+                    left={"-30%"}
+                    rotate={"0deg"}
+                    width={"90%"}/>
+                    <ImgComponent imagePath={"project.png"} 
+                    top={"35%"} 
+                    left={"10%"}
+                    rotate={"0deg"}
+                    width={"150%"}/>
                 </Imagediv>
             </TextSubGruop2>
           </SectionBlock>       
