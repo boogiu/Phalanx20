@@ -136,11 +136,11 @@ const SubMenu = styled.div`
 `;
 const NewHeader = () => {
   const appContext = useAppContext();
-  const [toggleIndex, setToggleIndex] = useState(null);
+  const [toggleIndex, setToggleIndex] = useState(0);
   const navigate = useNavigate();
   const [hidden, setHidden] = useState(false);
   const [headerRef, setHeaderRef] = useState(null);
-  const [Subhidden, setSubhidden] = useState(false);
+  const [Subhidden, setSubhidden] = useState(true);
 
   const handleHeaderRef = useCallback(node => {
     setHeaderRef(node);

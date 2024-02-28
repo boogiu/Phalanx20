@@ -56,6 +56,12 @@
         "imagePath" :"back2.png",
         "content" : "만들었따. 깝치지 말도록.",
         "date" : "12월 30일"
+    },{
+        "index": 4,
+        "Name": "군달",
+        "imagePath" :"back2.png",
+        "content" : "전화 팬드폰 후레시ㅟ베리",
+        "date" : "12월 30일"
     }, {
         "index": 4,
         "Name": "야무징",
@@ -265,6 +271,4 @@
         "content" : " 톡으로",
         "date" : "01월 13일"
     }
-
-
 ]

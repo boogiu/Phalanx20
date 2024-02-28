@@ -16,7 +16,7 @@ export const StyledContainer = styled.div`
 
 export const SectionBlock = styled.div`
   width: 100%;
-  height: 100vh;
+  height: 300vh;
   display: flex;
   flex-flow : row wrap;
   justify-content: center;
