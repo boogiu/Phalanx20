@@ -10,8 +10,8 @@ const HeaderContainer = styled.div`
   top: 0;
   left: 0;
   width: 100%;
-  height: 15vh;
-  min-height: 100px;
+  height: 20vh;
+  min-height: 150px;
   z-index: 1000;
   transition: top 0.7s; /* 이 부분을 추가합니다. */
   background:black;
@@ -27,6 +27,10 @@ const HeaderContainer = styled.div`
   font-family : "스윗";
   overflow-x: hidden;
   gap : 10px;
+
+  @media (max-width: 768px) {
+    height: 15vh; /* 기기의 너비가 768px 미만인 경우 */
+  }
 `;
 const SubMenuTxt = styled.div`
     display: flex;
@@ -102,14 +106,14 @@ const ThirdLine = styled.div`
 `;
 const BtnDiv = styled.button`
   cursor: pointer;
-  width: 100px;
+  width: 250px;
   height : auto;
   display: flex;
   align-items: center;
   justify-content: center;
   justify-self: center;
   margin : 10px 0px  0px  0px;
-  font-size: 2.5vmin; /* 폰트 사이즈 조정 */
+  font-size: 1vmax; /* 폰트 사이즈 조정 */
   color: white;
   transition: all 0.8s ease; /* 애니메이션 속도 조정 */
   font-family : "스윗";
@@ -118,6 +122,9 @@ const BtnDiv = styled.button`
   border-radius : 5px;
   border : none;
   padding : 5px;
+  @media (max-width: 768px) {
+    width: 100px; /* 기기의 너비가 768px 미만인 경우 */
+  }
 `;
 const SubMenu = styled.div`
   display: grid;
