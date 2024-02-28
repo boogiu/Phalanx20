@@ -11,36 +11,32 @@ const HeaderContainer = styled.div`
   left: 0;
   width: 100%;
   height: 20vh;
-  min-height: 150px;
   z-index: 1000;
   transition: top 0.7s; /* 이 부분을 추가합니다. */
   background:black;
   display: grid;
-  grid-template-rows: 1fr 2fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
   &.hidden {
     top: -20vh; /* 헤더를 숨깁니다. */
   }
-  border-radius : 0px 0px 5px 5px;  
   color: white;
-  font-size: 2vmax;
+  font-size: 1rem;
   font-weight : 400;
   font-family : "스윗";
   overflow-x: hidden;
-  gap : 10px;
-
   @media (max-width: 768px) {
-    height: 15vh; /* 기기의 너비가 768px 미만인 경우 */
+    height: 18vh; /* 기기의 너비가 768px 미만인 경우 */
   }
-`;
+  `;
 const SubMenuTxt = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.5vmax;  
-    font-weight : 400;
-    border: 2px solid transparent; /* 투명한 테두리 */
-    border-bottom-width : 0.5px;
-    border-bottom-color : #00FF00;
+    border: 0px solid transparent; /* 투명한 테두리 */
+    border-right-width : 1px;
+    border-right-color : #A9F5E1;
+    color :white;
+  
 `
 const HeaderDiv = styled.div`
   display: flex;
@@ -48,12 +44,15 @@ const HeaderDiv = styled.div`
   align-items: center;
   justify-content: flex-start;
   width: 100%;
-  height: 100%;
-  border-radius : 5px;
   overflow-x: auto;
+  overflow-y: hidden;
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
-`;
+  background-image: linear-gradient(to right, #04ce6d 0, #03cb87 33.33%, #03c89e 66.66%, #02c5b6 100%);
+  @media (max-width: 768px) {
+    height: 50px; /* 기기의 너비가 768px 미만인 경우 */
+  }
+  `;
 
 const SecondLine = styled.div`
   display: flex;
@@ -61,10 +60,8 @@ const SecondLine = styled.div`
   align-items: center;
   justify-content: flex-start;
   cursor: pointer;
-  height: 100%;
   position: relative;
-  border: 2px solid transparent; /* 투명한 테두리 */
-`;
+  `;
 
 const MenuBox = styled.div`
   display: flex;
@@ -76,13 +73,15 @@ const MenuBox = styled.div`
   white-space: nowrap; /* 자동 줄바꿈 방지 */
   margin : 5px;
   padding : 5px;
-  transition: all 0.8s ease;
+  transition: all 0.4s ease;
   opacity : 50%;
   &.open {
-    font-size: 2.5vmax;
+    font-size: 1rem;
     opacity : 100%;
     animation: dingleAnimation 2s ease infinite; /* 애니메이션을 적용합니다. */
-    
+    border: 0px solid transparent; /* 투명한 테두리 */
+    border-bottom-width : 3px;
+    border-bottom-color : #E0F8E0;
   }
   @keyframes dingleAnimation {
     0% {
@@ -102,7 +101,6 @@ const ThirdLine = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   position: relative;
-  gap : 10px;
 `;
 const BtnDiv = styled.button`
   cursor: pointer;
@@ -112,18 +110,19 @@ const BtnDiv = styled.button`
   align-items: center;
   justify-content: center;
   justify-self: center;
-  margin : 10px 0px  0px  0px;
-  font-size: 1vmax; /* 폰트 사이즈 조정 */
+  margin : 10px 0px  10px  0px;
   color: white;
   transition: all 0.8s ease; /* 애니메이션 속도 조정 */
+  font-size: 0.8rem;  
   font-family : "스윗";
-  font-weight : 600;
-  background: linear-gradient(105deg, #336633,#339933, #336633);
-  border-radius : 5px;
-  border : none;
+  background : black;
+  border-radius : 3px;
+  border: 0px solid transparent; /* 투명한 테두리 */
+  border-bottom-width : 2px;
+  border-bottom-color : #A9F5E1;
   padding : 5px;
   @media (max-width: 768px) {
-    width: 100px; /* 기기의 너비가 768px 미만인 경우 */
+    width: 110px; /* 기기의 너비가 768px 미만인 경우 */
   }
 `;
 const SubMenu = styled.div`

@@ -122,7 +122,7 @@ const StyledContainer = styled.div`
   align-content: center;
   overflow: hidden;
   background-color: black;
-  margin : 0;
+  margin :0;
   position : relative;
   `;
 

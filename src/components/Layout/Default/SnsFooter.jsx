@@ -122,7 +122,7 @@ const SnsFooter = () => {
               <ImgComponent imagePath={"utube.png"}/> 유튜브
             </SocialLink>
             <SocialLink href="https://phalanxpms.azurewebsites.net/graduatepage"
-            onClick={(event) => handleClick(event, '졸업 페이지')}>
+            onClick={(event) => handleClick(event, '동아리 시스템')}>
               <ImgComponent imagePath={"System.png"}/> 동아리 시스템
             </SocialLink>
             <SocialLink href="https://pf.kakao.com/_RxluiG"
