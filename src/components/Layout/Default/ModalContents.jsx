@@ -46,7 +46,7 @@ const ModalContents = () => {
                   과정의 가치가 보잘것 없다는 것을 잘 알고<br/> 
                   있습니다. 누구나 할 수 있는 잠깐의 객기가<br/>
                   아닌, <GreenSpan>채용 시장에서 가장 주요하게 꼽히는 <br/>
-                  스펙인 지속성을 신뢰받을 수 있는 30주로</GreenSpan> <br/>
+                  스펙인 '지속성'을 신뢰받을 수 있는 30주로</GreenSpan> <br/>
                   구성됩니다. 
                   <br/><br/>
                   <JustImg imagePath={"Px4.png"}/>
@@ -66,7 +66,7 @@ const ModalContents = () => {
                   졸업 후 증빙되는 결과물 역시 다양한 검수와<br/>
                   과정을 거쳐 수반되기 때문에 안내나 규정,<br/>
                   공지 그리고 이에 대한  <br/>
-                  <RedStrongSpan>확인이 매우 중시됩니다</RedStrongSpan>
+                  <RedStrongSpan>확인이 매우 중시됩니다.</RedStrongSpan>
                   <br/><br/>
                   <JustImg imagePath={"Px6.png"}/>
                   <br/>

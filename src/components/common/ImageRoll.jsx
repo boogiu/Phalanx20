@@ -119,17 +119,15 @@ const BtnDiv = styled.div`
 `;
 
 const Btn = styled.button`
-    display : flex;
-    justify-content : center;
-    align-items : center;
+  display : flex;
+  justify-content : center;
+  align-items : center;
   position: relative;
   background: linear-gradient(45deg, #00FF66, #99FF99);
   border: none;
   color: white;
-  width : auto;
+  width : 100px;
   height : 100px;
-  font-size: 15vmin;
-  font-family : '스윗';
   border-radius: 25px;
   cursor: pointer;
   margin : 0% 5% 0% 5%;
@@ -178,11 +176,11 @@ const BackGroundSrc = ({ imagePath, children }) => {
 export default ImageRoll;
 
 const Titlespan = styled.span`
-  font-family: "워헤븐";
+  font-family: "스윗";
   font-size: 10vmin;
-  color: white;
+  font-weight : 600;
+  color: black;
   text-shadow:0 0 2px #0fa, 0 0 4px #0fa,  0 0 3px #0fa;
-  width : 80%;
-  line-height : 200%;
+  width : 100%;
   
 `;

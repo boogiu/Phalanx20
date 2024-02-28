@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import styled, { keyframes } from 'styled-components';
-import PopUpBtn from '../Layout/PopUpBtn';
+import PopUpBtn from './PopUpBtn';
 
 const ThirdSection = () => {
 
@@ -15,7 +15,7 @@ const ThirdSection = () => {
                       top={'-50%'}
                       left={'74%'}/>
 
-              <SubTitle>장난은  &nbsp;
+              <SubTitle>기획 장난은  &nbsp;
               <Redspan>이제 그만...!!</Redspan></SubTitle>
               
 
@@ -25,15 +25,17 @@ const ThirdSection = () => {
                 <Discription>
                     <StrongP>대학생 수준에서 벗어나서<br/></StrongP>
                     <CommonP >이제 진짜 기획자로서, <br/>
+                    <br/>
                     우리가 가고 싶은 기업에게<br/></CommonP>
-                    <CommonP >우리의 기획을 제안해보자구!<br/>
+                    <CommonP >우리의 기획을 직접 제안해보고, <br/>                
+                    그 전 과정을 우리의 포트폴리오로 <br/> 가져갈거에요.<br/> 
                     <br/></CommonP>
                     <StrongP>이제 끄적끄적 메모했다가 <br/> </StrongP>
                     <CommonP >어디로 갔는지 알 수 없는거 말고,<br/> </CommonP>
                     <StrongP>이제 주저리주저리 말로만<br/></StrongP> 
                     <CommonP> 휘황찬란하게 떠드는 거 말고,<br/><br/>
-                    <RedSpan>실제 경력이 되는 실무 기획... <br/>
-                    해야겠지?</RedSpan></CommonP>
+                    <RedSpan>실제 경력이 되는 진짜 실무 기획을 해봅시다 <br/>
+                    잘 따라올 수 있져! 가즈아</RedSpan></CommonP>
                     <ImgComponent 
                       imagePath={"heart3.png"} 
                       rotate={"13deg"}
@@ -52,7 +54,7 @@ const ThirdSection = () => {
             
             <DiscriptSection>
               <TitleTxt>
-                이제 대학생 수준의 <RedSpan>아이디어,상상에<br/> 
+                이제 대학생 또래의 <RedSpan>아이디어,상상에<br/> 
                 머무르지 말고,</RedSpan> 진짜 기업에게 타진하는<br/>
                 실무 기획으로 바꿔보자. <br/>
               </TitleTxt>

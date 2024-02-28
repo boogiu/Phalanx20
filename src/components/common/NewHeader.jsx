@@ -10,19 +10,19 @@ const HeaderContainer = styled.div`
   top: 0;
   left: 0;
   width: 100%;
-  height: auto;
+  height: 15vh;
   min-height: 100px;
   z-index: 1000;
   transition: top 0.7s; /* 이 부분을 추가합니다. */
   background:black;
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 2fr 1fr;
   &.hidden {
     top: -20vh; /* 헤더를 숨깁니다. */
   }
   border-radius : 0px 0px 5px 5px;  
   color: white;
-  font-size: 3vmax;
+  font-size: 2vmax;
   font-weight : 400;
   font-family : "스윗";
   overflow-x: hidden;
@@ -32,7 +32,7 @@ const SubMenuTxt = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 2vmax;  
+    font-size: 1.5vmax;  
     font-weight : 400;
     border: 2px solid transparent; /* 투명한 테두리 */
     border-bottom-width : 0.5px;
@@ -45,8 +45,8 @@ const HeaderDiv = styled.div`
   justify-content: flex-start;
   width: 100%;
   height: 100%;
+  border-radius : 5px;
   overflow-x: auto;
-  overflow-y: visible;
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 `;
@@ -59,6 +59,7 @@ const SecondLine = styled.div`
   cursor: pointer;
   height: 100%;
   position: relative;
+  border: 2px solid transparent; /* 투명한 테두리 */
 `;
 
 const MenuBox = styled.div`
@@ -68,18 +69,16 @@ const MenuBox = styled.div`
   justify-content: center;
   width: fit-content; /* 내용물에 따라 너비 조정 */
   height: 60%; 
-  border: 2px solid transparent; /* 투명한 테두리 */
   white-space: nowrap; /* 자동 줄바꿈 방지 */
   margin : 5px;
   padding : 5px;
   transition: all 0.8s ease;
-  opacity : 60%;
+  opacity : 50%;
   &.open {
-    font-size: 3.5vmax;
+    font-size: 2.5vmax;
     opacity : 100%;
     animation: dingleAnimation 2s ease infinite; /* 애니메이션을 적용합니다. */
-    border-bottom-width : 2px;
-    border-bottom-color : #00FF00;
+    
   }
   @keyframes dingleAnimation {
     0% {
@@ -103,21 +102,22 @@ const ThirdLine = styled.div`
 `;
 const BtnDiv = styled.button`
   cursor: pointer;
-  width: auto;
+  width: 100px;
   height : auto;
   display: flex;
   align-items: center;
   justify-content: center;
   justify-self: center;
-  margin : 10px 0px;
-  font-size: 4vmin; /* 폰트 사이즈 조정 */
+  margin : 10px 0px  0px  0px;
+  font-size: 2.5vmin; /* 폰트 사이즈 조정 */
   color: white;
   transition: all 0.8s ease; /* 애니메이션 속도 조정 */
   font-family : "스윗";
   font-weight : 600;
   background: linear-gradient(105deg, #336633,#339933, #336633);
-  border-radius : 10px;
+  border-radius : 5px;
   border : none;
+  padding : 5px;
 `;
 const SubMenu = styled.div`
   display: grid;
@@ -205,8 +205,8 @@ const NewHeader = () => {
   return (
     <HeaderContainer className={hidden ? 'hidden' : ''}>
       <ThirdLine>
-        <BtnDiv href="https://docs.google.com/forms/d/e/1FAIpQLSf_GwY-CKdyQFUZNIB0rITSQnJQqG2bIybe805hXHUrJPmcsg/viewform">팔랑크스 <br/>지원하기</BtnDiv>
-        <BtnDiv href="https://abaft-faucet-515.notion.site/1b823d9452624d7285b496675a8aff9d">팔랑크스 <br/>훈련지도</BtnDiv>
+        <BtnDiv href="https://docs.google.com/forms/d/e/1FAIpQLSf_GwY-CKdyQFUZNIB0rITSQnJQqG2bIybe805hXHUrJPmcsg/viewform">팔랑크스 지원하기</BtnDiv>
+        <BtnDiv href="https://abaft-faucet-515.notion.site/1b823d9452624d7285b496675a8aff9d">팔랑크스 훈련지도</BtnDiv>
         <BtnDiv onClick={() => handleLinkClick("/DocuPass")}>면접 안내</BtnDiv>
       </ThirdLine>
       <HeaderDiv ref={handleHeaderRef} id="header-container"> {/* ref를 설정하고 ID를 부여 */}

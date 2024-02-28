@@ -2,16 +2,16 @@ import React, { Children, useEffect, useRef,useState  } from 'react';
 import styled, { keyframes, css } from 'styled-components';
 import IntersectionObserverComponent from '../components/common/IntersectionObserverComponent'
 import { fadeInFromLeft,fadeInFromBottom } from "../components/common/Animation"
-import ChatSection from '../components/Layout/ChatSection'
-import SlideShow from '../components/Layout/SlideShow';
-import FirstSection from '../components/Layout/FirstSection';
-import SeocndSection from '../components/Layout/SecondSection';
-import ThirdSection from '../components/Layout/ThirdSection';
-import MapLink from '../components/Layout/MapLink';
+import ChatSection from '../components/Layout/Default/ChatSection'
+import SlideShow from '../components/Layout/Default/SlideShow';
+import FirstSection from '../components/Layout/Default/FirstSection';
+import SeocndSection from '../components/Layout/Default/SecondSection';
+import ThirdSection from '../components/Layout/Default/ThirdSection';
+import MapLink from '../components/Layout/Default/MapLink';
 import ImageRoll from '../components/common/ImageRoll';
-import SnsFooter from '../components/Layout/SnsFooter';
+import SnsFooter from '../components/Layout/Default/SnsFooter';
 import Footer from '../components/common/Footer';
-import LeaderMessage from '../components/Layout/LeaderMessage';
+import LeaderMessage from '../components/Layout/Default/LeaderMessage';
 import { useAppContext } from '../AppContext';
 
 

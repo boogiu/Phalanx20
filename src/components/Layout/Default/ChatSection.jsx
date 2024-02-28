@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import { BsCaretDownFill } from "react-icons/bs";
-import ChatData from '../Data/ChatData.json'; 
+import ChatData from '../../Data/ChatData.json'; 
 
 const ChatSection = () => {
   const [isExpanded, setIsExpanded] = useState(false);
@@ -24,7 +24,8 @@ const ChatSection = () => {
           <Body>
             {messages.map((message, index) => (
               <Message key={index}>
-                <ProfilePicture src={`${process.env.PUBLIC_URL}/imgData/${message.imagePath}`} alt="페이지 이미지" />
+                <ProfilePicture src={`${process.env.PUBLIC_URL}/imgData/${message.imagePath}`} 
+                alt="페이지 이미지" />
                 <MessageContent>
                   <ContentBox>
                     <strong><Username>{message.Name}</Username>

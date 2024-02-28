@@ -119,7 +119,7 @@ const FAQ = () => {
             <TextSubGruop2>
                      <Main >
                       <BigNum>Q4</BigNum><br/>
-                      매주 확인해야 하는 공지나 메시지가 너무 많은데, 어떻게 줄일 수 없을까요?
+                      매주 확인해야 하는 공지나 <br/>메시지가 너무 많은데, <br/>어떻게 줄일 수 없을까요?
                      </Main>
                      <BoxinBox>
                         <Txt><Bigger><RedSpan>
@@ -222,6 +222,146 @@ const FAQ = () => {
                         </Txt>
                      </BoxinBox>
             </TextSubGruop2>
+            <TextSubGruop2>
+                     <Main >
+                      <BigNum>Q7</BigNum><br/>
+                      활동비는 어떻게 책정되나요?
+                     </Main>
+                     <BoxinBox>
+                        <Txt>
+                        팔랑크스는 시즌별로 <GreenSpan>시즌 활동비</GreenSpan>와<br/>
+                        <YellowSpan>보증금</YellowSpan> 형식으로 크루들의 <br/>
+                        시즌 활동 등록을 진행합니다. <br/>
+                        <br/>
+                        <YellowSpan>보증금은 3만원으로 1회 납부 후 <br/>
+                        30주 졸업 후 반환</YellowSpan>되며, <GreenSpan>시즌 활동비는 <br/>
+                        각 시즌 시작 시마다</GreenSpan> 주차 기준에 따라 <br/>
+                        지속 조정됩니다. 시즌 활동비는 시즌의 <br/>
+                        운영 예상 비용에 따라 달라지지만, <br/>
+                        <br/>
+                        <RedSpan>어떤 상황에서도</RedSpan> 하루에, 최대 <br/>
+                        <RedSpan>테이크아웃 커피 한 잔 정도의 <br/>
+                        비용</RedSpan>을 유지하게 하는 것이 기준입니다 <br/>
+                        <br/>
+                        팔랑크스 클럽의 <br/>
+                        이번 9기 리뉴얼의 목표 자체가 <br/>
+                        다양한 후원/연계사의 자문과 <br/>
+                        선배들의 재능 기부 등을 통해, <br/>
+                        기획/컨설팅이라는 분야에서 <br/>
+                        <GreenSpan>대학생들이 실무 역량을 성장</GreenSpan>시키고 <br/>
+                        <RedSpan>개별적으로는 확보할 수 없는</RedSpan> <br/>
+                        <GreenSpan>다양한 실무 스펙, 포트폴리오를 <br/>
+                        확보</GreenSpan>하여 채용에 직접적으로 <br/>
+                        도움이 되고자 하는 것이 <br/>
+                        목적이기 때문에, <br/>
+                        <br/>
+                        <YellowSpan>일정 금액이 넘어가지 않도록</YellowSpan> <br/>
+                        운영비를 책정하는 것이 <br/>
+                        대원칙으로 적용됩니다. <br/>
+                        </Txt>
+                     </BoxinBox>
+            </TextSubGruop2>
+
+            <TextSubGruop2>
+                     <Main >
+                      <BigNum>Q8</BigNum><br/>
+                      모이는 요일/시간은 <br/>언제인가요?
+                     </Main>
+                     <BoxinBox>
+                        <Txt>
+                        팔랑크스에서 오프라인으로 모이는 <br/>
+                        요일/시간은 <RedSpan>각 파트마다 정말 <br/>
+                        다릅니다.</RedSpan> <br/>
+                        <br/>
+                        클럽 전체가 모이는 <YellowSpan>세션 <br/>
+                        ‘올림피아 기획 대전‘ </YellowSpan>은 <br/>
+                        2월 말과 8월 말, 연 2회 <br/>
+                        개최되며, <GreenSpan>연계되어 있는 <br/>
+                        다양한 공기관과 제휴사</GreenSpan>의 <br/>
+                        도움을 받아 진행합니다. <br/>
+                        <br/>
+                        그리고 팀과 파트 혹은 <br/>
+                        실무 연계가 확정된 <br/>
+                        기획 프로젝트의 경우에는 <br/>
+                        <RedSpan>해당 프로젝트에 선별된 <br/>
+                        구성원들끼리의 일정을 <br/>
+                        취합하여 진행</RedSpan>되기 때문에 <br/>
+                        현재로서는 확정할 수 없습니다.<br/> 
+                        <br/>
+                        팔랑크스는 <br/>
+                        기본적으로 <YellowSpan>전국대학연합을 <br/>
+                        모토로 하고 있기에</YellowSpan>, 교통과 <br/>
+                        이동 시간에 제약이 없는 <YellowSpan>온라인 <br/>
+                        활동을 메인으로</YellowSpan> 진행합니다. <br/>
+                        <br/>
+                        <GreenSpan>운영 채널</GreenSpan>은 ‘카페’ 와 ‘노션’, <br/>
+                        ‘자체 시스템’ 등을 통해, <br/>
+                        모든 크루에게 활동에 대한 브리핑과 <br/>
+                        진행 체크 및 팔랑크스 활동 내용이 <br/>
+                        이루어지며, <br/><YellowSpan>아카이빙 채널</YellowSpan>은 <br/>
+                        ‘티스토리’ 를 활용하고 있습니다. <br/>
+                        <br/>
+                        즉, 체계적인 커뮤니케이션을 <br/>
+                        통한 <RedSpan>온라인 기반으로 움직이되, <br/>
+                        오프라인 모임은 자신의 팀, 파트, <br/>
+                        조별 상황에 따라 달라집니다.</RedSpan> <br/>
+                        <br/>
+                        (오프라인 모임은 기본적으로 <br/>
+                        주차 활동 인정에 필수 조건은 <br/>
+                        아니기 때문에 이에 대해서 부담 <br/>
+                        가지지 않으셔도 됩니다.😁) 
+                        </Txt>
+                     </BoxinBox>
+            </TextSubGruop2>
+
+            <TextSubGruop2>
+                     <Main >
+                      <BigNum>Q9</BigNum><br/>
+                      활동 시 유의해야 할 점은<br/> 무엇인가요?
+                     </Main>
+                     <BoxinBox>
+                        <Txt>
+                        <GreenSpan>‘사회화’</GreenSpan> 와 <YellowSpan>‘커뮤니케이션’</YellowSpan> 입니다. <br/>
+                        팔랑크스의 기획 실무 포트폴리오 <br/>
+                        특성상 <RedSpan>실제 다양한 대기업/중견기업<br/>
+                        중소기업/스타트업 등 사회 선배, <br/>
+                        실무자들과 다양한 커뮤니케이션이</RedSpan> <br/>
+                        빈번하게 이루어질 수 있는데, <br/>
+                        <br/>
+                        이런 부분에서 각 크루들이 <br/>
+                        사회적인 예의나 기본적인 <br/>
+                        커뮤니케이션을 지키지 않을 경우, <br/>
+                        <RedSpan>본인의 평판이 안좋게 될 수 있습니다.</RedSpan><br/>
+                        <br/> 
+                        아무리 기획을 잘하는 사람이더라도 <br/>
+                        그 사람이 <RedSpan>기본적인 커뮤니케이션에서 <br/>
+                        미스가 나거나, 필수 예의를 지키지 <br/>
+                        못하는 사람이라면, </RedSpan>아무도 그 사람과 <br/>
+                        일을 하고자 하지 않을겁니다. 😥😥<br/>
+                        <br/>
+                        기획/컨설팅 직무에서 <GreenSpan>남들보다 빠르게<br/>
+                         실무 커리어 및 포트폴리오를 시작할<br/>
+                         수 있기 때문에 </GreenSpan>이에 대한 부주의가<br/>
+                         발생하지 않도록 유의해야 합니다. <br/>
+                        <br/>
+                        (어려운 일이 생기거나 할 때는 바로, <br/>
+                        운영진이나 팀장/파트장과 공유하여야<br/>
+                         적절한 대처를 할 수 있습니다!)<br/>
+                        <br/>
+                        지난 기수들에서 <br/>
+                        본인이 열심히 4주 동안 기획해서,<br/>
+                        실제 제안서로 발송을 했는데, <br/>
+                        <RedSpan>그 회신이 오는 것을 체크하지 <br/>
+                        못해</RedSpan> 놓쳐버린 무수한 케이스를 <br/>
+                        봐왔습니다. <br/>
+                        <br/>
+                        그러한 기본적인 것부터 <br/>
+                        확실히 챙겨가는 경험을 하는 <br/>
+                        팔랑크스가 되어야 합니다.😊
+
+                        </Txt>
+                     </BoxinBox>
+            </TextSubGruop2>
           </SectionBlock>
       </BackGroundSrc>
   );
@@ -309,7 +449,7 @@ const TextSubGruop2 = styled.div`
     flex-flow : row wrap;
     justify-content: flex-start;
     align-items: center;
-    background-color: rgb(204,255,204,0.2);
+    background-color: rgb(0,0,0,0.8);
     transition: height 0.5s ease;
     overflow-y: auto;
     text-align:left;
@@ -364,8 +504,8 @@ const ImgComponent2 = ({ imagePath, top, left,rotate,width }) => {
 };
 
 const Main = styled.h2`
-  font-family : '스윗';
-  font-size : 8vmin;
+  font-family : '한나';
+  font-size : 7.5vmin;
   font-weight : 600;
   color :#FBEFF5;
   margin: 5% 0% 5% 0%;

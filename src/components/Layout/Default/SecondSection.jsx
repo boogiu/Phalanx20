@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import {styled,css} from 'styled-components';
-import { shadowAnimation } from "../common/Animation"
+import { shadowAnimation } from "../../common/Animation"
 
 const SeocndSection = () => {
 
@@ -18,33 +18,42 @@ const SeocndSection = () => {
                     top={'-10%'}
                     left={'70%'}/>
                 <Discription>
-                  IT / 브랜딩 / 서비스 3개 분야를 중심으로
+                  IT / 브랜딩 / 서비스 3개 분야(팀)를 
                   <br />
-                 모든 크루가&nbsp;
+                  주제로 매 주차별 체계적인 동선과<br />
                   <span style={{ color: 'rgba(255, 238, 0, 0.788)' }}>
-                  자신의 기획(개인+파트별)을
+                  커리큘럼 과정을 통해 30주 동안
                   </span>
                         <br />
-                        주차별 커리큘럼에 따라 진행하는<br />
                         <span style={{ 
                           color: 'rgba(255, 238, 0, 0.788)' ,
                           fontSize:"7vmin",
                           lineHeight : "200%"}}>
-                        30주 과정
+                        7개
                         </span>
-                        으로,
+                         의 자신의 기획안(개인+파트별)을,
                         <br />
-                        <br />
+                        <br />내가 관심있는 
                         <span style={{ color: 'rgba(255, 238, 0, 0.788)'  }}>
-                        4주당 1개씩</span> 
+                        실제 기업이나 <br />서비스 측에게 &nbsp;
+                        </span>나의 기획안을 <br />  내가 &nbsp;
+                        <span style={{ color: 'rgba(255, 238, 0, 0.788)'  }}>
+                            직접 공식 제안, 발송하여<br />
+                        </span> 해당 프로젝트의 &nbsp;
+                        <span style={{ color: 'rgba(255, 238, 0, 0.788)'  }}>
+                       
+                        현실성</span>을 타진하는  <br />
+                        활동을 중심으로 진행하며, <br />
+                        그 전체 과정을  <span style={{ color: 'rgba(255, 238, 0, 0.788)'  }}>핵심 포트폴리오</span>로 <br />
+                        누적,증빙받아 졸업하는<br />
+                        <span style={{ color: 'rgba(255, 238, 0, 0.788)'  }}>기획/컨설팅 분야, 국내 최강,</span> <br />
+                        <span style={{ 
+                          color: 'rgba(255, 238, 0, 0.788)' ,
+                          fontSize:"7vmin",
+                          lineHeight : "200%"}}>대학연합동아리(클럽)</span>입니다.
                         
-                        자신이 관심이 있는<br /> 기업과 서비스에게
-                        <br />
-                        나와 내가 소속된 파트의 <br />
                         <span style={{ color: 'rgba(255, 238, 0, 0.788)'  }}>
-                        기획서를 발송하여, </span> <br />
-                        실무 프로젝트를 타진하는 과정을 <br />핵심으로 진행하는<br />
-                        국내 최고의 기획 분야 <br />동아리(클럽) 입니다. ☺
+                       </span>
                 </Discription>
             </ScriptSection>
           </SectionBlock>
@@ -153,8 +162,8 @@ const SeocndSection = () => {
                 <FloatBlock>
                   <Discription>
                     말로만 하는, 생각만 하는 기획 말고, <br/>
-                    <DeepGreenSpan>진짜.. 실전 세상에 부딪혀보고 싶은 분이</DeepGreenSpan><br/>
-                    팔랑크스에 알맞습니다. ☺<br/>
+                    <DeepGreenSpan>진짜..  <br/>실전 세상에 부딪혀보고 싶은 분이</DeepGreenSpan><br/>
+                    팔랑크스에 알맞습니다.😊<br/>
                   </Discription>
                 </FloatBlock>   
 
