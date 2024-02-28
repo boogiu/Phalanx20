@@ -59,7 +59,6 @@ const SecondLine = styled.div`
   flex-flow: row nowrap;
   align-items: center;
   justify-content: flex-start;
-  cursor: pointer;
   position: relative;
   `;
 
@@ -112,7 +111,6 @@ const BtnDiv = styled.button`
   justify-self: center;
   margin : 10px 0px  10px  0px;
   color: white;
-  transition: all 0.8s ease; /* 애니메이션 속도 조정 */
   font-size: 0.8rem;  
   font-family : "스윗";
   background : black;
@@ -125,6 +123,7 @@ const BtnDiv = styled.button`
     width: 110px; /* 기기의 너비가 768px 미만인 경우 */
   }
 `;
+
 const SubMenu = styled.div`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -158,7 +157,10 @@ const NewHeader = () => {
     setSubhidden(true);
     console.log("숨겨!")
   };
-
+  const gotoLink = (link) => {
+    console.log("링크로 갑니다!", link);
+    window.location.href = link; // 링크로 이동
+  };
   const handleLinkClick = (url) => {
     navigate(url);
     ReactGA4.event({
@@ -211,8 +213,11 @@ const NewHeader = () => {
   return (
     <HeaderContainer className={hidden ? 'hidden' : ''}>
       <ThirdLine>
-        <BtnDiv href="https://docs.google.com/forms/d/e/1FAIpQLSf_GwY-CKdyQFUZNIB0rITSQnJQqG2bIybe805hXHUrJPmcsg/viewform">팔랑크스 지원하기</BtnDiv>
-        <BtnDiv href="https://abaft-faucet-515.notion.site/1b823d9452624d7285b496675a8aff9d">팔랑크스 훈련지도</BtnDiv>
+      <BtnDiv onClick={() => gotoLink("https://docs.google.com/forms/d/e/1FAIpQLSf_GwY-CKdyQFUZNIB0rITSQnJQqG2bIybe805hXHUrJPmcsg/viewform")}>
+        팔랑크스 지원하기
+      </BtnDiv>
+
+       <BtnDiv onClick={() => gotoLink("https://abaft-faucet-515.notion.site/1b823d9452624d7285b496675a8aff9d")}>팔랑크스 훈련지도</BtnDiv>
         <BtnDiv onClick={() => handleLinkClick("/DocuPass")}>면접 안내</BtnDiv>
       </ThirdLine>
       <HeaderDiv ref={handleHeaderRef} id="header-container"> {/* ref를 설정하고 ID를 부여 */}
