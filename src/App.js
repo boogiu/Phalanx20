@@ -36,7 +36,7 @@ function App() {
         <ScrollToSection/>
         
           <Routes >
-            <Route path="/" element={<IntroPage />} />
+            <Route path="/" element={<TestPreMessage />} />
             <Route path="/DefaultPage" element={<DefaultPage />}/>
             <Route  path="/CenturionPage" element={<CenturionPage />} />
             <Route path="/DetailPage" element={<DetailPage />} />

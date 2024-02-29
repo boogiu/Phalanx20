@@ -121,20 +121,25 @@ const BtnDiv = styled.div`
 const Btn = styled.button`
   display : flex;
   justify-content : center;
+  justify-self : center;
   align-items : center;
   position: relative;
   background: linear-gradient(45deg, #00FF66, #99FF99);
   border: none;
   color: white;
-  width : 100px;
-  height : 100px;
+  width : 150px;
+  height : 110px;
   border-radius: 25px;
   cursor: pointer;
   margin : 0% 5% 0% 5%;
   transition: background 0.3s ease;
   box-shadow: 0px 4px 0px 0px #00CC00;
   animation: ding 2s infinite ease-out;
-
+  @media (max-width: 768px) {
+    
+  width : 110px;
+  height : 90px;
+  }
     @keyframes ding {
     50% {
         margin-top: 15px;
@@ -177,7 +182,7 @@ export default ImageRoll;
 
 const Titlespan = styled.span`
   font-family: "스윗";
-  font-size: 10vmin;
+  font-size: 2rem;
   font-weight : 600;
   color: black;
   text-shadow:0 0 2px #0fa, 0 0 4px #0fa,  0 0 3px #0fa;
