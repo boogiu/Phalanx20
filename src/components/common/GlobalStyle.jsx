@@ -25,7 +25,6 @@ export const SectionBlock = styled.div`
   color : white;
   position : relative;
   margin: 10% 0% 0% 0%;
-  border : 1px solid red;
 `;
 export const SectionBlock2 = styled.div`
   width: 100%;
@@ -216,14 +215,14 @@ export const GradientButton = styled.button`
   color: white;
   padding: 10px 20px;
   font-size: 5vmin;
-  font-family : '스윗';
+  font-family : '한나프로';
   border-radius: 25px;
   cursor: pointer;
   transition: background 0.3s ease;
-  margin : 5% 0% 15% 0%;
+  margin : 15% 0% 15% 0%;
   box-shadow: 0px 4px 0px 0px #ff7300;
   background: linear-gradient(45deg, #ff7300, #feac5e);
-  width : 90%;
+  width : 70%;
 `;
 
 export const Balloon = styled.div`

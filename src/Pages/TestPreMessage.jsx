@@ -125,7 +125,7 @@ const TestPreMessage = () => {
           top={"53%"} 
           left={"-20%"}
           rotate={"0deg"}
-          width={"50%"}/>
+          width={"30%"}/>
             <BiggerSpan>만약, 당신이 <RedSpan>기획의 천재</RedSpan>라서</BiggerSpan>
             <BiggerSpan>그래서 기획의 방법따윈</BiggerSpan>
          <Dinglediv4><TextGruop3>
@@ -166,7 +166,7 @@ const TestPreMessage = () => {
           <TransText>
             <HannaProTxt><MoreBigger><GreenSpan>기획 분야 최고의</GreenSpan><br/> 
             대학생이 되고자하는<br/>
-            <GreenSpan>그러고자 하는 의욕이 있다면</GreenSpan></MoreBigger></HannaProTxt>
+            <GreenSpan>그러고자 하는 의욕이 있다면!</GreenSpan></MoreBigger></HannaProTxt>
             </TransText>
         </SectionBlock2>
        
