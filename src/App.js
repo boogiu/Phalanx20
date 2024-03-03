@@ -18,11 +18,19 @@ import ClubDetail from './Pages/ClubDetail'
 import TestPreMessage from './Pages/TestPreMessage'
 import ScrollToSection from './components/common/ScrollToSection';
 import NewHeader from './components/common/NewHeader';
+import CommonFooter from './components/common/CommonFooter'
 
 function RenderNewHeader() {
   const location = useLocation();
   const isIntroPage = location.pathname === '/';
-  return !isIntroPage && <NewHeader />;
+  return (
+    !isIntroPage && (
+      <>
+        <NewHeader />
+        <CommonFooter />
+      </>
+    )
+  );
 }
 
 function App() {
