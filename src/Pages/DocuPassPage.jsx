@@ -62,11 +62,10 @@ const DocuPassPage = () => {
   return (
     <BackGroundSrc imagePath={"PassBack1.png"} >
       <StyledContainer>
-        <div>
+
           {!showModal ? <PassedGuide /> : null}
           {showModal && <Modal onClose={handleCloseModal} 
           passcode={PassCode} />}
-        </div>
         <Footer/>
       </StyledContainer>
     </BackGroundSrc>
@@ -79,6 +78,7 @@ export default DocuPassPage;
 const StyledContainer = styled.div`
   width: 100%;
   height:auto;
+  min-height : 150vh;
   display: flex;
   flex-flow : column nowrap;
   justify-content:center;
@@ -89,7 +89,6 @@ const StyledContainer = styled.div`
   background-color: black;
   
   `;
-
 
 const CloseButton = styled.button`
 width: 30%;
@@ -104,41 +103,36 @@ background-color: white;
 color: black;
 border: none;
 border-radius: 5px;
-position: -webkit-sticky;
-position: sticky;
-cursor: pointer;
 outline: none;
-z-index:4;
 `;
 
 
 const ModalOverlay = styled.div`
-position: fixed;
-top: 0;
-left: 0;
-width: 100%;
-height: auto%;
-background-color: rgba(0, 0, 0);
-display: flex;
-justify-content: center;
-align-items: center;
-z-index: 50;
+  position: absolute;
+  top: 10vh;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 50;
+  overflow-y: auto;
 `;
-
 const ModalContent = styled.div`
-background-color: rgba(0, 0, 0);
-color: black;
-width: 90%;
-margin : 10% 0% 0% 0%;
-height: 90vh;
-padding: 20px;
-border-radius: 10px;
-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-overflow-y : auto;
-position : relative;
-box-shadow: 0px 0px 4px 0px #979797;
-backdrop-filter: blur(30px);
-text-align : left;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: black;
+  width: 90%;
+  margin: 10% 0% 0% 0%;
+  padding: 0% 10%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  overflow-y: visible;
+  position: relative;
+  box-shadow: 0px 0px 4px 0px #979797;
+  text-align: left;
+  height: auto;
 `;
 
 const PassInput = styled.input`

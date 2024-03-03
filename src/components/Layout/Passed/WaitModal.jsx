@@ -21,11 +21,11 @@ const WaitModal = () => {
                   - 팔랑크스 운영 과정과 포트폴리오 누적에 대한<br/>
                   &nbsp;&nbsp; 구체적인 방식과 사항들 <br/>
                   - 그 외 면접 시간 확인 및 관련 종합 지원 사항 <br/><br/>
+                 
                   <GreenSpan>아래에, 별도 안내 받은 코드를 입력해주세요. <br/></GreenSpan>
-                  <br/>
-                  <JustImg imagePath={"StopSign.png"}/>
-                  <br/>
+
                 </p>
+                <JustImg imagePath={"StopSign.png"}/>
                 </TextContainer>
 
             </HookingBox>
@@ -62,7 +62,7 @@ const HookingBox = styled.div`
   justify-content: space-around;
   align-items: center;
   position: relative;
-  margin: 15vh 0vw 0vh 0vw;
+  margin: 10vh 0vw 0vh 0vw;
   
 `;
 
