@@ -19,6 +19,7 @@ import TestPreMessage from './Pages/TestPreMessage'
 import ScrollToSection from './components/common/ScrollToSection';
 import NewHeader from './components/common/NewHeader';
 import CommonFooter from './components/common/CommonFooter'
+import LinkTree from './Pages/LinkTree'
 
 function RenderNewHeader() {
   const location = useLocation();
@@ -56,7 +57,7 @@ function App() {
             <Route path="/PreGuide" element={<PreGuide />} />
             <Route path="/ClubDetail" element={<ClubDetail />} />
             <Route path="/AboutInterview" element={<AboutInterview />} />
-           
+            <Route path="/LinkTree" element={<LinkTree />} />
           </Routes>
         </AppProvider>
       </BrowserRouter>

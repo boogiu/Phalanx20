@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import ReactGA4 from 'react-ga4';
+import { useNavigate } from 'react-router-dom';
 
 const FooterContainer = styled.footer`
   color: #fff;
@@ -37,10 +38,11 @@ const SocialLinkimg = styled.div`
   border-radius: 50%;
   margin: 10%  10%;
   transition: background-color 0.3s ease;
+  border : none;
   &:hover {
     background-color: #ccc;
   }
-  box-shadow: 0px 0px 3.6px 0px #979797;
+  box-shadow: 0px 0px 0px 0px #979797;
 `;
 
 const MoreTxt = styled.h2`
@@ -75,6 +77,16 @@ const IconImg = ({ imagePath }) => {
 
 
 const SnsFooter = () => {
+  const navigate = useNavigate();
+  const handleLinkClick = (url, elementId) => {
+    navigate(url);
+    ReactGA4.event({
+      category: 'User Interaction',
+      action: 'Social Click',
+      label: `Clicked Element ID: ${elementId}`,
+    });
+  };
+
   const handleClick = (event, elementId) => {
     // 클릭된 요소의 정보를 추적합니다.
     // 이벤트를 추적합니다.
@@ -103,7 +115,7 @@ const SnsFooter = () => {
             </SocialLink>
             <SocialLink href="https://phalanx-club.tistory.com/"
             onClick={(event) => handleClick(event, '티스토리')}>
-              <ImgComponent imagePath={"tstory.png"}/> 티스토리
+              <ImgComponent imagePath={"tstory.png"}/> 아카이빙 채널
             </SocialLink>
             <SocialLink href="https://blog.naver.com/phalanx_official"
             onClick={(event) => handleClick(event, '네이버 블로그')}>
@@ -121,9 +133,8 @@ const SnsFooter = () => {
             onClick={(event) => handleClick(event, '유튜브')}>
               <ImgComponent imagePath={"utube.png"}/> 유튜브
             </SocialLink>
-            <SocialLink href="https://phalanxpms.azurewebsites.net/graduatepage"
-            onClick={(event) => handleClick(event, '동아리 시스템')}>
-              <ImgComponent imagePath={"System.png"}/> 동아리 시스템
+            <SocialLink onClick={() => handleLinkClick("/LinkTree", '동아리 시스템')}>
+                <ImgComponent imagePath={"System.png"}/> 동아리 시스템
             </SocialLink>
             <SocialLink href="https://pf.kakao.com/_RxluiG"
             onClick={(event) => handleClick(event, '카카오 플친')}>

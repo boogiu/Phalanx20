@@ -10,7 +10,7 @@ const HeaderContainer = styled.div`
   top: 0;
   left: 0;
   width: 100%;
-  height: 20vh;
+  height: 22vh;
   z-index: 1000;
   transition: top 0.7s; /* 이 부분을 추가합니다. */
   background:black;
