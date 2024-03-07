@@ -85,6 +85,11 @@ const TestIntro = () => {
     ReactGA4.event({
       category: 'User Interaction',
       action: 'GoTo Click',
+      label: `Clicked 3rd ID: ${url}`,
+    });
+    ReactGA4.event({
+      category: 'User Interaction',
+      action: '3rd IntroSkip',
       label: `Clicked Element ID: ${url}`,
     });
   };
@@ -93,8 +98,8 @@ const TestIntro = () => {
     window.location.href = link; // 링크로 이동
     ReactGA4.event({
       category: 'User Interaction',
-      action: 'GoTo Click',
-      label: `Clicked Element ID: ${link}`,
+      action: '3rd IntroSkip',
+      label: `Clicked 3rd ID: ${link}`,
     });
   };
   const getBlockContent = (index) => {
@@ -332,7 +337,7 @@ const ClickableBlock = styled.div`
   opacity: 1;
   top: 50%;
   left: 50%;
-  transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%) rotate(0deg);
   border-radius: 0%;
 `}
 `;
