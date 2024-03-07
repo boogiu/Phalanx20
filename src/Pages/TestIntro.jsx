@@ -338,6 +338,7 @@ const ClickableBlock = styled.div`
   top: 50%;
   left: 50%;
   border-radius: 0%;
+  transform: translateX(-50%) translateY(-50%);
 `}
 `;
 const Txt = styled.span`
@@ -493,7 +494,6 @@ const BackGroundGroup = styled.div`
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  overflow : auto;
 `;
 
 const BackGroundSrc = ({ imagePath, children }) => {
