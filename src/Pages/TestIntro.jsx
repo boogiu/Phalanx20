@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import styled, { keyframes } from 'styled-components';
-import { ImArrowDown ,ImBubbles2,ImRocket ,ImHeart,ImMagicWand,ImZoomIn,ImPencil2,ImBooks ,ImUserTie       } from "react-icons/im";
+import { ImArrowDown ,ImBubbles2,ImRocket ,ImHeart,ImMagicWand,ImZoomIn,ImPencil2,ImBooks ,ImUserTie,ImPointUp        } from "react-icons/im";
 import { Navigate, useNavigate } from 'react-router-dom';
 import ReactGA4 from 'react-ga4';
+import { GiClick } from "react-icons/gi";
 const TestIntro = () => {
   const [waves, setWaves] = useState([]);
   const navigate = useNavigate();
@@ -200,7 +201,9 @@ const TestIntro = () => {
           <Wave key={index} />
         ))}
         <SectionBlock>
-
+          <Icon>
+              <ClickIcon  />
+          </Icon>
         </SectionBlock>
 
         <ClickableBlock onClick={handleClick} isClicked={isClicked}>
@@ -240,7 +243,19 @@ line-height : 150%;
 font-style : italic;
 color : #2EFE2E;
 text-shadow: 3px 1px 0.5px rgba(136, 156, 139);
-`        
+`   
+
+const ClickIcon = styled(GiClick)`
+
+font-size :10vmin;
+animation: Blink 1.5s infinite;
+  @keyframes Blink{
+
+  50% { opacity: 0.6; }
+
+}
+`  
+
 const StyledContainer = styled.div`
   width: 100%;
   height: 200vh;
@@ -444,6 +459,9 @@ const SectionBlock = styled.div`
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
   opacity:1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;
 
 const Wave = styled.div`
