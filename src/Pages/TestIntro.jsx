@@ -337,7 +337,7 @@ const ClickableBlock = styled.div`
   opacity: 1;
   top: 50%;
   left: 50%;
-  transform: translateX(-50%) translateY(-50%) rotate(0deg);
+  transform:rotate(0deg);
   border-radius: 0%;
 `}
 `;
