@@ -20,6 +20,7 @@ import ScrollToSection from './components/common/ScrollToSection';
 import NewHeader from './components/common/NewHeader';
 import CommonFooter from './components/common/CommonFooter'
 import LinkTree from './Pages/LinkTree'
+import TestIntro from './Pages/TestIntro';
 
 function RenderNewHeader() {
   const location = useLocation();
@@ -45,7 +46,7 @@ function App() {
         <ScrollToSection/>
         
           <Routes >
-            <Route path="/" element={<TestPreMessage />} />
+            <Route path="/" element={<TestIntro />} />
             <Route path="/DefaultPage" element={<DefaultPage />}/>
             <Route  path="/CenturionPage" element={<CenturionPage />} />
             <Route path="/DetailPage" element={<DetailPage />} />

@@ -160,6 +160,11 @@ const NewHeader = () => {
   const gotoLink = (link) => {
     console.log("링크로 갑니다!", link);
     window.location.href = link; // 링크로 이동
+    ReactGA4.event({
+      category: 'User Interaction',
+      action: 'GoTo Click',
+      label: `Clicked Element ID: ${link}`,
+    });
   };
   const handleLinkClick = (url) => {
     navigate(url);
