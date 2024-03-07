@@ -325,7 +325,7 @@ const ClickableBlock = styled.div`
   color :white;
   top: 50%;
   left: 50%;
-  transform: translateX(-50%) translateY(-50%) rotate(270deg);
+  transform: translateX(-50%) translateY(-50%);
   transition: all ease 0.5s;
   border: none;
 
@@ -337,7 +337,6 @@ const ClickableBlock = styled.div`
   opacity: 1;
   top: 50%;
   left: 50%;
-  transform:rotate(0deg);
   border-radius: 0%;
 `}
 `;
