@@ -1,6 +1,6 @@
 
 import {styled, keyframes,css} from 'styled-components';
-import React, { useState, useEffect } from 'react';
+import React, {useState, useEffect } from 'react';
 
 
 const WaitModal = () => {
@@ -9,6 +9,7 @@ const WaitModal = () => {
     return (
 
         <ContentsContainer>
+          <p>dkdkk</p>
             <HookingBox>
                 <TextContainer>
                   <p>해당 페이지는, <br/> 
@@ -18,8 +19,8 @@ const WaitModal = () => {
                   본 페이지에서는, 다음 사항들을 안내드립니다.  <br/><br/>
                   - 이후 지원 일정과 참고 사항 <br/>
                   - 면접 전형(2차)에서의 순서와 예상 문항들 <br/>
-                  - 팔랑크스 운영 과정과 포트폴리오 누적에 대한<br/>
-                  &nbsp;&nbsp; 구체적인 방식과 사항들 <br/>
+                  - 팔랑크스 운영 과정과 포트폴리오 <br/>
+                  &nbsp;&nbsp; 누적에 대한 구체적인 방식과 사항들 <br/>
                   - 그 외 면접 시간 확인 및 관련 종합 지원 사항 <br/><br/>
                  
                   <GreenSpan>아래에, 별도 안내 받은 코드를 입력해주세요. <br/></GreenSpan>
@@ -46,6 +47,7 @@ const ContentsContainer = styled.div`
   background-position: center;
   background-repeat: no-repeat;
   display: flex;
+  flex-flow: column;
   justify-content: space-around;
   align-items: center;
   overflow: hidden;
@@ -59,6 +61,7 @@ const HookingBox = styled.div`
   -ms-user-select: none;
   user-select: none;
   display: flex;
+  flex-flow: column;
   justify-content: space-around;
   align-items: center;
   position: relative;

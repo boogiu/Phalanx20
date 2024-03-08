@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect,useRef } from 'react';
 import styled, { keyframes } from 'styled-components';
 import { ImArrowDown ,ImBubbles2,ImRocket ,ImHeart,ImMagicWand,ImZoomIn,ImPencil2,ImBooks ,ImUserTie,ImPointUp        } from "react-icons/im";
 import { Navigate, useNavigate } from 'react-router-dom';
@@ -38,23 +38,8 @@ const TestIntro = () => {
 
     return () => clearInterval(interval); // 컴포넌트 언마운트 시 인터벌 클리어
   }, [isCreatingWave, waveInterval]);
-  
-  const [isClicked, setIsClicked] = useState(false);
-  const [subClickedIndex, setSubClickedIndex] = useState(null);
 
-  const handleClick = () => {
-    if (!isClicked) {
-      setIsClicked(true);
-    }
-  };
-  
-  const handleSubClick = (index) => {
-    if (index === 8) {
-      setIsClicked(false);
-    } else {
-      setSubClickedIndex(index === subClickedIndex ? null : index);
-    }
-  };
+
   const getBackgroundColor = (index) => {
     switch (index) {
       case 0:
@@ -109,6 +94,7 @@ const TestIntro = () => {
           <>
             <Icon>
               <ImHeart />
+              <SmallTxt>동아리 소개</SmallTxt>
             </Icon>
             <Txt>팔랑크스의 <br/>소개를 볼래요!</Txt>
             <Btn onClick={() => NavigateTO('/DefaultPage')}>궁금해요!</Btn>
@@ -119,6 +105,7 @@ const TestIntro = () => {
           <>
             <Icon>
               <ImRocket  />
+              <SmallTxt>훈련 지도</SmallTxt>
             </Icon>
             <Txt>팔랑크스의 <br/>훈련지도가 궁금해요!</Txt>
             <Btn onClick={() => gotoLink('https://abaft-faucet-515.notion.site/1b823d9452624d7285b496675a8aff9d')}>보러갈래요!</Btn>
@@ -129,6 +116,7 @@ const TestIntro = () => {
           <>
             <Icon>
               <ImMagicWand />
+              <SmallTxt>30주 포부</SmallTxt>
             </Icon>
             <Txt>팔랑크스 크루들의 <br/>포부를 볼래요!</Txt>
             <Btn onClick={() => gotoLink('https://cafe.naver.com/phalanx/menu/15')}>보러갈래요!</Btn>
@@ -139,6 +127,7 @@ const TestIntro = () => {
           <>
             <Icon>
               <ImBooks />
+              <SmallTxt>세부팀 소개</SmallTxt>
             </Icon>
             <Txt>팔랑크스 팀들의 <br/>소개가 궁금해요!</Txt>
             <Btn onClick={() => gotoLink('https://cafe.naver.com/phalanx/menu/125')}>궁금해요!</Btn>
@@ -149,6 +138,7 @@ const TestIntro = () => {
           <>
             <Icon>
               <ImZoomIn />
+              <SmallTxt>아카이빙</SmallTxt>
             </Icon>
             <Txt>팔랑크스 크루들의 <br/>활동이 궁금해요!</Txt>
             <Btn onClick={() => gotoLink('https://phalanx-club.tistory.com/category/%F0%9F%8F%86%EC%9A%B0%EC%88%98%20%EA%B2%B0%EA%B3%BC%20%EB%A0%88%ED%8D%BC%EB%9F%B0%EC%8A%A4')}>궁금해요!</Btn>
@@ -159,6 +149,7 @@ const TestIntro = () => {
           <>
             <Icon>
               <ImPencil2 />
+              <SmallTxt>지원하기</SmallTxt>
             </Icon>
             <Txt>팔랑크스에 <br/>지원하고 싶어요!</Txt>
             <Btn onClick={() => gotoLink('https://forms.gle/qR34tcexPR4b5ByD6')}>지원하기!</Btn>
@@ -169,6 +160,7 @@ const TestIntro = () => {
           <>
             <Icon>
               <ImBubbles2 />
+              <SmallTxt>FAQ</SmallTxt>
             </Icon>
             <Txt>팔랑크스에 <br/>물어보고 싶은 것이 <br/>있어요!</Txt>
             <Btn onClick={() => NavigateTO('/ETCPage')}>FAQ 보기!</Btn>
@@ -179,6 +171,7 @@ const TestIntro = () => {
           <>
             <Icon>
               <ImUserTie  />
+              <SmallTxt>면접 안내</SmallTxt>
             </Icon>
             <Txt>서류 전형에 <br/> 합격이 되었습니다!</Txt>
             <Btn onClick={() => NavigateTO('/DocuPass')}>면접 안내 보기!</Btn>
@@ -190,30 +183,74 @@ const TestIntro = () => {
         return 'green';
     }
   };
-    
-  return (
-    <BackGroundSrc imagePath={"IntroB.png"}>
-      <StyledContainer>
-      <WellcomTxt>
-        
-        <p>기획/컨설팅 동아리</p>
-        <p>전국대학연합 클럽</p>
-        <Head> Phalanx</Head>
-        <ImArrowDown />
-      </WellcomTxt>
+  const [isClicked, setIsClicked] = useState(false);
+  const [subClickedIndex, setSubClickedIndex] = useState(null);
+  const BlockRef = useRef(null);
+  const SubBlockRef = useRef(null);
 
+
+  const BlockOutSideClick = (e) => {
+    if (BlockRef.current && !BlockRef.current.contains(e.target)) {
+      setIsClicked(false);
+      setSubClickedIndex(null);
+    } else if (BlockRef.current && SubBlockRef.current && SubBlockRef.current.contains(e.target)) {
+      handleSubClick();
+    } else {
+      handleClick();
+    }
+  };
+  
+  
+  const handleClick = () => {
+    if (!isClicked) {
+      setIsClicked(true);
+      setSubClickedIndex(null);
+    }
+    
+  };
+  
+  
+  const handleSubClick = (index) => {
+    if (index === 8) {
+      setIsClicked(false);
+      setSubClickedIndex(null);
+    }
+    else if( 0<=index && index<=7 ){
+      if(index === subClickedIndex){
+        setSubClickedIndex(null)
+      }
+      else if(index !== subClickedIndex){
+        setSubClickedIndex(index)
+      }
+    }
+  };
+
+  return (
+    <BackGroundSrc imagePath={"IntroB.png"} >
+      <StyledContainer onClick={BlockOutSideClick}>
+        <WellcomTxt>
+          <p>기획/컨설팅 동아리</p>
+          <p>전국대학연합 클럽</p>
+          <Head> Phalanx</Head>
+          <ImArrowDown />
+        </WellcomTxt>
+  
         {waves.map((wave, index) => (
           <Wave key={index} />
         ))}
         <SectionBlock>
           <Icon>
-              <ClickIcon  />
+            <ClickIcon  />
           </Icon>
         </SectionBlock>
-
-        <ClickableBlock onClick={handleClick} isClicked={isClicked}>
+  
+        <ClickableBlock 
+          isClicked={isClicked} 
+          ref={BlockRef}
+        >
           {Array.from({ length: 9 }, (_, index) => (
             <InClickableBlock
+              ref={SubBlockRef}
               key={index}
               top={index === 0 || index === 1 || index === 2 ? '20%' :  index === 8 || index === 3 || index === 4 ? '50%' : '80%'}
               left={index === 0 || index === 3 || index === 5 ? '20%' : index === 8 || index === 1 || index === 6 ? '50%' : '80%'}
@@ -222,21 +259,21 @@ const TestIntro = () => {
               isSubClicked={subClickedIndex === index}
               isClicked={isClicked}
               back={getBackgroundColor(index)} // 각각의 블록에 대한 배경색 설정
-              
-              >
-                {getBlockContent(index)}
+            >
+              {getBlockContent(index)}
             </InClickableBlock>
           ))}
+  
         </ClickableBlock>
         <RecruitState>
-        <GreenCirCle/><p>리크루팅 진행 중</p>
-      </RecruitState>
+          <GreenCirCle/><p>리크루팅 진행 중</p>
+        </RecruitState>
       </StyledContainer>
     </BackGroundSrc>
   );
-};
-
+}
 export default TestIntro;
+
 
 
 
@@ -272,6 +309,7 @@ const StyledContainer = styled.div`
   @media (max-width: 768px) { 
     height: 100vh;
   }
+
 `;
 
 const WellcomTxt = styled.div`
@@ -317,8 +355,8 @@ const RecruitState = styled.div`
 }
 `
 const ClickableBlock = styled.div`
-  width: 10vmin;
-  height: 10vmin;
+  width: 20vmin;
+  height: 20vmin;
   background: transparent;
   opacity: 0;
   position: absolute;
@@ -327,8 +365,6 @@ const ClickableBlock = styled.div`
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
   transition: all ease 0.5s;
-  border: none;
-
   ${({ isClicked }) =>
   isClicked &&
   `
@@ -349,9 +385,16 @@ const Txt = styled.span`
 const Icon = styled.span`
   font-family : "한나프로";
   transition: all ease 1s;
-  font-size :8vmin;
+  font-size :6vmin;
+  justify-content: center;
+  align-items: center;
+  flex-flow : column nowrap;
 `
-
+const SmallTxt = styled.p`
+  font-family : "한나프로";
+  transition: all ease 1s;
+  font-size :3vmin;
+`
 const Btn = styled.button`
   border: none;
   color: black;
@@ -374,7 +417,7 @@ const Btn = styled.button`
 const InClickableBlock = styled.div`
   width: 15vmin;
   height: 15vmin;
-  opacity:0.4;
+  opacity:0.8;
   position: absolute;
   transform: translateX(-50%) translateY(-50%);
   transition: all ease 0.5s;
@@ -405,10 +448,10 @@ const InClickableBlock = styled.div`
   > ${Btn} {
     display : none;
   }
+
   ${({ isClicked }) =>
   isClicked &&
     `
-   
     pointer-events: auto;
     `}
   ${({ isSubClicked }) =>
@@ -431,10 +474,14 @@ const InClickableBlock = styled.div`
     }
     > ${Icon} {
       pointer-events: auto;
+      > ${SmallTxt} {
+        display : none;
+      }
     }
     > ${Btn} {
       display : flex;
     }
+   
     `}
 `;
 

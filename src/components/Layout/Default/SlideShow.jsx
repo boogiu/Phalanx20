@@ -25,7 +25,7 @@ const SlideShow = () => {
           </TxtBox>
         <SlideBox>
           <SlideContainer
-              className={activeSlideIndex === 0 ? "Slideactive3" : "Slidedeactive"}
+              className={activeSlideIndex === 0 ? "Slideactive3" : ""}
             onClick={() => handleSlideClick(0)}
             style={{ backgroundImage: "url('')" }}
           >
@@ -60,7 +60,7 @@ const SlideShow = () => {
           </SlideContainer>
 
           <SlideContainer
-              className={activeSlideIndex === 1 ? "Slideactive2" : "Slidedeactive"}
+              className={activeSlideIndex === 1 ? "Slideactive2" : ""}
             onClick={() => handleSlideClick(1)}
             style={{ backgroundImage: "url('')" }}
           >
@@ -99,7 +99,7 @@ const SlideShow = () => {
             </ContentBox>
           </SlideContainer>
           <SlideContainer
-              className={activeSlideIndex === 2 ? "Slideactive2" : "Slidedeactive"}
+              className={activeSlideIndex === 2 ? "Slideactive2" : ""}
             onClick={() => handleSlideClick(2)}
             style={{ backgroundImage: "url('')" }}
           >
@@ -142,7 +142,7 @@ const SlideShow = () => {
           </SlideContainer>
 
           <SlideContainer
-              className={activeSlideIndex === 3 ? "Slideactive1" : "Slidedeactive"}
+              className={activeSlideIndex === 3 ? "Slideactive1" : ""}
             onClick={() => handleSlideClick(3)}
             style={{ backgroundImage: "url('')" }}
           >
@@ -177,7 +177,7 @@ const SlideShow = () => {
           </SlideContainer>
 
           <SlideContainer
-              className={activeSlideIndex === 4 ? "Slideactive4" : "Slidedeactive"}
+              className={activeSlideIndex === 4 ? "Slideactive4" : ""}
             onClick={() => handleSlideClick(4)}
             style={{ backgroundImage: "url('')" }}
           >
