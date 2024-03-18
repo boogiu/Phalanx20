@@ -21,6 +21,7 @@ import NewHeader from './components/common/NewHeader';
 import CommonFooter from './components/common/CommonFooter'
 import LinkTree from './Pages/LinkTree'
 import TestIntro from './Pages/TestIntro';
+import ApplicantData from './Pages/ApplicantData';
 
 function RenderNewHeader() {
   const location = useLocation();
@@ -59,6 +60,7 @@ function App() {
             <Route path="/ClubDetail" element={<ClubDetail />} />
             <Route path="/AboutInterview" element={<AboutInterview />} />
             <Route path="/LinkTree" element={<LinkTree />} />
+            <Route path="/Applicant" element={<ApplicantData />} />
           </Routes>
         </AppProvider>
       </BrowserRouter>

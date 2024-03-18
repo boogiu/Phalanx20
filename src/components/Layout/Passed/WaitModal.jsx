@@ -1,16 +1,27 @@
 
 import {styled, keyframes,css} from 'styled-components';
 import React, {useState, useEffect } from 'react';
-
+import { useNavigate } from 'react-router-dom';
+import ReactGA4 from 'react-ga4';
 
 const WaitModal = () => {
+  const navigate = useNavigate();
+  
+  const handleClick = () => {
+    navigate('/Applicant');
+    ReactGA4.event({
+      category: 'DataSee',
+      action: `SeeApplicantData`,
+      label: 'SeeApplicantData'
+  });
+  };
 
 
     return (
 
         <ContentsContainer>
-          <p>dkdkk</p>
             <HookingBox>
+              
                 <TextContainer>
                   <p>해당 페이지는, <br/> 
                   전국대학연합 기획/컨설팅 동아리 <br/>
@@ -24,7 +35,6 @@ const WaitModal = () => {
                   - 그 외 면접 시간 확인 및 관련 종합 지원 사항 <br/><br/>
                  
                   <GreenSpan>아래에, 별도 안내 받은 코드를 입력해주세요. <br/></GreenSpan>
-
                 </p>
                 <JustImg imagePath={"StopSign.png"}/>
                 </TextContainer>
@@ -50,26 +60,27 @@ const ContentsContainer = styled.div`
   flex-flow: column;
   justify-content: space-around;
   align-items: center;
-  overflow: hidden;
-`;
+  margin: 20vh 0vw 0vh 0vw;
+  @media (max-width: 768px) {
+    margin: 10vh 0vw 0vh 0vw;
+  }
+  `;
 
 const HookingBox = styled.div`
   width: 90%;
   height: auto;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
   display: flex;
   flex-flow: column;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   position: relative;
-  margin: 10vh 0vw 0vh 0vw;
-  
+  padding : 10%;
+ 
 `;
 
 const TextContainer = styled.div`
+
+  height: auto;
     display: flex;
     flex-direction: column;
     z-index: 1;
@@ -111,3 +122,26 @@ const GreenSpan = styled.span`
 color:#40FF00;
 font-style: normal;
 `
+const BtnDiv = styled.div`
+width: 90%;
+height: 200px;
+display: flex;
+flex-flow: column nowrap;
+justify-content: center;
+align-items: flex-start;
+@media (max-width: 768px) {
+  height: 100px;
+}
+`
+const GradientButton = styled.button`
+  border: none;
+  color: white;
+  font-size: 5vmin;
+  font-family : '스윗';
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  box-shadow: 0px 4px 0px 0px #ff7300;
+  background: linear-gradient(45deg, #ff7300, #feac5e);
+  width : 60%;
+`;
