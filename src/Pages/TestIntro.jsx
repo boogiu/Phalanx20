@@ -116,10 +116,10 @@ const TestIntro = () => {
           <>
             <Icon>
               <ImMagicWand />
-              <SmallTxt>30주 포부</SmallTxt>
+              <SmallTxt>기획 카페</SmallTxt>
             </Icon>
-            <Txt>팔랑크스 크루들의 <br/>포부를 볼래요!</Txt>
-            <Btn onClick={() => gotoLink('https://cafe.naver.com/phalanx/menu/15')}>보러갈래요!</Btn>
+            <Txt>팔랑크스 크루들의 <br/>카페를 볼래요!</Txt>
+            <Btn onClick={() => gotoLink('https://cafe.naver.com/phalanx')}>보러갈래요!</Btn>
           </>
         );
       case 3:
@@ -266,7 +266,7 @@ const TestIntro = () => {
   
         </ClickableBlock>
         <RecruitState>
-          <GreenCirCle/><p>리크루팅 진행 중</p>
+          <GreenCirCle/><p>03/26(화) 마감</p>
         </RecruitState>
       </StyledContainer>
     </BackGroundSrc>
@@ -329,14 +329,14 @@ const WellcomTxt = styled.div`
 const GreenCirCle = styled.div`
   width:3vmin;
   height:3vmin;
-  background: #2EFE2E;
+  background: #FF0000;
   border-radius: 50%;
   margin : 10px;
 `;
 const RecruitState = styled.div`
   font-family : "한나프로";
   font-size :8vmin;
-  color : #2EFE2E;
+  color : #FF0000;
   width: 100%;
   position: absolute;
   top: 80%;

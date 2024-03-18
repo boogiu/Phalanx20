@@ -16,16 +16,17 @@ const FooterContainer = styled.div`
   flex-flow: row wrap;
   justify-content: space-between;
   align-items: center;
-  color: #2EFE2E;
-  font-size: 1rem;
+  color: #FF0000;
+  font-size: 1.4rem;
   font-weight: 400;
-  font-family: "스윗";
+  font-family: "한나";
   overflow-x: hidden;
   opacity: 80%;
 `;
 
 const GOUp = styled(FaAnglesUp)`
-  font-size: 3rem;
+  font-size: 2rem;
+  color: #2EFE2E; 
   cursor: pointer; /* 커서를 포인터로 변경하여 클릭 가능한 것처럼 보이도록 합니다. */
   margin: 10px;
   position: fixed;
@@ -39,21 +40,21 @@ const NowState = styled.div`
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
-  width: 150px;
+  width: 220px;
   background: black;
   border-radius: 10px;
   padding : 10px 0px ;
   position: fixed;
   bottom: 10px; /* hidden 상태에 따라 위치 변경 */
-  left: ${({ hidden }) => (hidden ? '-150px' : '10px')};
+  left: ${({ hidden }) => (hidden ? '-220px' : '10px')};
   transition: left 1s;
 `;
 
 const Circle = styled.div`
-  width: 4px;
-  height: 4px;
+  width: 6px;
+  height: 6px;
   border-radius: 50%;
-  background: #2EFE2E;
+  background: #FF0000;
   margin: 3px;
 `;
 
@@ -97,7 +98,7 @@ const CommonFooter = () => {
         <FooterContainer>
             <NowState hidden={hidden}>
                 <Circle/>
-                <p>리크루팅 진행 중</p>
+                <p>03/26(화) 모집 마감</p>
             </NowState>
             <GOUp onClick={handleGoUpClick} hidden={hidden} /> {/* GOUp 아이콘에 hidden 상태 전달 */}
         </FooterContainer>
