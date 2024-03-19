@@ -266,7 +266,7 @@ const TestIntro = () => {
   
         </ClickableBlock>
         <RecruitState>
-          <GreenCirCle/><p>03/26(화) 마감</p>
+          <GreenCirCle/><p>03/26(화) 모집 마감</p>
         </RecruitState>
       </StyledContainer>
     </BackGroundSrc>
