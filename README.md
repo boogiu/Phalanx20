@@ -77,4 +77,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 리액트 라우터 : npm install react-router-dom --save
 json 로더 : npm install json-loader --save-dev
 이미지맵 라이브러리 : npm install image-map
-리액트 스크롤 : $ npm install react-scroll
+리액트 스크롤 : npm install react-scroll
+에이팩스 차트 라이브러리 : npm install apexcharts --save
+npm install react-apexcharts apexcharts
