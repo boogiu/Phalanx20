@@ -81,7 +81,8 @@ export default DocuPassPage;
   //콘테이너 디자인//
 const StyledContainer = styled.div`
   width: 100%;
-  height:300vh;
+  min-height : 300vh;
+  height:auto;
   display: flex;
   flex-flow : column nowrap;
   justify-content:center;
