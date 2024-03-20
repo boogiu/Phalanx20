@@ -91,7 +91,8 @@ const StyledContainer = styled.div`
   position : relative;
   background-color: black;
   @media (max-width: 768px) {
-    height:150vh;
+    min-height : 150vh;
+    height:auto;
   }
   `;
 
