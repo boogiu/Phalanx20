@@ -266,7 +266,7 @@ const TestIntro = () => {
   
         </ClickableBlock>
         <RecruitState>
-          <GreenCirCle/><p>03/26(화) 모집 마감</p>
+          <GreenCirCle/><p>봄 시즌 리크루팅 종료</p>
         </RecruitState>
       </StyledContainer>
     </BackGroundSrc>
@@ -346,8 +346,6 @@ const RecruitState = styled.div`
   justify-content: center;
   align-items: center;
   flex-flow : row wrap;
-  opacity: 0.4;
-  animation: Blink 1.5s infinite;
   @keyframes Blink{
 
   50% { opacity: 0.6; }

@@ -98,7 +98,7 @@ const CommonFooter = () => {
         <FooterContainer>
             <NowState hidden={hidden}>
                 <Circle/>
-                <p>03/26(화) 모집 마감</p>
+                <p>봄 시즌 모집 종료</p>
             </NowState>
             <GOUp onClick={handleGoUpClick} hidden={hidden} /> {/* GOUp 아이콘에 hidden 상태 전달 */}
         </FooterContainer>
