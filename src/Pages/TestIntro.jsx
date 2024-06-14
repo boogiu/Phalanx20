@@ -266,7 +266,7 @@ const TestIntro = () => {
   
         </ClickableBlock>
         <RecruitState>
-          <GreenCirCle/><p>봄 시즌 리크루팅 종료</p>
+          <GreenCirCle/><p>여름 시즌 리크루팅 재개</p>
         </RecruitState>
       </StyledContainer>
     </BackGroundSrc>
@@ -280,7 +280,7 @@ export default TestIntro;
   
 const Head = styled.h1`
 font-family : "평창";
-font-size :15vmin;
+font-size :8vmin;
 line-height : 150%;
 font-style : italic;
 color : #2EFE2E;
@@ -314,7 +314,7 @@ const StyledContainer = styled.div`
 
 const WellcomTxt = styled.div`
   font-family : "한나프로";
-  font-size :8vmin;
+  font-size :5vmin;
   color : #fff;
   width: 100%;
   position: absolute;
@@ -329,14 +329,14 @@ const WellcomTxt = styled.div`
 const GreenCirCle = styled.div`
   width:3vmin;
   height:3vmin;
-  background: #FF0000;
+  background: #2EFE2E;
   border-radius: 50%;
   margin : 10px;
 `;
 const RecruitState = styled.div`
   font-family : "한나프로";
   font-size :8vmin;
-  color : #FF0000;
+  color : #2EFE2E;
   width: 100%;
   position: absolute;
   top: 80%;
@@ -484,14 +484,6 @@ const InClickableBlock = styled.div`
 `;
 
 
-const ClickTxt = styled.p`
-  font-family: "한나";
-  position: absolute;
-  z-index: 100;
-  top: 50%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%);
-`;
 
 const waveAnimation = keyframes`
   to {
@@ -539,6 +531,7 @@ const BackGroundGroup = styled.div`
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  display: flex;
 `;
 
 const BackGroundSrc = ({ imagePath, children }) => {

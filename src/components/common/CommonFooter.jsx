@@ -16,7 +16,7 @@ const FooterContainer = styled.div`
   flex-flow: row wrap;
   justify-content: space-between;
   align-items: center;
-  color: #FF0000;
+  color: #2EFE2E; 
   font-size: 1.4rem;
   font-weight: 400;
   font-family: "한나";
@@ -54,7 +54,7 @@ const Circle = styled.div`
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  background: #FF0000;
+  background: #2EFE2E; 
   margin: 3px;
 `;
 
@@ -98,7 +98,7 @@ const CommonFooter = () => {
         <FooterContainer>
             <NowState hidden={hidden}>
                 <Circle/>
-                <p>봄 시즌 모집 종료</p>
+                <p>리크루팅 진행 중</p>
             </NowState>
             <GOUp onClick={handleGoUpClick} hidden={hidden} /> {/* GOUp 아이콘에 hidden 상태 전달 */}
         </FooterContainer>

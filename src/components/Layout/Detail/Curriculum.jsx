@@ -271,7 +271,7 @@ transform : rotate(${({ rotate }) => rotate});
 top:${({ top }) => top};
 left: ${({ left }) => left};
 position: absolute; /* 겹치는 요소에 position 추가 */
-
+border : 1px solid red;
 `;
 
 const ImgComponent = ({ imagePath, top, left,rotate,width }) => {
